@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Router, Link } from "wouter";
-import PageRouter from "./components/router";
+// import PageRouter from "./components/router";
 
 // import { useRoutes } from "hookrouter"
 // import Routes from './components/router'
