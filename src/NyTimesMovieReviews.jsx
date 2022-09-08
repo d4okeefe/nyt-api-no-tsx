@@ -3,14 +3,12 @@ import axios from 'axios'
 import Table from 'react-bootstrap/Table'
 import Image from 'react-bootstrap/Image'
 import { format_date } from './FormatDate'
-import {useLocation} from 'wouter'
 
 export default function NyTimesMovieReviews() {
   
   const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
   
   const [data, setData] = useState([])
-  const [location, setLocation] = useLocation('')
 
   useEffect(() => {
     axios

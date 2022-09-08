@@ -15,9 +15,21 @@ import WiredScienceRss from "./WiredScienceRss";
 import { useState, useEffect } from "react";
 import { Router, Link } from "wouter";
 import PageRouter from "./components/router";
+import { useLocation } from "wouter";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
+
+  const CurrentLocation = () => {
+    const [location, setLocation] = useLocation();
+
+    return (
+      <div>
+        {`The current page is ${location}`}
+        <a onClick={() => setLocation("/")}>Click to update</a>
+      </div>
+    );
+  };
 
   function handleClick(str) {
     if (str === "NyTimesMovieReviews") {
@@ -59,7 +71,7 @@ function App() {
                   </Nav.Link>
                   <Link
                     className="nav-link"
-                    onClick={() => handleClick('NyTimesMovieReviews')}
+                    onClick={() => handleClick("NyTimesMovieReviews")}
                     //href="/nytimesmoviereviews"
                   >
                     Movie reviews
