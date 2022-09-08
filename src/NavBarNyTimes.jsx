@@ -2,10 +2,10 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import NyTimes from './NyTimes'
-import NyTimesMovieReviews from './NyTimesMovieReviews'
-import NyTimesBookReviews from './NyTimesBookReviews'
-import NyTimesFormula1 from './NyTimesFormula1'
+import NyTimes from './pages/NyTimes'
+import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
+import NyTimesBookReviews from './pages/NyTimesBookReviews'
+import NyTimesFormula1 from './pages/NyTimesFormula1'
 
 export default function NavBarNyTimes() {
   return (

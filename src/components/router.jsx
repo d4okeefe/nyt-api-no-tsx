@@ -1,7 +1,7 @@
 import React, { Switch, Route } from 'wouter'
-import NyTimes from '../NyTimes'
-import NyTimesMovieReviews from '../NyTimesMovieReviews'
-import NyTimesBookReviews from '../NyTimesBookReviews'
+import NyTimes from '../pages/NyTimes'
+import NyTimesMovieReviews from '../pages/NyTimesMovieReviews'
+import NyTimesBookReviews from '../pages/NyTimesBookReviews'
 
 export default () => (
   <Switch>
