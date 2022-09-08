@@ -59,8 +59,8 @@ function App() {
                   </Nav.Link>
                   <Link
                     className="nav-link"
-                    // onClick={() => handleClick('NyTimesMovieReviews')}
-                    href="/nytimesmoviereviews"
+                    onClick={() => handleClick('NyTimesMovieReviews')}
+                    //href="/nytimesmoviereviews"
                   >
                     Movie reviews
                   </Link>
