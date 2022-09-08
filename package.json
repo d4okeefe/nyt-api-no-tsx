@@ -24,7 +24,8 @@
     "timers": "^0.1.1",
     "web-vitals": "^3.0.1",
     "wouter": "^2.7.4",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.4.23",
+    "hookrouter": "^1.2.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,9 +1,11 @@
+import React from 'react'
+
 import NyTimes from '../pages/NyTimes'
 import NyTimesMovieReviews from '../pages/NyTimesMovieReviews'
-import NyTimesBookReviews from "./pages/NyTimesBookReviews";
-import NyTimesFormula1 from "./pages/NyTimesFormula1";
-import NewYorkerRss from "./pages/NewYorkerRss";
-import WiredScienceRss from "./pages/WiredScienceRss";
+import NyTimesBookReviews from "../pages/NyTimesBookReviews";
+import NyTimesFormula1 from "../pages/NyTimesFormula1";
+import NewYorkerRss from "../pages/NewYorkerRss";
+import WiredScienceRss from "../pages/WiredScienceRss";
 
 
 const routes = {

@@ -1,13 +1,9 @@
-import React from "react";
-impo
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Router, Link } from "wouter";
 // import PageRouter from "./components/router";
 
 import { useRoutes } from 'hookrouter'
 import Routes from './components/router'
-
-
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,37 +19,28 @@ import NewYorkerRss from "./pages/NewYorkerRss";
 import WiredScienceRss from "./pages/WiredScienceRss";
 
 function App() {
-  const [api, setApi] = useState("NyTimes");
+  // const [api, setApi] = useState("NyTimes");
 
-//   const CurrentLocation = () => {
-//     const [location, setLocation] = useLocation();
-
-//     return (
-//       <div>
-//         {`The current page is ${location}`}
-//         <a onClick={() => setLocation("/") }>Click to update</a>
-//       </div>
-//     );
-//   };
-
-  function handleClick(str) {
-    if (str === "NyTimesMovieReviews") {
-      setApi("NyTimesMovieReviews");
-    } else if (str === "NyTimes") {
-      setApi("NyTimes");
-    } else if (str === "NyTimesBookReviews") {
-      setApi("NyTimesBookReviews");
-    } else if (str === "NyTimesFormula1") {
-      setApi("NyTimesFormula1");
-    } else if (str === "NewYorkerRss") {
-      setApi("NewYorkerRss");
-    } else if (str === "WiredScienceRss") {
-      setApi("WiredScienceRss");
-    }
+  // function handleClick(str) {
+  //   if (str === "NyTimesMovieReviews") {
+  //     setApi("NyTimesMovieReviews");
+  //   } else if (str === "NyTimes") {
+  //     setApi("NyTimes");
+  //   } else if (str === "NyTimesBookReviews") {
+  //     setApi("NyTimesBookReviews");
+  //   } else if (str === "NyTimesFormula1") {
+  //     setApi("NyTimesFormula1");
+  //   } else if (str === "NewYorkerRss") {
+  //     setApi("NewYorkerRss");
+  //   } else if (str === "WiredScienceRss") {
+  //     setApi("WiredScienceRss");
+  //   }
     // else if (str === 'ScientificAmericanRss') {
     //   setApi('ScientificAmericanRss')
     // }
-  }
+  // }
+  
+  const routeResult = useRoutes(Routes)
 
   return (
     <div className="App">
@@ -68,41 +55,41 @@ function App() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                   <Nav.Link
-                    className="nav-link"
-                    onClick={() => handleClick("NyTimes")}
+                    className="nav-link" 
+                    //onClick={() => handleClick("NyTimes")}
                     // href="/"
                   >
                     Top stories
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick("NyTimesMovieReviews")}
+                    //onClick={() => handleClick("NyTimesMovieReviews")}
                     //href="/nytimesmoviereviews"
                   >
                     Movie reviews
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick("NyTimesBookReviews")}
+                    //onClick={() => handleClick("NyTimesBookReviews")}
                     // href="/nytimesbookreviews"
                   >
                     Book reviews
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick("NyTimesFormula1")}
+                    //onClick={() => handleClick("NyTimesFormula1")}
                   >
                     Formula 1
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick("NewYorkerRss")}
+                    //onClick={() => handleClick("NewYorkerRss")}
                   >
                     New Yorker
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick("WiredScienceRss")}
+                    //onClick={() => handleClick("WiredScienceRss")}
                   >
                     Wired science
                   </Nav.Link>
@@ -126,13 +113,14 @@ function App() {
         </header>
         <body>
           <>
-            {api === "NyTimes" && <NyTimes />}
+            
+            {/* {api === "NyTimes" && <NyTimes />}
             {api === "NyTimesMovieReviews" && <NyTimesMovieReviews />}
             {api === "NyTimesBookReviews" && <NyTimesBookReviews />}
             {api === "NyTimesFormula1" && <NyTimesFormula1 />}
             {api === "NewYorkerRss" && <NewYorkerRss />}
             {api === "WiredScienceRss" && <WiredScienceRss />}
-            {/* {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
+            {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
           </>
         </body>
       </Router>
