@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Router, Link } from "wouter";
+import { Router, Link, useLocation } from "wouter";
 // import PageRouter from "./components/router";
 
 // import { useRoutes } from "hookrouter"
@@ -20,19 +20,26 @@ import WiredScienceRss from "./pages/WiredScienceRss";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
+  const [location, setLocation] = useLocation()
 
   function handleClick(str) {
     if (str === "NyTimesMovieReviews") {
+      setLocation('/nytimes/moviereviews')
       setApi("NyTimesMovieReviews");
     } else if (str === "NyTimes") {
+      setLocation('/nytimes')
       setApi("NyTimes");
     } else if (str === "NyTimesBookReviews") {
+      setLocation('/nytimes/bookreviews')
       setApi("NyTimesBookReviews");
     } else if (str === "NyTimesFormula1") {
+      setLocation('/nytimes/formula1')
       setApi("NyTimesFormula1");
     } else if (str === "NewYorkerRss") {
+      setLocation('/newyorker')
       setApi("NewYorkerRss");
     } else if (str === "WiredScienceRss") {
+      setLocation('/wired/science')
       setApi("WiredScienceRss");
     }
     else if (str === 'ScientificAmericanRss') {
@@ -44,7 +51,6 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
         <header className="App-header">
           <Navbar bg="light" expand="lg">
             <Container>
@@ -122,7 +128,6 @@ function App() {
             {/* {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
           </>
         </body>
-      </Router>
     </div>
   );
 }
