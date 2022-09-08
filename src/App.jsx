@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="App">
         <header className="App-header">
-          <Navbar bg="light" expand="lg">
+          <Navbar className='sticky-nav' bg="light" expand="lg">
             <Container>
               <Navbar.Brand href="https://www.nytimes.com/" target="_blank">
                 New York Times

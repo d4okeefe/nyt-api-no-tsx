@@ -63,7 +63,7 @@ export default function NewYorkerRss() {
               </td>
               <td>
                 <p>{r.description}</p>
-                <p>{r.category}</p>
+                <p>&mdash; {r.category}</p>
               </td>
               <td>{r["dc:creator"]}</td>
               <td>{parseDate(r.pubDate)}</td>

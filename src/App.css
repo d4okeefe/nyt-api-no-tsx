@@ -5,3 +5,8 @@ a:hover,
 a:active {
   text-decoration: none;
 }
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}
