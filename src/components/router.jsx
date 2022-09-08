@@ -8,7 +8,11 @@ import WiredScienceRss from "./pages/WiredScienceRss";
 
 const routes = {
   '/': () => <NyTimes />,
-  '/nytimes'
+  '/NyTimesMovieReviews': () =>  <NyTimesMovieReviews />,
+  '/NyTimesBookReviews': () =>  <NyTimesBookReviews />,
+  '/NyTimesFormula1': () =>  <NyTimesFormula1 />,
+  '/NewYorkerRss': () =>  <NewYorkerRss />,
+  '/WiredScienceRss': () =>  <WiredScienceRss />,
 }
 
 export default routes

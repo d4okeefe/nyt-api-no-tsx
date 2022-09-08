@@ -1,8 +1,13 @@
 import React from "react";
+impo
 import { useState, useEffect } from "react";
 import { Router, Link } from "wouter";
-import PageRouter from "./components/router";
-// import { useLocation } from "wouter";
+// import PageRouter from "./components/router";
+
+import { useRoutes } from 'hookrouter'
+import Routes from './components/router'
+
+
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
