@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.2",
+    "@umijs/babel-plugin-lock-core-js-3": "^3.5.34",
     "assert": "^2.0.0",
     "bootstrap": "^5.2.1",
     "buffer": "^6.0.3",
@@ -17,14 +18,13 @@
     "react-axios": "^2.0.6",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "rss-to-json": "^2.1.0",
     "stream": "^0.0.2",
     "timers": "^0.1.1",
     "web-vitals": "^3.0.1",
-    "xml2js": "^0.4.23",
-    "@umijs/babel-plugin-lock-core-js-3": "^3.5.34",
-    "wouter": "^2.7.4"
+    "wouter": "^2.7.4",
+    "xml2js": "^0.4.23"
   },
   "scripts": {
     "start": "react-scripts start",
