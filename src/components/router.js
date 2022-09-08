@@ -1,4 +1,4 @@
-import { Switch, Route } from 'wouter'
+import React, { Switch, Route } from 'wouter'
 import NyTimes from '../NyTimes'
 import NyTimesMovieReviews from '../NyTimesMovieReviews'
 import NyTimesBookReviews from '../NyTimesBookReviews'
