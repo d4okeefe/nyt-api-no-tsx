@@ -1,37 +1,37 @@
-import './App.css'
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NyTimes from './NyTimes'
-import NyTimesMovieReviews from './NyTimesMovieReviews'
+import "./App.css";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NyTimes from "./NyTimes";
+import NyTimesMovieReviews from "./NyTimesMovieReviews";
 // import NavBarNyTimes from './NavBarNyTimes'
-import NyTimesBookReviews from './NyTimesBookReviews'
-import NyTimesFormula1 from './NyTimesFormula1'
-import NewYorkerRss from './NewYorkerRss'
-import WiredScienceRss from './WiredScienceRss'
+import NyTimesBookReviews from "./NyTimesBookReviews";
+import NyTimesFormula1 from "./NyTimesFormula1";
+import NewYorkerRss from "./NewYorkerRss";
+import WiredScienceRss from "./WiredScienceRss";
 // import ScientificAmericanRss from './ScientificAmericanRss'
-import { useState, useEffect } from 'react'
-import { Router, Link } from 'wouter'
-import PageRouter from './components/router'
+import { useState, useEffect } from "react";
+import { Router, Link } from "wouter";
+import PageRouter from "./components/router";
 
 function App() {
-  const [api, setApi] = useState('NyTimes')
+  const [api, setApi] = useState("NyTimes");
 
   function handleClick(str) {
-    if (str === 'NyTimesMovieReviews') {
-      setApi('NyTimesMovieReviews')
-    } else if (str === 'NyTimes') {
-      setApi('NyTimes')
-    } else if (str === 'NyTimesBookReviews') {
-      setApi('NyTimesBookReviews')
-    } else if (str === 'NyTimesFormula1') {
-      setApi('NyTimesFormula1')
-    } else if (str === 'NewYorkerRss') {
-      setApi('NewYorkerRss')
-    } else if (str === 'WiredScienceRss') {
-      setApi('WiredScienceRss')
+    if (str === "NyTimesMovieReviews") {
+      setApi("NyTimesMovieReviews");
+    } else if (str === "NyTimes") {
+      setApi("NyTimes");
+    } else if (str === "NyTimesBookReviews") {
+      setApi("NyTimesBookReviews");
+    } else if (str === "NyTimesFormula1") {
+      setApi("NyTimesFormula1");
+    } else if (str === "NewYorkerRss") {
+      setApi("NewYorkerRss");
+    } else if (str === "WiredScienceRss") {
+      setApi("WiredScienceRss");
     }
     // else if (str === 'ScientificAmericanRss') {
     //   setApi('ScientificAmericanRss')
@@ -52,7 +52,7 @@ function App() {
                 <Nav className="me-auto">
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick('NyTimes')}
+                    onClick={() => handleClick("NyTimes")}
                     // href="/"
                   >
                     Top stories
@@ -66,26 +66,26 @@ function App() {
                   </Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick('NyTimesBookReviews')}
+                    onClick={() => handleClick("NyTimesBookReviews")}
                     // href="/nytimesbookreviews"
                   >
                     Book reviews
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick('NyTimesFormula1')}
+                    onClick={() => handleClick("NyTimesFormula1")}
                   >
                     Formula 1
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick('NewYorkerRss')}
+                    onClick={() => handleClick("NewYorkerRss")}
                   >
                     New Yorker
                   </Nav.Link>
                   <Nav.Link
                     className="nav-link"
-                    onClick={() => handleClick('WiredScienceRss')}
+                    onClick={() => handleClick("WiredScienceRss")}
                   >
                     Wired science
                   </Nav.Link>
@@ -109,18 +109,18 @@ function App() {
         </header>
         <body>
           <>
-            {api === 'NyTimes' && <NyTimes />}
-            {api === 'NyTimesMovieReviews' && <NyTimesMovieReviews />}
-            {api === 'NyTimesBookReviews' && <NyTimesBookReviews />}
-            {api === 'NyTimesFormula1' && <NyTimesFormula1 />}
-            {api === 'NewYorkerRss' && <NewYorkerRss />}
-            {api === 'WiredScienceRss' && <WiredScienceRss />}
+            {api === "NyTimes" && <NyTimes />}
+            {api === "NyTimesMovieReviews" && <NyTimesMovieReviews />}
+            {api === "NyTimesBookReviews" && <NyTimesBookReviews />}
+            {api === "NyTimesFormula1" && <NyTimesFormula1 />}
+            {api === "NewYorkerRss" && <NewYorkerRss />}
+            {api === "WiredScienceRss" && <WiredScienceRss />}
             {/* {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
           </>
         </body>
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
