@@ -5,13 +5,13 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.4.2",
     "assert": "^2.0.0",
-    "bootstrap": "^5.2.0",
+    "bootstrap": "^5.2.1",
     "buffer": "^6.0.3",
     "cors": "^2.8.5",
     "date-fns": "^2.29.2",
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
@@ -21,7 +21,7 @@
     "rss-to-json": "^2.1.0",
     "stream": "^0.0.2",
     "timers": "^0.1.1",
-    "web-vitals": "^2.1.4",
+    "web-vitals": "^3.0.1",
     "xml2js": "^0.4.23"
   },
   "scripts": {
@@ -47,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
   }
 }
