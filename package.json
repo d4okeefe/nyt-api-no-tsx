@@ -22,7 +22,9 @@
     "stream": "^0.0.2",
     "timers": "^0.1.1",
     "web-vitals": "^3.0.1",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.4.23",
+    "@umijs/babel-plugin-lock-core-js-3": "^3.5.34",
+    "wouter": "^2.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
