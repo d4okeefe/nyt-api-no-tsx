@@ -1,7 +1,7 @@
 import React,  { useState, useEffect } from 'react'
 import axios from 'axios'
 import Table from 'react-bootstrap/Table'
-import { format_date } from './FormatDate'
+import { format_date } from '../FormatDate'
 
 export default function NyTimesFormula1() {
   const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'

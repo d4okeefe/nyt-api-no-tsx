@@ -1,35 +1,35 @@
-import "./App.css";
 import React from "react";
+import { useState, useEffect } from "react";
+import { Router, Link } from "wouter";
+import PageRouter from "./components/router";
+// import { useLocation } from "wouter";
+
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+
 import NyTimes from "./pages/NyTimes";
 import NyTimesMovieReviews from "./pages/NyTimesMovieReviews";
-// import NavBarNyTimes from './NavBarNyTimes'
 import NyTimesBookReviews from "./pages/NyTimesBookReviews";
 import NyTimesFormula1 from "./pages/NyTimesFormula1";
 import NewYorkerRss from "./pages/NewYorkerRss";
 import WiredScienceRss from "./pages/WiredScienceRss";
-// import ScientificAmericanRss from './pages/ScientificAmericanRss'
-import { useState, useEffect } from "react";
-import { Router, Link } from "wouter";
-import PageRouter from "./components/router";
-import { useLocation } from "wouter";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
 
-  const CurrentLocation = () => {
-    const [location, setLocation] = useLocation();
+//   const CurrentLocation = () => {
+//     const [location, setLocation] = useLocation();
 
-    return (
-      <div>
-        {`The current page is ${location}`}
-        <a onClick={() => setLocation("/")}>Click to update</a>
-      </div>
-    );
-  };
+//     return (
+//       <div>
+//         {`The current page is ${location}`}
+//         <a onClick={() => setLocation("/") }>Click to update</a>
+//       </div>
+//     );
+//   };
 
   function handleClick(str) {
     if (str === "NyTimesMovieReviews") {
@@ -69,13 +69,13 @@ function App() {
                   >
                     Top stories
                   </Nav.Link>
-                  <Link
+                  <Nav.Link
                     className="nav-link"
                     onClick={() => handleClick("NyTimesMovieReviews")}
                     //href="/nytimesmoviereviews"
                   >
                     Movie reviews
-                  </Link>
+                  </Nav.Link>
                   <Nav.Link
                     className="nav-link"
                     onClick={() => handleClick("NyTimesBookReviews")}
