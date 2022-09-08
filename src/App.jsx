@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Router, Link, useLocation } from "wouter";
+import { useLocation } from "wouter";
 // import PageRouter from "./components/router";
 
 // import { useRoutes } from "hookrouter"
