@@ -38,6 +38,7 @@ export default function NewYorkerRss() {
   return (
     <div className="NewYorkerTable">
       {/* <div>{rssFeed}</div> */}
+      <h4 className="mx-2">New Yorker</h4>
       <Table className='newsDataTable striped bordered hover table-dark'>
         <thead>
           <tr>

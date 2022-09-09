@@ -20,6 +20,7 @@ export default function NyTimesFormula1() {
 
   return (
     <div className="NyTimesTable">
+      <h4 className="mx-2">N.Y. Times F1 news</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>

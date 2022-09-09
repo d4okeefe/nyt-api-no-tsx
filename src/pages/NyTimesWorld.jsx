@@ -19,6 +19,7 @@ export default function NyTimesWorld() {
 
   return (
     <div className="NyTimesTable">
+      <h4 className="mx-2">N.Y. Times world news</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>

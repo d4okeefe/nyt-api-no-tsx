@@ -39,7 +39,7 @@ export default function WiredScienceRss() {
   return (
     <div className="WiredScienceTable">
       {/* <div>{rssFeed}</div> */}
-      <h4>Wired.com science news</h4>
+      <h4 className="mx-2">Wired.com science news</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
