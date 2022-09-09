@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, Route } from "wouter";
+import { Link, Route, Redirect } from "wouter";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -66,22 +66,23 @@ function App() {
                   <NavDropdown.Item href="#action/3.4">
                     Separated link
                   </NavDropdown.Item>
-                </NavDropdown> */}
+                </NavDropdown> *
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
       </header>
       <body>
-        <Route path="/nytimes" component={NyTimes}></Route>
-        <Route path="/nytimes/worldnews" component={NyTimesWorld}></Route>
-        <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews}></Route>
-        <Route path="/nytimes/bookreviews" component={NyTimesBookReviews}></Route>
-        <Route path="/nytimes/formula1" component={NyTimesFormula1}></Route>
+        <Route path="/" component={NyTimes} />
+        <Route path="/nytimes" component={NyTimes} />
+        <Route path="/nytimes/worldnews" component={NyTimesWorld} />
+        <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews} />
+        <Route path="/nytimes/bookreviews" component={NyTimesBookReviews} />
+        <Route path="/nytimes/formula1" component={NyTimesFormula1} />
         
-        <Route path="/espn/f1" component={EspnF1}></Route>
-        <Route path="/newyorker" component={NewYorkerRss}></Route>
-        <Route path="/wired/science" component={WiredScienceRss}></Route>
+        <Route path="/espn/f1" component={EspnF1} />
+        <Route path="/newyorker" component={NewYorkerRss} />
+        <Route path="/wired/science" component={WiredScienceRss} />
 
       </body>
     </div>

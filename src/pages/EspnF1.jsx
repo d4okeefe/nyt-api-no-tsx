@@ -45,7 +45,6 @@ export default function WiredScienceRss() {
           <tr>
             <th scope="col">Title with Link</th>
             <th scope="col">Abstract</th>
-            <th scope="col">Author</th>
             <th scope="col">Date</th>
           </tr>
         </thead>
@@ -64,9 +63,7 @@ export default function WiredScienceRss() {
               </td>
               <td>
                 <p>{r.description}</p>
-                <p>&mdash;&nbsp;{r.category[1]}</p>
               </td>
-              <td>{r["dc:creator"]}</td>
               <td>{parseDate(r.pubDate)}</td>
             </tr>
           ))}
