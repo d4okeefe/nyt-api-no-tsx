@@ -61,52 +61,26 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link
-                  className="nav-link"
-                  //onClick={() => handleClick("NyTimes")}
-                  // href="/"
-                >
+                <Nav.Link className="nav-link">
                   <Link href="/nytimes">Top stories</Link>
-                  
                 </Nav.Link>
-                <Nav.Link
-                  className="nav-link"
-                  onClick={() => handleClick("NyTimesWorld")}
-                  //href="/nytimesmoviereviews"
-                >
-                  World news
+                <Nav.Link className="nav-link">
+                  <Link href="/nytimes/moviereviews">Movie reviews</Link>
                 </Nav.Link>
-                <Nav.Link
-                  className="nav-link"
-                  onClick={() => handleClick("NyTimesMovieReviews")}
-                  //href="/nytimesmoviereviews"
-                >
-                  Movie reviews
+                <Nav.Link className="nav-link">
+                  <Link href="/nytimes/worldnews">World news</Link>
                 </Nav.Link>
-                <Nav.Link
-                  className="nav-link"
-                  onClick={() => handleClick("NyTimesBookReviews")}
-                  // href="/nytimesbookreviews"
-                >
-                  Book reviews
+                <Nav.Link className="nav-link">
+                  <Link href="/nytimes/bookreviews">Book reviews</Link>
                 </Nav.Link>
-                <Nav.Link
-                  className="nav-link"
-                  onClick={() => handleClick("NyTimesFormula1")}
-                >
-                  Formula 1
+                <Nav.Link className="nav-link">
+                  <Link href="/nytimes/formula1">Formula 1</Link>
                 </Nav.Link>
-                <Nav.Link
-                  className="nav-link"
-                  onClick={() => handleClick("NewYorkerRss")}
-                >
-                  New Yorker
+                <Nav.Link className="nav-link">
+                  <Link href="/nytimes/newyorker">New Yorker</Link>
                 </Nav.Link>
-                <Nav.Link
-                  className="nav-link"
-                  onClick={() => handleClick("WiredScienceRss")}
-                >
-                  Wired science
+                <Nav.Link className="nav-link">
+                  <Link href="/nytimes/wired/science">Wired science</Link>
                 </Nav.Link>
                 {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -127,14 +101,22 @@ function App() {
         </Navbar>
       </header>
       <body>
+        <Route path="/nytimes" component={NyTimes}></Route>
+        <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews}></Route>
+        <Route path="/nytimes/bookreviews" component={NyTimesBookReviews}></Route>
+        <Route path="/nytimes/formula1" component={NyTimesFormula1}></Route>
+        <Route path="/newyorker" component={NewYorkerRss}></Route>
+        <Route path="/wired/science" component={WiredScienceRss}></Route>
+        <Route path="/nytimes/worldnews" component={NyTimesWorld}></Route>
         <>
-          {api === "NyTimes" && <NyTimes />}
-          {api === "NyTimesMovieReviews" && <NyTimesMovieReviews />}
-          {api === "NyTimesBookReviews" && <NyTimesBookReviews />}
-          {api === "NyTimesFormula1" && <NyTimesFormula1 />}
-          {api === "NewYorkerRss" && <NewYorkerRss />}
-          {api === "WiredScienceRss" && <WiredScienceRss />}
-          {api === "NyTimesWorld" && <NyTimesWorld />}
+          // {api === "NyTimes" && <NyTimes />}
+          // {api === "NyTimesMovieReviews" && <NyTimesMovieReviews />}
+          // {api === "NyTimesBookReviews" && <NyTimesBookReviews />}
+          // {api === "NyTimesFormula1" && <NyTimesFormula1 />}
+          // {api === "NewYorkerRss" && <NewYorkerRss />}
+          // {api === "WiredScienceRss" && <WiredScienceRss />}
+          // {api === "NyTimesWorld" && <NyTimesWorld />}
+          //{" "}
           {/* {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
         </>
       </body>
