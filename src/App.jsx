@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { useRoute, useLocation } from "wouter";
 import { Link, Route } from "wouter";
 
 import "./App.css";
@@ -18,37 +17,6 @@ import NyTimesWorld from "./pages/NyTimesWorld";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
-  // const [match, params] = useRoute()
-  // const [location, setLocation] = useLocation()
-
-  function handleClick(str) {
-    if (str === "NyTimesMovieReviews") {
-      // setLocation('/nytimes/moviereviews')
-      setApi("NyTimesMovieReviews");
-    } else if (str === "NyTimes") {
-      // setLocation('/nytimes')
-      setApi("NyTimes");
-    } else if (str === "NyTimesBookReviews") {
-      // setLocation('/nytimes/bookreviews')
-      setApi("NyTimesBookReviews");
-    } else if (str === "NyTimesFormula1") {
-      // setLocation('/nytimes/formula1')
-      setApi("NyTimesFormula1");
-    } else if (str === "NewYorkerRss") {
-      // setLocation('/newyorker')
-      setApi("NewYorkerRss");
-    } else if (str === "WiredScienceRss") {
-      // setLocation('/wired/science')
-      setApi("WiredScienceRss");
-    } else if (str === "ScientificAmericanRss") {
-      setApi("ScientificAmericanRss");
-    } else if (str === "NyTimesWorld") {
-      // setLocation('/nytimes/world')
-      setApi("NyTimesWorld");
-    }
-  }
-
-  // const routeResult = useRoutes(Routes)
 
   return (
     <div className="App">
@@ -77,7 +45,7 @@ function App() {
                   <Link href="/nytimes/formula1">Formula 1</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes/newyorker">New Yorker</Link>
+                  <Link href="/newyorker">New Yorker</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
                   <Link href="/nytimes/wired/science">Wired science</Link>
@@ -102,23 +70,18 @@ function App() {
       </header>
       <body>
         <Route path="/nytimes" component={NyTimes}></Route>
-        <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews}></Route>
-        <Route path="/nytimes/bookreviews" component={NyTimesBookReviews}></Route>
+        <Route
+          path="/nytimes/moviereviews"
+          component={NyTimesMovieReviews}
+        ></Route>
+        <Route
+          path="/nytimes/bookreviews"
+          component={NyTimesBookReviews}
+        ></Route>
         <Route path="/nytimes/formula1" component={NyTimesFormula1}></Route>
         <Route path="/newyorker" component={NewYorkerRss}></Route>
         <Route path="/wired/science" component={WiredScienceRss}></Route>
         <Route path="/nytimes/worldnews" component={NyTimesWorld}></Route>
-        <>
-          // {api === "NyTimes" && <NyTimes />}
-          // {api === "NyTimesMovieReviews" && <NyTimesMovieReviews />}
-          // {api === "NyTimesBookReviews" && <NyTimesBookReviews />}
-          // {api === "NyTimesFormula1" && <NyTimesFormula1 />}
-          // {api === "NewYorkerRss" && <NewYorkerRss />}
-          // {api === "WiredScienceRss" && <WiredScienceRss />}
-          // {api === "NyTimesWorld" && <NyTimesWorld />}
-          //{" "}
-          {/* {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
-        </>
       </body>
     </div>
   );
