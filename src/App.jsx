@@ -13,6 +13,7 @@ import NyTimesBookReviews from "./pages/NyTimesBookReviews";
 import NyTimesFormula1 from "./pages/NyTimesFormula1";
 import NewYorkerRss from "./pages/NewYorkerRss";
 import WiredScienceRss from "./pages/WiredScienceRss";
+import NyTimesWorld from "./pages/NyTimesWorld"
 
 function App() {
   const [api, setApi] = useState("NyTimes");
@@ -36,11 +37,12 @@ function App() {
       setApi("NewYorkerRss");
     } else if (str === "WiredScienceRss") {
       setLocation('/wired/science')
-      setApi("WiredScienceRss");
-    }
+      setApi("WiredScienceRss");}
     else if (str === 'ScientificAmericanRss') {
       setApi('ScientificAmericanRss')
-    }
+    }else if (str === 'NyTimesWorld') {
+      setApi('NyTimesWorld')
+    }    
   }
   
   // const routeResult = useRoutes(Routes)
@@ -63,6 +65,13 @@ function App() {
                   >
                     Top stories
                   </Nav.Link>
+                  <Nav.Link
+                    className="nav-link"
+                    onClick={() => handleClick("NyTimesWorld")}
+                    //href="/nytimesmoviereviews"
+                  >
+                    World news
+                  </Nav.Link>                    
                   <Nav.Link
                     className="nav-link"
                     onClick={() => handleClick("NyTimesMovieReviews")}
@@ -121,6 +130,7 @@ function App() {
             {api === "NyTimesFormula1" && <NyTimesFormula1 />}
             {api === "NewYorkerRss" && <NewYorkerRss />}
             {api === "WiredScienceRss" && <WiredScienceRss />}
+            {api === "NyTimesWorld" && <NyTimesWorld />}
             {/* {api === 'ScientificAmericanRss' && <ScientificAmericanRss />} */}
           </>
         </body>
