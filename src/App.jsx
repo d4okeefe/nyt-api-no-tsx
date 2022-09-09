@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown"
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import NyTimes from "./pages/NyTimes";
 import NyTimesMovieReviews from "./pages/NyTimesMovieReviews";
@@ -55,8 +55,7 @@ function App() {
                 <Nav.Link className="nav-link">
                   <Link href="/wired/science">Wired science</Link>
                 </Nav.Link>
-                
-                
+
                 <NavDropdown title="NY Times" id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link href="/nytimes">Top stories</Link>
@@ -64,21 +63,28 @@ function App() {
                   <NavDropdown.Item>
                     <Link href="/nytimes/worldnews">World news</Link>
                   </NavDropdown.Item>
-                  
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
+                  <NavDropdown.Item>
+                    <Link href="/nytimes/bookreviews">Book reviews</Link>
                   </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link href="/nytimes/formula1">Formula 1</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item className="nav-link">
+                    <Link href="/newyorker">New Yorker</Link>
+                  </NavDropdown.Item>
+                  <Nav.Link className="nav-link">
+                    <Link href="/wired/science">Wired science</Link>
+                  </Nav.Link>
+                  <Nav.Link className="nav-link">
+                    <Link href="/espn/f1">Espn Formula 1</Link>
+                  </Nav.Link>
                 </NavDropdown>
-                
-                
+
+                <NavDropdown
+                  title="NY Times"
+                  id="basic-nav-dropdown"
+                ></NavDropdown>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -91,11 +97,10 @@ function App() {
         <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews} />
         <Route path="/nytimes/bookreviews" component={NyTimesBookReviews} />
         <Route path="/nytimes/formula1" component={NyTimesFormula1} />
-        
+
         <Route path="/espn/f1" component={EspnF1} />
         <Route path="/newyorker" component={NewYorkerRss} />
         <Route path="/wired/science" component={WiredScienceRss} />
-
       </body>
     </div>
   );
