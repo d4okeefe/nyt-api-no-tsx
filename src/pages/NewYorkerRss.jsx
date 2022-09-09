@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Table from "react-bootstrap/Table";
 import { format } from "date-fns";
-import BootstrapTable from 'react-bootstrap-table-next';
+// import BootstrapTable from 'react-bootstrap-table-next';
 
 const parseDate = function (d) {
   let date = new Date(d);
@@ -10,7 +10,6 @@ const parseDate = function (d) {
 };
 
 export default function NewYorkerRss() {
-  //   const [rssFeed, setRssFeed] = useState('')
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -40,7 +39,7 @@ export default function NewYorkerRss() {
   return (
     <div className="NewYorkerTable">
       {/* <div>{rssFeed}</div> */}
-      <Table striped bordered hover variant dataTable="dark">
+      <Table className="newsDataTable striped bordered hover variant='dark' dataTable">
         <thead>
           <tr>
             <th scope="col">Title with Link</th>
