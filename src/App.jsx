@@ -14,6 +14,7 @@ import NyTimesFormula1 from "./pages/NyTimesFormula1";
 import NewYorkerRss from "./pages/NewYorkerRss";
 import WiredScienceRss from "./pages/WiredScienceRss";
 import NyTimesWorld from "./pages/NyTimesWorld";
+import EspnF1 from "./pages/EspnF1";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
@@ -30,19 +31,22 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes">Top stories</Link>
+                  <Link href="/nytimes">Times Top stories</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes/moviereviews">Movie reviews</Link>
+                  <Link href="/nytimes/moviereviews">Times Movie reviews</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes/worldnews">World news</Link>
+                  <Link href="/nytimes/worldnews">Times World news</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes/bookreviews">Book reviews</Link>
+                  <Link href="/nytimes/bookreviews">Times Book reviews</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes/formula1">Formula 1</Link>
+                  <Link href="/nytimes/formula1">Times Formula 1</Link>
+                </Nav.Link>
+                <Nav.Link className="nav-link">
+                  <Link href="/espn/f1">Espn Formula 1</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
                   <Link href="/newyorker">New Yorker</Link>
@@ -79,6 +83,7 @@ function App() {
           component={NyTimesBookReviews}
         ></Route>
         <Route path="/nytimes/formula1" component={NyTimesFormula1}></Route>
+        <Route path="/espn/f1" component={EspnF1}></Route>
         <Route path="/newyorker" component={NewYorkerRss}></Route>
         <Route path="/wired/science" component={WiredScienceRss}></Route>
         <Route path="/nytimes/worldnews" component={NyTimesWorld}></Route>
