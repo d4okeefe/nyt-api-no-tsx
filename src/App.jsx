@@ -41,6 +41,7 @@ function App() {
     else if (str === 'ScientificAmericanRss') {
       setApi('ScientificAmericanRss')
     }else if (str === 'NyTimesWorld') {
+      setLocation('/nytimes/world')
       setApi('NyTimesWorld')
     }    
   }

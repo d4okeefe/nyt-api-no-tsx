@@ -39,6 +39,7 @@ export default function WiredScienceRss() {
   return (
     <div className="WiredScienceTable">
       {/* <div>{rssFeed}</div> */}
+      <h4>Wired.com science news</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
@@ -63,7 +64,7 @@ export default function WiredScienceRss() {
               </td>
               <td>
                 <p>{r.description}</p>
-                <p>&mdash;&nbsp;{r.category[0]}&nbsp;&nbsp;&nbsp;&nbsp;{r.category[1]}</p>
+                <p>&mdash;&nbsp;{r.category[1]}</p>
               </td>
               <td>{r["dc:creator"]}</td>
               <td>{parseDate(r.pubDate)}</td>

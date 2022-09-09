@@ -29,8 +29,8 @@ export default function NyTimesWorld() {
           </tr>
         </thead>
         <tbody>
-          {data.filter(function(itm){
-            
+          {data.filter((r) => {
+            return !(r.title.trim() === '')
           }).map((r, index) => (
             <tr key={index}>
               <td>
