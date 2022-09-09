@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "wouter";
+import { useRoute, useLocation } from "wouter";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +17,7 @@ import NyTimesWorld from "./pages/NyTimesWorld"
 
 function App() {
   const [api, setApi] = useState("NyTimes");
+  const [match, params] = useRoute()
   const [location, setLocation] = useLocation()
 
   function handleClick(str) {
