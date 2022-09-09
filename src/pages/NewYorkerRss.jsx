@@ -38,7 +38,7 @@ export default function NewYorkerRss() {
   return (
     <div className="NewYorkerTable">
       {/* <div>{rssFeed}</div> */}
-      <Table className='newsDataTable striped bordered hover variant="dark" dataTable'>
+      <Table className='newsDataTable striped bordered hover table-dark'>
         <thead>
           <tr>
             <th scope="col">Title with Link</th>
