@@ -25,7 +25,7 @@ function App() {
       setLocation('/nytimes/moviereviews')
       setApi("NyTimesMovieReviews");
     } else if (str === "NyTimes") {
-      setLocation('/nytimes')
+      // setLocation('/nytimes')
       setApi("NyTimes");
     } else if (str === "NyTimesBookReviews") {
       setLocation('/nytimes/bookreviews')
@@ -126,7 +126,7 @@ function App() {
         </header>
         <body>
           <>
-            {api === "NyTimes" && <NyTimes />}
+            {api === "NyTimes" && <NyTimes /> && setLocation("/nytimes")}
             {api === "NyTimesMovieReviews" && <NyTimesMovieReviews />}
             {api === "NyTimesBookReviews" && <NyTimesBookReviews />}
             {api === "NyTimesFormula1" && <NyTimesFormula1 />}
