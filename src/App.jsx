@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown"
 
 import NyTimes from "./pages/NyTimes";
 import NyTimesMovieReviews from "./pages/NyTimesMovieReviews";
@@ -54,7 +55,16 @@ function App() {
                 <Nav.Link className="nav-link">
                   <Link href="/wired/science">Wired science</Link>
                 </Nav.Link>
-                {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                
+                
+                <NavDropdown title="NY Times" id="basic-nav-dropdown">
+                  <NavDropdown.Item>
+                    <Link href="/nytimes">Top stories</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link href="/nytimes/worldnews">World news</Link>
+                  </NavDropdown.Item>
+                  
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
                     Another action
@@ -66,7 +76,9 @@ function App() {
                   <NavDropdown.Item href="#action/3.4">
                     Separated link
                   </NavDropdown.Item>
-                </NavDropdown> *
+                </NavDropdown>
+                
+                
               </Nav>
             </Navbar.Collapse>
           </Container>
