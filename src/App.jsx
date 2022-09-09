@@ -52,7 +52,7 @@ function App() {
                   <Link href="/newyorker">New Yorker</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nytimes/wired/science">Wired science</Link>
+                  <Link href="/wired/science">Wired science</Link>
                 </Nav.Link>
                 {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -74,19 +74,15 @@ function App() {
       </header>
       <body>
         <Route path="/nytimes" component={NyTimes}></Route>
-        <Route
-          path="/nytimes/moviereviews"
-          component={NyTimesMovieReviews}
-        ></Route>
-        <Route
-          path="/nytimes/bookreviews"
-          component={NyTimesBookReviews}
-        ></Route>
+        <Route path="/nytimes/worldnews" component={NyTimesWorld}></Route>
+        <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews}></Route>
+        <Route path="/nytimes/bookreviews" component={NyTimesBookReviews}></Route>
         <Route path="/nytimes/formula1" component={NyTimesFormula1}></Route>
+        
         <Route path="/espn/f1" component={EspnF1}></Route>
         <Route path="/newyorker" component={NewYorkerRss}></Route>
         <Route path="/wired/science" component={WiredScienceRss}></Route>
-        <Route path="/nytimes/worldnews" component={NyTimesWorld}></Route>
+
       </body>
     </div>
   );
