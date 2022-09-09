@@ -31,30 +31,6 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link className="nav-link">
-                  <Link href="/nytimes">Times Top stories</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/nytimes/moviereviews">Times Movie reviews</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/nytimes/worldnews">Times World news</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/nytimes/bookreviews">Times Book reviews</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/nytimes/formula1">Times Formula 1</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/espn/f1">Espn Formula 1</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/newyorker">New Yorker</Link>
-                </Nav.Link>
-                <Nav.Link className="nav-link">
-                  <Link href="/wired/science">Wired science</Link>
-                </Nav.Link>
 
                 <NavDropdown title="NY Times" id="basic-nav-dropdown">
                   <NavDropdown.Item>
@@ -70,21 +46,20 @@ function App() {
                   <NavDropdown.Item>
                     <Link href="/nytimes/formula1">Formula 1</Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item className="nav-link">
-                    <Link href="/newyorker">New Yorker</Link>
-                  </NavDropdown.Item>
-                  <Nav.Link className="nav-link">
-                    <Link href="/wired/science">Wired science</Link>
-                  </Nav.Link>
-                  <Nav.Link className="nav-link">
-                    <Link href="/espn/f1">Espn Formula 1</Link>
-                  </Nav.Link>
                 </NavDropdown>
 
-                <NavDropdown
-                  title="NY Times"
-                  id="basic-nav-dropdown"
-                ></NavDropdown>
+                <Nav.Link className="nav-link">
+                  <Link href="/newyorker">New Yorker</Link>
+                </Nav.Link>
+                <Nav.Link className="nav-link">
+                  <Link href="/wired/science">Wired science</Link>
+                </Nav.Link>
+
+                <NavDropdown title="Espn" id="basic-nav-dropdown">
+                  <NavDropdown.Item className="nav-link">
+                    <Link href="/espn/f1">Espn Formula 1</Link>
+                  </NavDropdown.Item>
+                </NavDropdown>
               </Nav>
             </Navbar.Collapse>
           </Container>
