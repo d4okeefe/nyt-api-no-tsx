@@ -19,7 +19,7 @@ export default function NyTimesBookReviews() {
 
   return (
     <div className="NyTimesTable">
-      <Table striped bordered hover variant="dark">
+      <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
             <th scope="col">Title with Link</th>

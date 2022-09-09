@@ -20,7 +20,7 @@ export default function NyTimesFormula1() {
 
   return (
     <div className="NyTimesTable">
-      <Table striped bordered hover variant="dark">
+      <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
             <th scope="col">Title with Link</th>

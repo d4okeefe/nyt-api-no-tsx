@@ -22,7 +22,7 @@ export default function NyTimesMovieReviews() {
 
   return (
     <div className="NyTimesTable">
-      <Table responsive striped bordered hover variant="dark" size="sm">
+      <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
             <th scope="col">Movie</th>
