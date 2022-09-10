@@ -3,7 +3,7 @@ import axios from "axios";
 import Table from "react-bootstrap/Table";
 import { format_date } from "../FormatDate";
 
-export default function NyTimes({title}) {
+export default function NyTimes({props}) {
   //const [title, setTitle] = useState("N.Y. Times");
   const nyt_api_key = "O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw";
   const [data, setData] = useState([]);
@@ -22,7 +22,7 @@ export default function NyTimes({title}) {
 
   return (
     <div className="NyTimesTable">
-      <h4 className="mx-2">{title}</h4>
+      <h4 className="mx-2">{props.title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>

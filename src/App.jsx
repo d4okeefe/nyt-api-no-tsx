@@ -24,7 +24,8 @@ import EspnNBA from "./pages/EspnNBA";
 import EspnTennis from "./pages/EspnTennis";
 
 function App() {
-  const [title, setTitle] = useState("N.Y. Times top stories");
+  // const [title, setTitle] = useState("N.Y. Times top stories");
+  const title = "Test run" //"N.Y. Times top stories"
   const [api, setApi] = useState("NyTimes");
 
   return (
@@ -38,7 +39,7 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown title="NY Times" id="basic-nav-dropdown">
+                <NavDropdown id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link href="/nytimes">Top stories</Link>
                   </NavDropdown.Item>
