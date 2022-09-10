@@ -18,7 +18,7 @@ import NyTimesWorld from "./pages/NyTimesWorld";
 // import ScientificAmericanRss from "./pages/ScientificAmericanRss";
 import EspnF1 from "./pages/EspnF1";
 import EspnNBA from "./pages/EspnNBA";
-import EspnNBA from "./pages/EspnTennis";
+import EspnTennis from "./pages/EspnTennis";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
@@ -71,7 +71,10 @@ function App() {
                   </NavDropdown.Item>
                   <NavDropdown.Item className="nav-link">
                     <Link href="/espn/nba">NBA</Link>
-                  </NavDropdown.Item>                  
+                  </NavDropdown.Item> 
+                  <NavDropdown.Item className="nav-link">
+                    <Link href="/espn/tennis">Tennis</Link>
+                  </NavDropdown.Item> 
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
@@ -92,6 +95,7 @@ function App() {
         
         <Route path="/espn/f1" component={EspnF1} />
         <Route path="/espn/NBA" component={EspnNBA} />
+        <Route path="/espn/tennis" component={EspnTennis} />
       </body>
     </div>
   );
