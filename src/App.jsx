@@ -15,8 +15,10 @@ import NyTimesFormula1 from "./pages/NyTimesFormula1";
 import NewYorkerRss from "./pages/NewYorkerRss";
 import WiredScienceRss from "./pages/WiredScienceRss";
 import NyTimesWorld from "./pages/NyTimesWorld";
-import ScientificAmericanRss from "./pages/ScientificAmericanRss";
+// import ScientificAmericanRss from "./pages/ScientificAmericanRss";
 import EspnF1 from "./pages/EspnF1";
+import EspnNBA from "./pages/EspnNBA";
+import EspnNBA from "./pages/EspnTennis";
 
 function App() {
   const [api, setApi] = useState("NyTimes");
@@ -58,14 +60,18 @@ function App() {
                 <Nav.Link className="nav-link">
                   <Link href="/wired/science">Wired science</Link>
                 </Nav.Link>
+                { /*
                 <Nav.Link className="nav-link">
                   <Link href="/scientificamerican">Scientific American</Link>
                 </Nav.Link>
-                
+                */ }
                 <NavDropdown title="Espn" id="basic-nav-dropdown">
                   <NavDropdown.Item className="nav-link">
-                    <Link href="/espn/f1">Espn Formula 1</Link>
+                    <Link href="/espn/f1">Formula 1</Link>
                   </NavDropdown.Item>
+                  <NavDropdown.Item className="nav-link">
+                    <Link href="/espn/nba">NBA</Link>
+                  </NavDropdown.Item>                  
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
@@ -80,10 +86,12 @@ function App() {
         <Route path="/nytimes/bookreviews" component={NyTimesBookReviews} />
         <Route path="/nytimes/formula1" component={NyTimesFormula1} />
 
-        <Route path="/scientificamerican" component={ScientificAmericanRss} /> 
-        <Route path="/espn/f1" component={EspnF1} />
+        { /* <Route path="/scientificamerican" component={ScientificAmericanRss} /> */ }
         <Route path="/newyorker" component={NewYorkerRss} />
         <Route path="/wired/science" component={WiredScienceRss} />
+        
+        <Route path="/espn/f1" component={EspnF1} />
+        <Route path="/espn/NBA" component={EspnNBA} />
       </body>
     </div>
   );

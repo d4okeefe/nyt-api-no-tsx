@@ -14,7 +14,7 @@ export default () => {
 
   useEffect(() => {
     axios
-      .get(`https://www.espn.com/espn/rss/f1/news`, {
+      .get(`https://www.espn.com/espn/rss/tennis/news`, {
         // responseType: 'text',
       })
       .then((response) => {
