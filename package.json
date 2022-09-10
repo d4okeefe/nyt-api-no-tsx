@@ -24,7 +24,8 @@
     "web-vitals": "^3.0.1",
     "xml2js": "^0.4.23",
     "wouter": "^2.7.4",
-    "https": "^1.0.0"
+    "https": "^1.0.0",
+    "https-browserify": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
