@@ -15,6 +15,7 @@ import NyTimesFormula1 from "./pages/NyTimesFormula1";
 import NewYorkerRss from "./pages/NewYorkerRss";
 import WiredScienceRss from "./pages/WiredScienceRss";
 import NyTimesWorld from "./pages/NyTimesWorld";
+import NyTimesOpinion from "./pages/NyTimesOpinion"
 // import ScientificAmericanRss from "./pages/ScientificAmericanRss";
 import EspnF1 from "./pages/EspnF1";
 import EspnNBA from "./pages/EspnNBA";
@@ -42,6 +43,9 @@ function App() {
                   <NavDropdown.Item>
                     <Link href="/nytimes/worldnews">World news</Link>
                   </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link href="/nytimes/opinion">Opinions</Link>
+                  </NavDropdown.Item>                  
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
                     <Link href="/nytimes/bookreviews">Book reviews</Link>
@@ -85,6 +89,7 @@ function App() {
         <Route path="/" component={NyTimes} />
         <Route path="/nytimes" component={NyTimes} />
         <Route path="/nytimes/worldnews" component={NyTimesWorld} />
+        <Route path="/nytimes/opinion" component={NyTimesOpinion} />
         <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews} />
         <Route path="/nytimes/bookreviews" component={NyTimesBookReviews} />
         <Route path="/nytimes/formula1" component={NyTimesFormula1} />
