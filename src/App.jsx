@@ -44,6 +44,9 @@ function App() {
                     <Link href="/nytimes/bookreviews">Book reviews</Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
+                    <Link href="/nytimes/moviereviews">Movie reviews</Link>
+                  </NavDropdown.Item>                  
+                  <NavDropdown.Item>
                     <Link href="/nytimes/formula1">Formula 1</Link>
                   </NavDropdown.Item>
                 </NavDropdown>
