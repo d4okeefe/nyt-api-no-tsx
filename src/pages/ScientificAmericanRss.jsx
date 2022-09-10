@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Table from "react-bootstrap/Table";
+import https from 'https'
 
 import { format } from "date-fns";
 
@@ -21,8 +22,7 @@ export default function ScientificAmericanRss() {
     });
     instance
       .get(`http://rss.sciam.com/ScientificAmerican-Global`, {
-        "Content-Type": "text/xml",
-        rejectUnauthorized: false,
+        "Content-Type": "text/xml"
       })
       .then((response) => {
         const xml_string = response.data;
