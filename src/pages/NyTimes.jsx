@@ -1,25 +1,28 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import Table from 'react-bootstrap/Table'
-import { format_date } from '../FormatDate'
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import Table from "react-bootstrap/Table";
+import { format_date } from "../FormatDate";
 
-export default function NyTimes() {
-  const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
-  const [data, setData] = useState([])
+export default function NyTimes({title}) {
+  //const [title, setTitle] = useState("N.Y. Times");
+  const nyt_api_key = "O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw";
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     axios
       .get(`https://api.nytimes.com/svc/topstories/v2/home.json`, {
         params: {
-          'api-key': nyt_api_key,
+          "api-key": nyt_api_key,
         },
       })
-      .then((response) => setData(response.data.results))
-  }, [])
+      .then((response) => setData(response.data.results));
+  }, []);
+
+  // N.Y. Times top stories
 
   return (
     <div className="NyTimesTable">
-      <h4 className="mx-2">N.Y. Times top stories</h4>
+      <h4 className="mx-2">{title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
@@ -50,5 +53,5 @@ export default function NyTimes() {
         </tbody>
       </Table>
     </div>
-  )
+  );
 }

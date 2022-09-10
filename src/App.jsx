@@ -24,6 +24,7 @@ import EspnNBA from "./pages/EspnNBA";
 import EspnTennis from "./pages/EspnTennis";
 
 function App() {
+  const [title, setTitle] = useState("N.Y. Times top stories");
   const [api, setApi] = useState("NyTimes");
 
   return (
@@ -31,8 +32,8 @@ function App() {
       <header className="App-header">
         <Navbar className="sticky-nav" bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="https://www.nytimes.com/" target="_blank">
-              New York Times
+            <Navbar.Brand href="#" /* "https://www.nytimes.com/" */ target="_blank">
+              News links
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -93,7 +94,7 @@ function App() {
         </Navbar>
       </header>
       <body>
-        <Route path="/" component={NyTimes} />
+        <Route path="/" component={NyTimes} title="{title}" />
         <Route path="/nytimes" component={NyTimes} />
         <Route path="/nytimes/worldnews" component={NyTimesWorld} />
         <Route path="/nytimes/opinion" component={NyTimesOpinion} />
