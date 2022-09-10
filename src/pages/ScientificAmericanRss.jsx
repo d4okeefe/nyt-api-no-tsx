@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Table from "react-bootstrap/Table";
-import https from 'https-proxy-agent'
+import https from 'https'
 
 import { format } from "date-fns";
 
