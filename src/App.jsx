@@ -95,12 +95,10 @@ function App() {
         </Navbar>
       </header>
       <body>
-        <Route path="/" 
-            component={
-              <NyTimes title={title} />
-          }
-        />
-        <Route path="/nytimes" component={NyTimes} />
+        
+        <Route path="/nytimes">
+           {params => <NyTimes title={params.title} />}
+        </Route>
         <Route path="/nytimes/worldnews" component={NyTimesWorld} />
         <Route path="/nytimes/opinion" component={NyTimesOpinion} />
         <Route path="/nytimes/sports" component={NyTimesSports} />
