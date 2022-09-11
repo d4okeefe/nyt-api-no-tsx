@@ -24,8 +24,8 @@ import EspnNBA from "./pages/EspnNBA";
 import EspnTennis from "./pages/EspnTennis";
 
 function App() {
-  // const [title, setTitle] = useState("N.Y. Times top stories");
-  const title = "Test run" //"N.Y. Times top stories"
+  const [title, setTitle] = useState("N.Y. Times top stories");
+  // const title = "Test run" //"N.Y. Times top stories"
   const [api, setApi] = useState("NyTimes");
 
   return (
@@ -96,8 +96,7 @@ function App() {
       </header>
       <body>
         
-        <Route path="/nytimes">
-           {params => <NyTimes title={params.title} />}
+        <Route path="/nytimes:title">
         </Route>
         <Route path="/nytimes/worldnews" component={NyTimesWorld} />
         <Route path="/nytimes/opinion" component={NyTimesOpinion} />
