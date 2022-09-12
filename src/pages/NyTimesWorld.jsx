@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+
 import Table from 'react-bootstrap/Table'
+import axios from 'axios'
 import { format_date } from '../utils/FormatDate'
 
-export default function NyTimesWorld(props) {
-  const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
+export default (props) => {
   const [data, setData] = useState([])
 
   useEffect(() => {
     axios
       .get(`https://api.nytimes.com/svc/topstories/v2/world.json`, {
         params: {
-          'api-key': nyt_api_key,
+          'api-key': props.api_key,
         },
       })
       .then((response) => setData(response.data.results))
@@ -30,25 +30,27 @@ export default function NyTimesWorld(props) {
           </tr>
         </thead>
         <tbody>
-          {data.filter((r) => {
-            return !(r.title.trim() === '')
-          }).map((r, index) => (
-            <tr key={index}>
-              <td>
-                <a
-                  className="link-info"
-                  href={r.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div>{r.title}</div>
-                </a>
-              </td>
-              <td>{r.abstract}</td>
-              <td>{r.byline}</td>
-              <td>{format_date(r.published_date)}</td>
-            </tr>
-          ))}
+          {data
+            .filter((r) => {
+              return !(r.title.trim() === '')
+            })
+            .map((r, index) => (
+              <tr key={index}>
+                <td>
+                  <a
+                    className="link-info"
+                    href={r.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div>{r.title}</div>
+                  </a>
+                </td>
+                <td>{r.abstract}</td>
+                <td>{r.byline}</td>
+                <td>{format_date(r.published_date)}</td>
+              </tr>
+            ))}
         </tbody>
       </Table>
     </div>

@@ -1,43 +1,31 @@
-import React, { useState, useEffect } from 'react'
-import { Link, Route } from 'wouter'
-
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 
-import NyTimes from './pages/NyTimes'
-import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
-import NyTimesBookReviews from './pages/NyTimesBookReviews'
-import NyTimesFormula1 from './pages/NyTimesFormula1'
-import NewYorkerRss from './pages/NewYorkerRss'
-import WiredScienceRss from './pages/WiredScienceRss'
-import NyTimesWorld from './pages/NyTimesWorld'
-import NyTimesOpinion from './pages/NyTimesOpinion'
-import NyTimesScience from './pages/NyTimesScience'
-import NyTimesSports from './pages/NyTimesSports'
-// import ScientificAmericanRss from "./pages/ScientificAmericanRss";
+import { Link, Route } from 'wouter'
+import React, { useState } from 'react'
+
+import Container from 'react-bootstrap/Container'
 import EspnF1 from './pages/EspnF1'
 import EspnNBA from './pages/EspnNBA'
 import EspnTennis from './pages/EspnTennis'
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import Navbar from 'react-bootstrap/Navbar'
+import NewYorkerRss from './pages/NewYorkerRss'
+import NyTimes from './pages/NyTimes'
+import NyTimesBookReviews from './pages/NyTimesBookReviews'
+import NyTimesFormula1 from './pages/NyTimesFormula1'
+import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
+import NyTimesOpinion from './pages/NyTimesOpinion'
+import NyTimesScience from './pages/NyTimesScience'
+import NyTimesSports from './pages/NyTimesSports'
+import NyTimesWorld from './pages/NyTimesWorld'
+//import ScientificAmericanRss from "./pages/ScientificAmericanRss";
+import WiredScienceRss from './pages/WiredScienceRss'
 
 function App() {
-  // const [title, setTitle] = useState("N.Y. Times top stories");
-
   const title = 'Test run'
   const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
-
-  const params = {
-    // default
-    title: 'N.Y. Times top stories',
-    // default
-    url: 'https://api.nytimes.com/svc/topstories/v2/home.json',
-    nyt_api_key: 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw',
-    // default
-  }
-
   const [api, setApi] = useState('NyTimes')
 
   return (
@@ -111,31 +99,55 @@ function App() {
       </header>
       <body>
         <Route path="/nytimes">
-          {(params) => (
-            <NyTimes title="N.Y. Times top stories" api_key={nyt_api_key} />
-          )}
+          <NyTimes title="N.Y. Times top stories" api_key={nyt_api_key} />
+        </Route>
+        <Route path="/nytimes/bookreviews">
+          <NyTimesBookReviews
+            title="N.Y. Times book reviews"
+            api_key={nyt_api_key}
+          />
+        </Route>
+        <Route path="/nytimes/formula1">
+          <NyTimesFormula1 title="N.Y. Times Formua 1" api_key={nyt_api_key} />
+        </Route>
+        <Route path="/nytimes/moviereviews">
+          <NyTimesMovieReviews
+            title="N.Y. Times movie reviews"
+            api_key={nyt_api_key}
+          />
+        </Route>
+        <Route path="/nytimes/opinion">
+          <NyTimesOpinion title="N.Y. Times opinions" api_key={nyt_api_key} />
+        </Route>
+        <Route path="/nytimes/science">
+          <NyTimesScience title="N.Y. Times science" api_key={nyt_api_key} />
+        </Route>
+        <Route path="/nytimes/sports">
+          <NyTimesSports title="N.Y. Times sports" api_key={nyt_api_key} />
         </Route>
         <Route path="/nytimes/worldnews">
-          {(params) => (
-            <NyTimesWorld
-              title="N.Y. Times world news"
-            />
-          )}
+          <NyTimesWorld title="N.Y. Times world news" api_key={nyt_api_key} />
         </Route>
-        <Route path="/nytimes/opinion" component={NyTimesOpinion} />
-        <Route path="/nytimes/sports" component={NyTimesSports} />
-        <Route path="/nytimes/science" component={NyTimesScience} />
-        <Route path="/nytimes/moviereviews" component={NyTimesMovieReviews} />
-        <Route path="/nytimes/bookreviews" component={NyTimesBookReviews} />
-        <Route path="/nytimes/formula1" component={NyTimesFormula1} />
+
+        <Route path="/newyorker">
+          <NewYorkerRss title="New Yorker" />
+        </Route>
+
+        <Route path="/wired/science">
+          <WiredScienceRss title="Wired.com science" />
+        </Route>
 
         {/* <Route path="/scientificamerican" component={ScientificAmericanRss} /> */}
-        <Route path="/newyorker" component={NewYorkerRss} />
-        <Route path="/wired/science" component={WiredScienceRss} />
 
-        <Route path="/espn/f1" component={EspnF1} />
-        <Route path="/espn/NBA" component={EspnNBA} />
-        <Route path="/espn/tennis" component={EspnTennis} />
+        <Route path="/espn/f1">
+          <EspnF1 title="Espn Formula 1" />
+        </Route>
+        <Route path="/espn/NBA">
+          <EspnNBA title="Espn NBA" />
+        </Route>
+        <Route path="/espn/tennis">
+          <EspnTennis title="Espn Tennis" />
+        </Route>
       </body>
     </div>
   )

@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useEffect, useState } from "react";
+
 import Table from "react-bootstrap/Table";
+import axios from "axios";
 import { format } from "date-fns";
 
 const parseDate = function (d) {
@@ -8,7 +9,7 @@ const parseDate = function (d) {
   return format(date, "d MMM yyyy");
 };
 
-export default function WiredScienceRss() {
+export default (props) => {
   // const [rssFeed, setRssFeed] = useState('')
   const [data, setData] = useState([]);
 
@@ -38,8 +39,7 @@ export default function WiredScienceRss() {
 
   return (
     <div className="WiredScienceTable">
-      {/* <div>{rssFeed}</div> */}
-      <h4 className="mx-2">Wired.com science news</h4>
+      <h4 className="mx-2">{props.title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>

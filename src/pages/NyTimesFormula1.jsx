@@ -1,10 +1,10 @@
-import React,  { useState, useEffect } from 'react'
-import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+
 import Table from 'react-bootstrap/Table'
+import axios from 'axios'
 import { format_date } from '../utils/FormatDate'
 
-export default function NyTimesFormula1() {
-  const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
+export default (props) => {
   const [data, setData] = useState([])
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function NyTimesFormula1() {
       .get(`https://api.nytimes.com/svc/search/v2/articlesearch.json`, {
         params: {
           q: 'Formula-1',
-          'api-key': nyt_api_key,
+          'api-key': props.api_key,
         },
       })
       .then((response) => setData(response.data.response.docs))
@@ -20,7 +20,7 @@ export default function NyTimesFormula1() {
 
   return (
     <div className="NyTimesTable">
-      <h4 className="mx-2">N.Y. Times F1 news</h4>
+      <h4 className="mx-2">{props.title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const axios_functions = {
+export const AxiosFunctions = {
   axios_nyt_top_stories: function () {
     axios.get(
       `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw`,
