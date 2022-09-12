@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Table from 'react-bootstrap/Table'
-import { format_date } from '../FormatDate'
+import { format_date } from '../utils/FormatDate'
 
-export default function NyTimesWorld() {
+export default function NyTimesWorld(props) {
   const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
   const [data, setData] = useState([])
 
@@ -19,7 +19,7 @@ export default function NyTimesWorld() {
 
   return (
     <div className="NyTimesTable">
-      <h4 className="mx-2">N.Y. Times world news</h4>
+      <h4 className="mx-2">{props.title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>

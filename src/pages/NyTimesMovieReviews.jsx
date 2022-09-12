@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Table from 'react-bootstrap/Table'
 import Image from 'react-bootstrap/Image'
-import { format_date } from '../FormatDate'
+import { format_date } from '../utils/FormatDate'
 
 export default function NyTimesMovieReviews() {
   

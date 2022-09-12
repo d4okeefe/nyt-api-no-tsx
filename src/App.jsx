@@ -1,45 +1,60 @@
-import React, { useState, useEffect } from "react";
-import { Link, Route } from "wouter";
+import React, { useState, useEffect } from 'react'
+import { Link, Route } from 'wouter'
 
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 
-import NyTimes from "./pages/NyTimes";
-import NyTimesMovieReviews from "./pages/NyTimesMovieReviews";
-import NyTimesBookReviews from "./pages/NyTimesBookReviews";
-import NyTimesFormula1 from "./pages/NyTimesFormula1";
-import NewYorkerRss from "./pages/NewYorkerRss";
-import WiredScienceRss from "./pages/WiredScienceRss";
-import NyTimesWorld from "./pages/NyTimesWorld";
-import NyTimesOpinion from "./pages/NyTimesOpinion";
-import NyTimesScience from "./pages/NyTimesScience";
-import NyTimesSports from "./pages/NyTimesSports";
+import NyTimes from './pages/NyTimes'
+import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
+import NyTimesBookReviews from './pages/NyTimesBookReviews'
+import NyTimesFormula1 from './pages/NyTimesFormula1'
+import NewYorkerRss from './pages/NewYorkerRss'
+import WiredScienceRss from './pages/WiredScienceRss'
+import NyTimesWorld from './pages/NyTimesWorld'
+import NyTimesOpinion from './pages/NyTimesOpinion'
+import NyTimesScience from './pages/NyTimesScience'
+import NyTimesSports from './pages/NyTimesSports'
 // import ScientificAmericanRss from "./pages/ScientificAmericanRss";
-import EspnF1 from "./pages/EspnF1";
-import EspnNBA from "./pages/EspnNBA";
-import EspnTennis from "./pages/EspnTennis";
+import EspnF1 from './pages/EspnF1'
+import EspnNBA from './pages/EspnNBA'
+import EspnTennis from './pages/EspnTennis'
 
 function App() {
-  const [title, setTitle] = useState("N.Y. Times top stories");
-  // const title = "Test run" //"N.Y. Times top stories"
-  const [api, setApi] = useState("NyTimes");
+  // const [title, setTitle] = useState("N.Y. Times top stories");
+
+  const title = 'Test run'
+  const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
+
+  const params = {
+    // default
+    title: 'N.Y. Times top stories',
+    // default
+    url: 'https://api.nytimes.com/svc/topstories/v2/home.json',
+    nyt_api_key: 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw',
+    // default
+  }
+
+  const [api, setApi] = useState('NyTimes')
 
   return (
     <div className="App">
       <header className="App-header">
         <Navbar className="sticky-nav" bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#" /* "https://www.nytimes.com/" */ target="_blank">
+            <Navbar.Brand
+              href="#"
+              /* "https://www.nytimes.com/" */ target="_blank"
+            >
               News links
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown id="basic-nav-dropdown">
+                <NavDropdown title="New York Times" id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link href="/nytimes">Top stories</Link>
                   </NavDropdown.Item>
@@ -54,7 +69,7 @@ function App() {
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Link href="/nytimes/sports">Sports</Link>
-                  </NavDropdown.Item>                  
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item>
                     <Link href="/nytimes/bookreviews">Book reviews</Link>
@@ -95,10 +110,18 @@ function App() {
         </Navbar>
       </header>
       <body>
-        
-        <Route path="/nytimes:title">
+        <Route path="/nytimes">
+          {(params) => (
+            <NyTimes title="N.Y. Times top stories" api_key={nyt_api_key} />
+          )}
         </Route>
-        <Route path="/nytimes/worldnews" component={NyTimesWorld} />
+        <Route path="/nytimes/worldnews">
+          {(params) => (
+            <NyTimesWorld
+              title="N.Y. Times world news"
+            />
+          )}
+        </Route>
         <Route path="/nytimes/opinion" component={NyTimesOpinion} />
         <Route path="/nytimes/sports" component={NyTimesSports} />
         <Route path="/nytimes/science" component={NyTimesScience} />
@@ -115,7 +138,7 @@ function App() {
         <Route path="/espn/tennis" component={EspnTennis} />
       </body>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
