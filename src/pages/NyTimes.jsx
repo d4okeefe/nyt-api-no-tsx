@@ -14,7 +14,15 @@ export default (props) => {
           'api-key': props.api_key,
         },
       })
-      .then((response) => setData(response.data.results))
+      .then((response) => {
+        setData(response.data.results)
+        console.log('TESTING')
+        // console.log('typeof: ' + typeof data)
+        for (const key of Object.keys(data)) {
+          console.log('key: ' + key)
+          console.log('data[key]: ' + data[key])
+        }
+      })
   }, [])
 
   return (

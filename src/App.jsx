@@ -1,7 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { Link, Route } from 'wouter'
+import { Link, Redirect, Route } from 'wouter'
 import React, { useState } from 'react'
 
 import Container from 'react-bootstrap/Container'
@@ -33,12 +33,7 @@ function App() {
       <header className="App-header">
         <Navbar className="sticky-nav" bg="light" expand="lg">
           <Container>
-            <Navbar.Brand
-              href="#"
-              /* "https://www.nytimes.com/" */ target="_blank"
-            >
-              News links
-            </Navbar.Brand>
+            <Navbar.Brand>News links</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
@@ -98,6 +93,7 @@ function App() {
         </Navbar>
       </header>
       <body>
+        <Redirect to="/nytimes"></Redirect>
         <Route path="/nytimes">
           <NyTimes title="N.Y. Times top stories" api_key={nyt_api_key} />
         </Route>

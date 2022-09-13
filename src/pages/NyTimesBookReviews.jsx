@@ -4,6 +4,12 @@ import Table from 'react-bootstrap/Table'
 import axios from 'axios'
 import { format_date } from '../utils/FormatDate'
 
+const headers = [
+  "Title with Link",
+  "Author",
+  "Date"
+]
+
 export default (props) => {
   const [data, setData] = useState([])
 

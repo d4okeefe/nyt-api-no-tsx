@@ -10,7 +10,6 @@ const parseDate = function (d) {
 };
 
 export default (props) => {
-  // const [rssFeed, setRssFeed] = useState('')
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -37,7 +36,7 @@ export default (props) => {
       });
   }, []);
 
-  return (
+  return ( 
     <div className="WiredScienceTable">
       <h4 className="mx-2">{props.title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
