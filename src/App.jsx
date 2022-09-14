@@ -20,9 +20,6 @@ import NyTimesOpinion from './pages/NyTimesOpinion'
 import NyTimesScience from './pages/NyTimesScience'
 import NyTimesSports from './pages/NyTimesSports'
 import NyTimesWorld from './pages/NyTimesWorld'
-import WaPoOpinions from './pages/WaPoOpinions'
-import WaPoPolitics from './pages/WaPoPolitics'
-import WaPoSports from './pages/WaPoSports'
 //import ScientificAmericanRss from "./pages/ScientificAmericanRss";
 import WiredScienceRss from './pages/WiredScienceRss'
 
@@ -66,18 +63,6 @@ function App() {
                   <NavDropdown.Item>
                     <Link href="/nytimes/formula1">Formula 1</Link>
                   </NavDropdown.Item>
-                </NavDropdown>
-
-                <NavDropdown title="Washington Post" id="basic-nav-dropdown">
-                  <NavDropdown.Item>
-                    <Link href="/wapo/politics">Politics</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/wapo/opinions">Opinions</Link>
-                  </NavDropdown.Item>
-                  {/* <NavDropdown.Item>
-                    <Link href="/wapo/sports">Sports</Link>
-                  </NavDropdown.Item>                   */}
                 </NavDropdown>
 
                 <Nav.Link className="nav-link">
@@ -138,16 +123,6 @@ function App() {
         </Route>
         <Route path="/nytimes/worldnews">
           <NyTimesWorld title="N.Y. Times world news" api_key={nyt_api_key} />
-        </Route>
-
-        <Route path="/wapo/politics">
-          <WaPoPolitics title="Washington Post Politics" />
-        </Route>
-        <Route path="/wapo/opinions">
-          <WaPoOpinions title="Washington Post Opinions" />
-        </Route>
-        <Route path="/wapo/sports">
-          <WaPoSports title="Washington Post Sports" />
         </Route>
 
         <Route path="/newyorker">

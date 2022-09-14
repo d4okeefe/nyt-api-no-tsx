@@ -18,10 +18,10 @@ export default (props) => {
         setData(response.data.results)
         console.log('TESTING')
         // console.log('typeof: ' + typeof data)
-        // for (const key of Object.keys(data)) {
-        //   console.log('key: ' + key)
-        //   console.log('data[key]: ' + data[key])
-        // }
+        for (const key of Object.keys(data)) {
+          console.log('key: ' + key)
+          console.log('data[key]: ' + data[key])
+        }
       })
   }, [])
 
