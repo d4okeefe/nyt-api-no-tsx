@@ -2,32 +2,48 @@ import React, { useEffect, useState } from 'react'
 
 import Table from 'react-bootstrap/Table'
 import axios from 'axios'
-import { format_date } from '../utils/FormatDate'
+import { format } from 'date-fns'
+
+const parseDate = function (d) {
+  let date = new Date(d)
+  return format(date, 'd MMM yyyy')
+}
 
 export default (props) => {
   const [data, setData] = useState([])
+  const [rss, setRss] = useState('')
 
   useEffect(() => {
     axios
-      .get(`https://api.nytimes.com/svc/topstories/v2/home.json`, {
-        params: {
-          'api-key': props.api_key,
+      .get(
+        `https://feeds.washingtonpost.com/rss/politics?itid=lk_inline_manual_2`,
+        {
+          // responseType: 'text',
         },
-      })
+      )
       .then((response) => {
-        setData(response.data.results)
-        console.log('TESTING')
-        // console.log('typeof: ' + typeof data)
-        // for (const key of Object.keys(data)) {
-        //   console.log('key: ' + key)
-        //   console.log('data[key]: ' + data[key])
-        // }
+        const xml_string = response.data
+        setRss(xml_string)
+
+        var parseString = require('xml2js').parseString
+        parseString(xml_string, function (err, result) {
+          const inner_array = []
+          for (var i = 0; i < 100; i++) {
+            // null check first
+            if (result.rss.channel[0].item[i]) {
+              inner_array[inner_array.length] = result.rss.channel[0].item[i]
+            }
+          }
+
+          setData(inner_array)
+        })
       })
   }, [])
 
   return (
-    <div className="NyTimesTable">
+    <div className="WaPoTable">
       <h4 className="mx-2">{props.title}</h4>
+      {/* <p>{rss}</p> */}
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
@@ -43,16 +59,18 @@ export default (props) => {
               <td>
                 <a
                   className="link-info"
-                  href={r.url}
+                  href={r.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div>{r.title}</div>
                 </a>
               </td>
-              <td>{r.abstract}</td>
-              <td>{r.byline}</td>
-              <td>{format_date(r.published_date)}</td>
+              <td>
+                <p>{r.description}</p>
+              </td>
+              <td>{r['dc:creator']}</td>
+              <td>{parseDate(r.pubDate)}</td>
             </tr>
           ))}
         </tbody>

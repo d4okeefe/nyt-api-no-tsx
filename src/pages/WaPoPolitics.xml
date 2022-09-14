@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href='/pb/resources/xsl/rss.xsl'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:wp="http://www.washingtonpost.com/wp-namespace" version="2.0">
+  <channel>
+    <title>Politics</title>
+    <atom:link href="http://www.washingtonpost.com/pb/politics/?resType=rss" rel="self" type="application/rss+xml" />
+    <link>http://www.washingtonpost.com/pb/politics/</link>
+    <description>
+      <![CDATA[Post Politics from The Washington Post is the source for political news headlines, in-depth politics coverage and political opinion, plus breaking news on the biden administration and White House, Congress, the Supreme Court, elections and more.]]>
+    </description>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <br />
+    <br />
+    <item>
+      <title>
+        <![CDATA[A new reminder of how the political debate disadvantages reality]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/14/election-misinformation-mike-lindell/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Wed, 14 Sep 2022 10:41:36 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Philip Bump]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Misinformation burrows deep while accountability is still drafting subpoenas.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M6RO7RUWS4I6ZOZROT6ANQFDUU.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M6RO7RUWS4I6ZOZROT6ANQFDUU.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M6RO7RUWS4I6ZOZROT6ANQFDUU.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M6RO7RUWS4I6ZOZROT6ANQFDUU.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/14/election-misinformation-mike-lindell/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Republicans in muddle on abortion as ban proposed by Graham exposes rifts]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/14/republican-abortion-midterms-graham/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Wed, 14 Sep 2022 09:52:02 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Hannah Knowles]]>
+      </dc:creator>
+      <description>
+        <![CDATA[GOP lawmakers and candidates trying to recalibrate on abortion are sending mixed messages eight weeks before the midterms.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KAOQZ4RTWII63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KAOQZ4RTWII63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KAOQZ4RTWII63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KAOQZ4RTWII63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/14/republican-abortion-midterms-graham/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[A Jewish activist was attacked amid rising hate. The DOJ took action.]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/national-security/2022/09/14/justice-department-hate-crime-prosecutions/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Wed, 14 Sep 2022 09:27:27 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[David Nakamura]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Investigators say a pro-Palestinian demonstrator attacked a Jewish man in New York. The feds call it a bias crime, as Biden administration looks to combat hate.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FAZNOPBQOII63PGGBB2LE2XCSY.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FAZNOPBQOII63PGGBB2LE2XCSY.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FAZNOPBQOII63PGGBB2LE2XCSY.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FAZNOPBQOII63PGGBB2LE2XCSY.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/national-security/2022/09/14/justice-department-hate-crime-prosecutions/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <br />
+    <item>
+      <title>
+        <![CDATA[How hard will Democrats campaign against the Supreme Court itself?]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/democrat-supreme-court-election/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 14:24:41 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Aaron Blake]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Views of the court have become historically polarized, but whether Democrats can capitalize on their voters' anger is another question.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/democrat-supreme-court-election/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Book: The DOJ almost implicated Trump more directly in a crime]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/book-doj-almost-implicated-trump-more-directly-crime/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 14:22:29 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Aaron Blake]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Former U.S. attorney Geoffrey Berman says political pressure prompted prosecutors to water down a key document's link between Donald Trump and Michael Cohen's hush-money scheme.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/book-doj-almost-implicated-trump-more-directly-crime/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Trump’s lawyers still won’t actually say it]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/12/trump-filing-declassified-documents/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Mon, 12 Sep 2022 12:53:22 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Aaron Blake]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Over and over, they've declined to echo Trump's claim that he declassified the documents seized at Mar-a-Lago. And it just became even more conspicuous.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WTTH7TRSVEI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WTTH7TRSVEI63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WTTH7TRSVEI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WTTH7TRSVEI63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/12/trump-filing-declassified-documents/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[In final primaries, heated GOP fights in N.H. include a blow to McCarthy]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/new-hampshire-bolduc-morse/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Wed, 14 Sep 2022 08:04:12 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Colby Itkowitz]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Contested GOP races divided party leaders, exposed differing positions on the 2020 election, and pit far-right candidates against more moderate rivals]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G2O2XPBTZEI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G2O2XPBTZEI63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G2O2XPBTZEI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G2O2XPBTZEI63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/new-hampshire-bolduc-morse/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Post Politics Now: Biden visiting Detroit to highlight investment in electric vehicles]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/14/biden-detroit-electric-vehicles/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Wed, 14 Sep 2022 07:15:24 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[John Wagner]]>
+      </dc:creator>
+      <description>
+        <![CDATA[The president plans to tour the North American International Auto Show and tout funding to build a network of chargers across the country that was included in the Bipartisan Infrastructure Law that he signed last year.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WZI7FLBTVEI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WZI7FLBTVEI63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WZI7FLBTVEI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WZI7FLBTVEI63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/14/biden-detroit-electric-vehicles/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Queen’s funeral: World leaders’ plans take shape, with Biden to attend]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/world/2022/09/13/queen-elizabeth-funeral-security-politicians/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Wed, 14 Sep 2022 03:20:28 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Adela Suliman]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Reports say world leaders will ride on shared buses to Queen Elizabeth II's funeral in London. But Biden may be permitted to take his security vehicle, "the Beast."]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KUYDIXBPWII63PGGBB2LE2XCSY.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KUYDIXBPWII63PGGBB2LE2XCSY.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KUYDIXBPWII63PGGBB2LE2XCSY.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KUYDIXBPWII63PGGBB2LE2XCSY.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/world/2022/09/13/queen-elizabeth-funeral-security-politicians/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Kenneth Starr, who led Whitewater probes into Clinton, dies at 76]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/obituaries/2022/09/13/ken-starr-whitewater-clinton-dies/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 20:30:05 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Brian Murphy]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Mr. Starr, a former solicitor general under George H.W. Bush, was seen as a reliably conservative Republican as political rifts began to widen in the early 1990s.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XNP74GRTUQI63MOD7USCN3WR7E.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XNP74GRTUQI63MOD7USCN3WR7E.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XNP74GRTUQI63MOD7USCN3WR7E.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XNP74GRTUQI63MOD7USCN3WR7E.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/obituaries/2022/09/13/ken-starr-whitewater-clinton-dies/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Post Politics Now: ‘This is your victory,’ Biden celebrates Inflation Reduction Act]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/biden-inflation-reduction-act/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 20:00:35 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[John Wagner]]>
+      </dc:creator>
+      <description>
+        <![CDATA[The president and fellow Democrats are trying to promote the new law in advance of the November midterms, citing it as evidence that their party can get important things done in Washington.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z6CKOPBTUUI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z6CKOPBTUUI63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z6CKOPBTUUI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z6CKOPBTUUI63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/biden-inflation-reduction-act/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[The Trailer: What to watch on this final primary night]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/trailer-what-watch-this-final-primary-night/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 18:38:56 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[David Weigel]]>
+      </dc:creator>
+      <description>
+        <![CDATA[What to watch on this final primary night, how Sen. Lindsey O. Graham just complicated the GOP's closing message, and what the left wants to do to Rhode Island's Democratic establishment.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I52A6JBR7II63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I52A6JBR7II63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I52A6JBR7II63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I52A6JBR7II63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/trailer-what-watch-this-final-primary-night/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Lindsey Graham’s abortion-ban proposal is not helping his party]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/lindsey-grahams-abortion-ban-proposal-is-not-helping-his-party/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 17:40:42 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Philip Bump]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Maybe the senator hopes to boost enthusiasm on the right. But the cost may be higher than the benefit.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LIJ6JFRTSAI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LIJ6JFRTSAI63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LIJ6JFRTSAI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LIJ6JFRTSAI63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/lindsey-grahams-abortion-ban-proposal-is-not-helping-his-party/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Abortion is now banned in these states. See where laws have changed.]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/06/24/abortion-state-laws-criminalization-roe/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 17:39:10 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Caroline Kitchener]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Thirteen states had "trigger bans" to criminalize abortion when the Supreme Court overturned Roe v. Wade. Several other states are working to enact other laws.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E4YSW4THJJF45P5BSRTZRFMTXQ.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E4YSW4THJJF45P5BSRTZRFMTXQ.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E4YSW4THJJF45P5BSRTZRFMTXQ.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E4YSW4THJJF45P5BSRTZRFMTXQ.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/06/24/abortion-state-laws-criminalization-roe/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Biden and Kennedys: Ties of Catholicism, power and tragedy]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/biden-kennedy-ties-catholic-tragedy/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 17:33:27 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Matt Viser]]>
+      </dc:creator>
+      <description>
+        <![CDATA[As Biden came to the JFK library this week to discuss the "cancer moonshot" project, the many parallels among the Kennedy and Biden families gave added gravity to the day.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IO5JNPSLAEI6XF5WJ247OL7UNM.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IO5JNPSLAEI6XF5WJ247OL7UNM.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IO5JNPSLAEI6XF5WJ247OL7UNM.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IO5JNPSLAEI6XF5WJ247OL7UNM.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/biden-kennedy-ties-catholic-tragedy/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Graham introduces bill to ban abortions nationwide after 15 weeks]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/abortion-graham-republicans-nationwide-ban/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 17:14:00 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Amy B Wang]]>
+      </dc:creator>
+      <description>
+        <![CDATA[The bill comes just weeks after Graham and most Republicans had defended the Supreme Court’s decision to overturn Roe v. Wade by arguing that abortion rights should be decided at the state level.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NZ7XZXRTQUI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NZ7XZXRTQUI63IGWIFJJTP7L2U.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NZ7XZXRTQUI63IGWIFJJTP7L2U.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NZ7XZXRTQUI63IGWIFJJTP7L2U.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/abortion-graham-republicans-nationwide-ban/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Young Americans aren’t yet rewarding Biden for student debt relief]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/biden-student-debt-young-people/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 15:01:58 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Philip Bump]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Young people are more likely to have debt, but the announcement of a relief plan isn't yet showing up in polls.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ET6FZMQ4XNDKXC3IWOAMMJNMYU.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ET6FZMQ4XNDKXC3IWOAMMJNMYU.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ET6FZMQ4XNDKXC3IWOAMMJNMYU.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ET6FZMQ4XNDKXC3IWOAMMJNMYU.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/biden-student-debt-young-people/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[How hard will Democrats campaign against the Supreme Court itself?]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/democrat-supreme-court-election/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 14:24:41 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Aaron Blake]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Views of the court have become historically polarized, but whether Democrats can capitalize on their voters' anger is another question.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZBO2KCAPMUI63PZ2ZX2TEAM4KI.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/democrat-supreme-court-election/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Book: The DOJ almost implicated Trump more directly in a crime]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/book-doj-almost-implicated-trump-more-directly-crime/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 14:22:29 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Aaron Blake]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Former U.S. attorney Geoffrey Berman says political pressure prompted prosecutors to water down a key document's link between Donald Trump and Michael Cohen's hush-money scheme.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WP5FWJHT6MI6RGOCZ7FG7T3BBQ.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/book-doj-almost-implicated-trump-more-directly-crime/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Sean Hannity is keeping a list of Trump probes. Here’s what’s on it.]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/trump-investigations-sean-hannity/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 13:14:09 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Philip Bump]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Trump's stalwart Fox News ally appears to think that listing all of the questions about Trump is good for the former president.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6WMXQZTNVYI6ZMPCAU45VD2EKE.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6WMXQZTNVYI6ZMPCAU45VD2EKE.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6WMXQZTNVYI6ZMPCAU45VD2EKE.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6WMXQZTNVYI6ZMPCAU45VD2EKE.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/trump-investigations-sean-hannity/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[House panel asks Archives to review whether Trump still has any White House records]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/trump-documents-oversight-archives/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 09:30:00 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Jacqueline Alemany]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Rep. Carolyn B. Maloney (D-N.Y.) urged the Archives to “seek a personal certification from Donald Trump that he has surrendered all presidential records that he illegally removed from the White House after leaving office.”]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FKY4ODRK3II63KIK7TSACXP4R4.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FKY4ODRK3II63KIK7TSACXP4R4.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FKY4ODRK3II63KIK7TSACXP4R4.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FKY4ODRK3II63KIK7TSACXP4R4.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/trump-documents-oversight-archives/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[A record number of Black candidates for higher offices aim to reshape U.S. politics]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/national-security/2022/09/13/record-number-black-candidates-higher-offices-aim-reshape-us-politics/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 06:00:34 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Tim Craig]]>
+      </dc:creator>
+      <description>
+        <![CDATA[Since Reconstruction, voters have elected just seven Black U.S. senators and two Black governors. This year, 16 Black candidates — 13 Democrats and three Republicans — are major party nominees for those offices.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JGJIKIRDI4I63JZPDZYUSBZPXQ.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JGJIKIRDI4I63JZPDZYUSBZPXQ.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JGJIKIRDI4I63JZPDZYUSBZPXQ.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JGJIKIRDI4I63JZPDZYUSBZPXQ.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/national-security/2022/09/13/record-number-black-candidates-higher-offices-aim-reshape-us-politics/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <item>
+      <title>
+        <![CDATA[Biden’s flimsy claim he has the ‘strongest’ manufacturing jobs record]]>
+      </title>
+      <link>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/bidens-flimsy-claim-he-has-strongest-manufacturing-jobs-record/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </link>
+      <pubDate>Tue, 13 Sep 2022 03:00:22 EDT</pubDate>
+      <dc:creator>
+        <![CDATA[Glenn Kessler]]>
+      </dc:creator>
+      <description>
+        <![CDATA[The president inherited an economy on the upswing — and he's using a strange metric to make his case.]]>
+      </description>
+      <media:thumbnail url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VEZDJSBK4UI63KIK7TSACXP4R4.jpg&amp;w=606" width="606" />
+      <media:group>
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VEZDJSBK4UI63KIK7TSACXP4R4.jpg&amp;w=90" width="90" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VEZDJSBK4UI63KIK7TSACXP4R4.jpg&amp;w=606" width="606" />
+        <media:content medium="image" type="image/jpeg" url="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VEZDJSBK4UI63KIK7TSACXP4R4.jpg&amp;w=1024" width="1024" />
+      </media:group>
+      <guid>
+        <![CDATA[https://www.washingtonpost.com/politics/2022/09/13/bidens-flimsy-claim-he-has-strongest-manufacturing-jobs-record/?utm_source=rss&utm_medium=referral&utm_campaign=wp_politics]]>
+      </guid>
+    </item>
+    <br />
+    <br />
+    <br />
+  </channel>
+</rss>
