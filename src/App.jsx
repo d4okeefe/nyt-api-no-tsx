@@ -20,16 +20,59 @@ import NyTimesOpinion from './pages/NyTimesOpinion'
 import NyTimesScience from './pages/NyTimesScience'
 import NyTimesSports from './pages/NyTimesSports'
 import NyTimesWorld from './pages/NyTimesWorld'
-import WaPoOpinions from './pages/WaPoOpinions'
-import WaPoPolitics from './pages/WaPoPolitics'
-import WaPoSports from './pages/WaPoSports'
-//import ScientificAmericanRss from "./pages/ScientificAmericanRss";
+import WaPoNews from './pages/WaPoNews'
 import WiredScienceRss from './pages/WiredScienceRss'
 
 function App() {
   const title = 'Test run'
   const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
   const [api, setApi] = useState('NyTimes')
+
+  const Nav_NyTimesDropdown = (
+    <NavDropdown title="New York Times" id="basic-nav-dropdown">
+      <NavDropdown.Item>
+        <Link href="/nytimes">Top stories</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/nytimes/worldnews">World news</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/nytimes/science">Science</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/nytimes/opinion">Opinions</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/nytimes/sports">Sports</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Divider />
+      <NavDropdown.Item>
+        <Link href="/nytimes/bookreviews">Book reviews</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/nytimes/moviereviews">Movie reviews</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/nytimes/formula1">Formula 1</Link>
+      </NavDropdown.Item>
+    </NavDropdown>
+  )
+  const Nav_WaPoDropdown = (
+    <NavDropdown title="Washington Post" id="basic-nav-dropdown">
+      <NavDropdown.Item>
+        <Link href="/wapo/politics">Politics</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/wapo/opinions">Opinions</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/wapo/world">World</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item>
+        <Link href="/wapo/technology">Tech News</Link>
+      </NavDropdown.Item>
+    </NavDropdown>
+  )
 
   return (
     <div className="App">
@@ -40,46 +83,8 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown title="New York Times" id="basic-nav-dropdown">
-                  <NavDropdown.Item>
-                    <Link href="/nytimes">Top stories</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/worldnews">World news</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/science">Science</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/opinion">Opinions</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/sports">Sports</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/bookreviews">Book reviews</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/moviereviews">Movie reviews</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/nytimes/formula1">Formula 1</Link>
-                  </NavDropdown.Item>
-                </NavDropdown>
-
-                <NavDropdown title="Washington Post" id="basic-nav-dropdown">
-                  <NavDropdown.Item>
-                    <Link href="/wapo/politics">Politics</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link href="/wapo/opinions">Opinions</Link>
-                  </NavDropdown.Item>
-                  {/* <NavDropdown.Item>
-                    <Link href="/wapo/sports">Sports</Link>
-                  </NavDropdown.Item>                   */}
-                </NavDropdown>
-
+                {Nav_NyTimesDropdown}
+                {Nav_WaPoDropdown}
                 <Nav.Link className="nav-link">
                   <Link href="/newyorker">New Yorker</Link>
                 </Nav.Link>
@@ -141,13 +146,19 @@ function App() {
         </Route>
 
         <Route path="/wapo/politics">
-          <WaPoPolitics title="Washington Post Politics" />
+          <WaPoNews title="Washington Post Politics" url="politics" />
         </Route>
         <Route path="/wapo/opinions">
-          <WaPoOpinions title="Washington Post Opinions" />
+          <WaPoNews title="Washington Post Opinions" url="opinions" />
         </Route>
-        <Route path="/wapo/sports">
-          <WaPoSports title="Washington Post Sports" />
+        <Route path="/wapo/world">
+          <WaPoNews title="Washington Post World News" url="world" />
+        </Route>
+        <Route path="/wapo/technology">
+          <WaPoNews
+            title="Washington Post Tech News"
+            url="business/technology"
+          />
         </Route>
 
         <Route path="/newyorker">
@@ -157,8 +168,6 @@ function App() {
         <Route path="/wired/science">
           <WiredScienceRss title="Wired.com science" />
         </Route>
-
-        {/* <Route path="/scientificamerican" component={ScientificAmericanRss} /> */}
 
         <Route path="/espn/f1">
           <EspnF1 title="Espn Formula 1" />
