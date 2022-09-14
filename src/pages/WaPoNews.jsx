@@ -5,39 +5,44 @@ import axios from 'axios'
 import { format } from 'date-fns'
 
 const parseDate = function (d) {
-  let date = new Date(d)
-  return format(date, 'd MMM yyyy')
+  try {
+    let date = new Date(d)
+    return format(date, 'd MMM yyyy')
+  } catch {
+    return d
+  }
 }
 
 export default (props) => {
   const [data, setData] = useState([])
-  const [rss, setRss] = useState('')
+  // const [rss, setRss] = useState('')
+
+  // View available feeds here
+  // https://www.washingtonpost.com/discussions/2018/10/12/washington-post-rss-feeds/
+
+  const wapo_axios = axios.create({
+    baseURL: `https://feeds.washingtonpost.com/rss/`,
+    timeout: 30000,
+  })
+
+  const wa_po_url = props.url
 
   useEffect(() => {
-    axios
-      .get(
-        `https://feeds.washingtonpost.com/rss/politics?itid=lk_inline_manual_2`,
-        {
-          // responseType: 'text',
-        },
-      )
-      .then((response) => {
-        const xml_string = response.data
-        setRss(xml_string)
-
-        var parseString = require('xml2js').parseString
-        parseString(xml_string, function (err, result) {
-          const inner_array = []
-          for (var i = 0; i < 100; i++) {
-            // null check first
-            if (result.rss.channel[0].item[i]) {
-              inner_array[inner_array.length] = result.rss.channel[0].item[i]
-            }
+    wapo_axios.get(wa_po_url).then((response) => {
+      const xml_string = response.data
+      // setRss(xml_string)
+      var parseString = require('xml2js').parseString
+      parseString(xml_string, function (err, result) {
+        const inner_array = []
+        for (var i = 0; i < 100; i++) {
+          // null check first
+          if (result.rss.channel[0].item[i]) {
+            inner_array[inner_array.length] = result.rss.channel[0].item[i]
           }
-
-          setData(inner_array)
-        })
+        }
+        setData(inner_array)
       })
+    })
   }, [])
 
   return (
