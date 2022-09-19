@@ -6,29 +6,39 @@ import { format_date } from '../utils/FormatDate'
 
 export default (props) => {
   const [data, setData] = useState([])
+  const [api, setApi] = useState()
 
   useEffect(() => {
-    axios
-      .get(`https://api.nytimes.com/svc/topstories/v2/home.json`, {
-        params: {
-          'api-key': props.api_key,
-        },
+    fetch('/nyt/topstories')
+      .then((res) => res)
+      .then((json_data) => {
+        setApi(json_data)
       })
-      .then((response) => {
-        setData(response.data.results)
-        console.log('TESTING')
-        // console.log('typeof: ' + typeof data)
-        // for (const key of Object.keys(data)) {
-        //   console.log('key: ' + key)
-        //   console.log('data[key]: ' + data[key])
-        // }
-      })
-  }, [])
+  })
+
+  // useEffect(() => {
+  //   axios
+  //     .get(`https://api.nytimes.com/svc/topstories/v2/home.json`, {
+  //       params: {
+  //         'api-key': props.api_key,
+  //       },
+  //     })
+  //     .then((response) => {
+  //       setData(response.data.results)
+  //       console.log('TESTING')
+  // console.log('typeof: ' + typeof data)
+  // for (const key of Object.keys(data)) {
+  //   console.log('key: ' + key)
+  //   console.log('data[key]: ' + data[key])
+  // }
+  //     })
+  // }, [])
 
   return (
     <div className="NyTimesTable">
       <h4 className="mx-2">{props.title}</h4>
-      <Table className="newsDataTable striped bordered hover table-dark">
+      <p>{api}</p>
+      {/* <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
             <th scope="col">Title with Link</th>
@@ -56,7 +66,7 @@ export default (props) => {
             </tr>
           ))}
         </tbody>
-      </Table>
+      </Table> */}
     </div>
   )
 }

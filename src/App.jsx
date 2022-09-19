@@ -12,6 +12,7 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 import NewYorkerRss from './pages/NewYorkerRss'
+import NodeWeeklyRss from './pages/NodeWeeklyRss'
 import NyTimes from './pages/NyTimes'
 import NyTimesBookReviews from './pages/NyTimesBookReviews'
 import NyTimesFormula1 from './pages/NyTimesFormula1'
@@ -73,6 +74,19 @@ function App() {
       </NavDropdown.Item>
     </NavDropdown>
   )
+  const Nav_EspnDropdown = (
+    <NavDropdown title="Espn" id="basic-nav-dropdown">
+      <NavDropdown.Item className="nav-link">
+        <Link href="/espn/f1">Formula 1</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item className="nav-link">
+        <Link href="/espn/nba">NBA</Link>
+      </NavDropdown.Item>
+      <NavDropdown.Item className="nav-link">
+        <Link href="/espn/tennis">Tennis</Link>
+      </NavDropdown.Item>
+    </NavDropdown>
+  )
 
   return (
     <div className="App">
@@ -91,29 +105,22 @@ function App() {
                 <Nav.Link className="nav-link">
                   <Link href="/wired/science">Wired science</Link>
                 </Nav.Link>
+                <Nav.Link className="nav-link">
+                  <Link href="/nodeweekly">Node Weekly</Link>
+                </Nav.Link>
                 {/*
                 <Nav.Link className="nav-link">
                   <Link href="/scientificamerican">Scientific American</Link>
                 </Nav.Link>
                 */}
-                <NavDropdown title="Espn" id="basic-nav-dropdown">
-                  <NavDropdown.Item className="nav-link">
-                    <Link href="/espn/f1">Formula 1</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item className="nav-link">
-                    <Link href="/espn/nba">NBA</Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item className="nav-link">
-                    <Link href="/espn/tennis">Tennis</Link>
-                  </NavDropdown.Item>
-                </NavDropdown>
+                {Nav_EspnDropdown}
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
       </header>
       <body>
-        <Redirect to="/nytimes"></Redirect>
+        <Redirect to="/nytimes/bookreviews"></Redirect>
         <Route path="/nytimes">
           <NyTimes title="N.Y. Times top stories" api_key={nyt_api_key} />
         </Route>
@@ -163,6 +170,9 @@ function App() {
 
         <Route path="/newyorker">
           <NewYorkerRss title="New Yorker" />
+        </Route>
+        <Route path="/nodeweekly">
+          <NodeWeeklyRss title="Node Weekly" />
         </Route>
 
         <Route path="/wired/science">

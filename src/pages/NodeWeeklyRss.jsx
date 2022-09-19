@@ -13,7 +13,32 @@ export default (props) => {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    newFunction(setData)
+    axios
+      .get(`https://cprss.s3.amazonaws.com/nodeweekly.com.xml`, {
+        responseType: 'xml',
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+          'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token',
+        },
+      })
+      .then((response) => {
+        const xml_string = response.data
+        // setRssFeed(xml_string)
+
+        var parseString = require('xml2js').parseString
+        parseString(xml_string, function (err, result) {
+          const inner_array = []
+          for (var i = 0; i < 100; i++) {
+            // null check first
+            if (result.rss.channel[0].item[i]) {
+              inner_array[inner_array.length] = result.rss.channel[0].item[i]
+            }
+          }
+
+          setData(inner_array)
+        })
+      })
   }, [])
 
   return (
@@ -25,7 +50,7 @@ export default (props) => {
           <tr>
             <th scope="col">Title with Link</th>
             <th scope="col">Abstract</th>
-            <th scope="col">Author</th>
+            {/* <th scope="col">Author</th> */}
             <th scope="col">Date</th>
           </tr>
         </thead>
@@ -44,9 +69,8 @@ export default (props) => {
               </td>
               <td>
                 <p>{r.description}</p>
-                <p>&mdash; {r.category}</p>
               </td>
-              <td>{r['dc:creator']}</td>
+              {/* <td>{r['dc:creator']}</td> */}
               <td>{parseDate(r.pubDate)}</td>
             </tr>
           ))}
@@ -55,26 +79,3 @@ export default (props) => {
     </div>
   )
 }
-function newFunction(setData) {
-  axios
-    .get(`https://www.newyorker.com/feed/everything`, {
-      responseType: 'text',
-    })
-    .then((response) => {
-      const xml_string = response.data
-      // setRssFeed(xml_string)
-      var parseString = require('xml2js').parseString
-      parseString(xml_string, function (err, result) {
-        const inner_array = []
-        for (var i = 0; i < 100; i++) {
-          // null check first
-          if (result.rss.channel[0].item[i]) {
-            inner_array[inner_array.length] = result.rss.channel[0].item[i]
-          }
-        }
-
-        setData(inner_array)
-      })
-    })
-}
-
