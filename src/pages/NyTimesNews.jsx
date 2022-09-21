@@ -9,9 +9,16 @@ export default (props) => {
 
   //  https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw
 
+  const nyt_topstories_axios = axios.create({
+    baseURL: `https://api.nytimes.com/svc/topstories/v2/`,
+    timeout: 30000,
+  })
+
+  const nyt_topstories_url = props.url
+
   useEffect(() => {
-    axios
-      .get(`https://api.nytimes.com/svc/topstories/v2/opinion.json`, {
+    nyt_topstories_axios
+      .get(nyt_topstories_url, {
         params: {
           'api-key': props.api_key,
         },

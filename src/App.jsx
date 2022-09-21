@@ -13,14 +13,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 import NewYorkerRss from './pages/NewYorkerRss'
 import NodeWeeklyRss from './pages/NodeWeeklyRss'
-import NyTimes from './pages/NyTimes'
-import NyTimesBookReviews from './pages/NyTimesBookReviews'
 import NyTimesFormula1 from './pages/NyTimesFormula1'
 import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
-import NyTimesOpinion from './pages/NyTimesOpinion'
-import NyTimesScience from './pages/NyTimesScience'
-import NyTimesSports from './pages/NyTimesSports'
-import NyTimesWorld from './pages/NyTimesWorld'
+import NyTimesNews from './pages/NyTimesNews'
 import WaPoNews from './pages/WaPoNews'
 import WiredScienceRss from './pages/WiredScienceRss'
 
@@ -122,14 +117,49 @@ function App() {
       <body>
         <Redirect to="/nytimes/bookreviews"></Redirect>
         <Route path="/nytimes">
-          <NyTimes title="N.Y. Times top stories" api_key={nyt_api_key} />
-        </Route>
-        <Route path="/nytimes/bookreviews">
-          <NyTimesBookReviews
-            title="N.Y. Times book reviews"
+          <NyTimesNews
+            title="N.Y. Times Top Stories"
             api_key={nyt_api_key}
+            url="home.json"
           />
         </Route>
+        <Route path="/nytimes/opinion">
+          <NyTimesNews
+            title="N.Y. Times Opinions"
+            api_key={nyt_api_key}
+            url="opinion.json"
+          />
+        </Route>
+        <Route path="/nytimes/science">
+          <NyTimesNews
+            title="N.Y. Times Science"
+            api_key={nyt_api_key}
+            url="science.json"
+          />
+        </Route>
+        <Route path="/nytimes/sports">
+          <NyTimesNews
+            title="N.Y. Times Sports"
+            api_key={nyt_api_key}
+            url="sports.json"
+          />
+        </Route>
+        <Route path="/nytimes/worldnews">
+          <NyTimesNews
+            title="N.Y. Times World News"
+            api_key={nyt_api_key}
+            url="world.json"
+          />
+        </Route>
+
+        <Route path="/nytimes/bookreviews">
+          <NyTimesNews
+            title="N.Y. Times Books"
+            api_key={nyt_api_key}
+            url="books.json"
+          />
+        </Route>
+
         <Route path="/nytimes/formula1">
           <NyTimesFormula1 title="N.Y. Times Formua 1" api_key={nyt_api_key} />
         </Route>
@@ -138,18 +168,6 @@ function App() {
             title="N.Y. Times movie reviews"
             api_key={nyt_api_key}
           />
-        </Route>
-        <Route path="/nytimes/opinion">
-          <NyTimesOpinion title="N.Y. Times opinions" api_key={nyt_api_key} />
-        </Route>
-        <Route path="/nytimes/science">
-          <NyTimesScience title="N.Y. Times science" api_key={nyt_api_key} />
-        </Route>
-        <Route path="/nytimes/sports">
-          <NyTimesSports title="N.Y. Times sports" api_key={nyt_api_key} />
-        </Route>
-        <Route path="/nytimes/worldnews">
-          <NyTimesWorld title="N.Y. Times world news" api_key={nyt_api_key} />
         </Route>
 
         <Route path="/wapo/politics">
