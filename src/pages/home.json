@@ -1,0 +1,2046 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2022-09-21T14:41:54-04:00",
+  "num_results": 37,
+  "results": [
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Can Ukraine Break Through Again?",
+      "abstract": "A surprise advance this month exposed deep vulnerabilities in Russia’s overstretched military. As Russia calls for more troops, can Ukraine keep gaining ground?",
+      "url": "https://www.nytimes.com/interactive/2022/09/21/world/europe/ukraine-maps-momentum.html",
+      "uri": "nyt://interactive/8b963dde-0f01-5a9f-9e17-e51c72aa6107",
+      "byline": "By Marco Hernandez and Denise Lu",
+      "item_type": "Interactive",
+      "updated_date": "2022-09-21T14:19:56-04:00",
+      "created_date": "2022-09-21T05:56:46-04:00",
+      "published_date": "2022-09-21T05:56:46-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Russian Invasion of Ukraine (2022)",
+        "Maps",
+        "War and Armed Conflicts",
+        "Defense and Military Forces"
+      ],
+      "org_facet": [],
+      "per_facet": ["Putin, Vladimir V"],
+      "geo_facet": ["Ukraine", "Russia", "Izium (Ukraine)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/world/ukraine-maps-momentum-promo/ukraine-maps-momentum-promo-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1333,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/world/ukraine-maps-momentum-promo/ukraine-maps-momentum-promo-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/world/ukraine-maps-momentum-promo/ukraine-maps-momentum-promo-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3qThQrh"
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Ten prisoners, including Americans, have been released as part of a Russia-Ukraine exchange, Saudi Arabia says.",
+      "abstract": "Alex Drueke, a former U.S. Army staff sergeant who served two tours in Iraq, and Andy Tai Ngoc Huynh, a former U.S. Marine, were released.",
+      "url": "https://www.nytimes.com/2022/09/21/world/europe/ukraine-russia-prison-exchange-americans.html",
+      "uri": "nyt://article/edbd4ef4-9e56-5ac1-b090-76c19bbbfc28",
+      "byline": "By Carly Olson and Dan Bilefsky",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:24:22-04:00",
+      "created_date": "2022-09-21T13:40:06-04:00",
+      "published_date": "2022-09-21T13:40:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Russian Invasion of Ukraine (2022)", "Prisoners of War"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Ukraine"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/06/19/world/21ukraine-briefing-prisoner-exchange-huynh/19ukraine-briefing-americans01--superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1183,
+          "width": 947,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Tai Ngoc Huynh in Hartselle, Ala., in April.",
+          "copyright": "Jeronimo Nisa/The Decatur Daily, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/19/world/21ukraine-briefing-prisoner-exchange-huynh/19ukraine-briefing-americans01--threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Tai Ngoc Huynh in Hartselle, Ala., in April.",
+          "copyright": "Jeronimo Nisa/The Decatur Daily, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/19/world/21ukraine-briefing-prisoner-exchange-huynh/19ukraine-briefing-americans01--thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Tai Ngoc Huynh in Hartselle, Ala., in April.",
+          "copyright": "Jeronimo Nisa/The Decatur Daily, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3LwrTMm"
+    },
+    {
+      "section": "business",
+      "subsection": "economy",
+      "title": "What’s Next for Profits? Cars Shed Light on a Key Inflation Question.",
+      "abstract": "How easily companies give up swollen profits could determine how easily the Federal Reserve can cool inflation. Dealerships offer clues.",
+      "url": "https://www.nytimes.com/2022/09/21/business/economy/inflation-car-market.html",
+      "uri": "nyt://article/4a3e1176-18b0-552e-a6dc-37bddeacd01c",
+      "byline": "By Jeanna Smialek",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:11:11-04:00",
+      "created_date": "2022-09-21T05:00:24-04:00",
+      "published_date": "2022-09-21T05:00:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Automobiles",
+        "Prices (Fares, Fees and Rates)",
+        "Used Cars",
+        "Supply Chain",
+        "United States Economy",
+        "Inflation (Economics)",
+        "Consumer Behavior",
+        "Shortages"
+      ],
+      "org_facet": ["Federal Reserve System"],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/business/21dc-carinflation01/21dc-carinflation01-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Car dealers have been paying higher inventory costs but charging consumers even more, earning record profits.",
+          "copyright": "Audra Melton for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/business/21dc-carinflation01/21dc-carinflation01-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Car dealers have been paying higher inventory costs but charging consumers even more, earning record profits.",
+          "copyright": "Audra Melton for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/business/21dc-carinflation01/21dc-carinflation01-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Car dealers have been paying higher inventory costs but charging consumers even more, earning record profits.",
+          "copyright": "Audra Melton for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3f7Ztwj"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "Inflation Is High. How Will Rate Increases Fix That?",
+      "abstract": "The Federal Reserve is raising interest rates to fight inflation. Some economists want more; some politicians want less. What’s the logic?",
+      "url": "https://www.nytimes.com/2022/09/21/business/interest-rates-inflation.html",
+      "uri": "nyt://article/02b9abf0-f4e5-5db7-927b-b387de01a93b",
+      "byline": "By Jeanna Smialek",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:51:44-04:00",
+      "created_date": "2022-09-21T11:00:03-04:00",
+      "published_date": "2022-09-21T11:00:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Interest Rates",
+        "Inflation (Economics)",
+        "Prices (Fares, Fees and Rates)",
+        "United States Economy"
+      ],
+      "org_facet": ["Federal Reserve System"],
+      "per_facet": ["Powell, Jerome H"],
+      "geo_facet": [],
+      "multimedia": null,
+      "short_url": "https://nyti.ms/3UtZGdu"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "What Fed Rate Increases Mean for Mortgages, Credit Cards and More",
+      "abstract": "Savers will benefit and borrowers can expect to pay more on credit cards, student loans and other forms of debt.",
+      "url": "https://www.nytimes.com/2022/09/21/business/fed-rate-increases-mortgages-credit-cards.html",
+      "uri": "nyt://article/61b6bb19-f9ff-5454-a0de-0d2bee86fd0f",
+      "byline": "By Tara Siegel Bernard",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T12:03:39-04:00",
+      "created_date": "2022-09-21T12:03:39-04:00",
+      "published_date": "2022-09-21T12:03:39-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Interest Rates",
+        "Student Loans",
+        "Mortgages",
+        "Credit Cards",
+        "Automobile Financing",
+        "Consumer Behavior",
+        "Inflation (Economics)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": null,
+      "short_url": "https://nyti.ms/3BXpreF"
+    },
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "The lawsuit accuses the former president of profiting from a ‘staggering’ fraud.",
+      "abstract": "The attorney general, Letitia James, is seeking to bar the Trump family from ever operating in New York again.",
+      "url": "https://www.nytimes.com/2022/09/21/nyregion/trump-fraud-lawsuit-ny.html",
+      "uri": "nyt://article/1ee441bc-4118-538d-ab6a-4c57083b7718",
+      "byline": "By Jonah E. Bromwich, William K. Rashbaum and Ben Protess",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:11:11-04:00",
+      "created_date": "2022-09-21T11:33:26-04:00",
+      "published_date": "2022-09-21T11:33:26-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Suits and Litigation (Civil)"],
+      "org_facet": [],
+      "per_facet": ["James, Letitia", "Trump, Donald J"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/06/05/us/00trump-settle-1/merlin_205888110_f1611af2-d55b-4578-ac4c-e3740f4a8c5a-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Although the lawsuit against Donald J. Trump cannot include criminal charges, the former president could face substantial financial penalties.",
+          "copyright": "Maddie McGarvey for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/05/us/00trump-settle-1/merlin_205888110_f1611af2-d55b-4578-ac4c-e3740f4a8c5a-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Although the lawsuit against Donald J. Trump cannot include criminal charges, the former president could face substantial financial penalties.",
+          "copyright": "Maddie McGarvey for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/05/us/00trump-settle-1/00trump-settle-1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Although the lawsuit against Donald J. Trump cannot include criminal charges, the former president could face substantial financial penalties.",
+          "copyright": "Maddie McGarvey for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3LxhHmY"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Special Master Expresses Skepticism of Declassification Claims by Trump’s Lawyers",
+      "abstract": "The former president insists he shouldn’t have to state in a legal proceeding that he declassified the documents, while casting doubt on their status.",
+      "url": "https://www.nytimes.com/2022/09/20/us/politics/trump-declassification-documents.html",
+      "uri": "nyt://article/7abad28d-a8a9-5a14-b788-12cc61ba358b",
+      "byline": "By Alan Feuer and Charlie Savage",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:45:11-04:00",
+      "created_date": "2022-09-20T13:58:54-04:00",
+      "published_date": "2022-09-20T13:58:54-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "Espionage and Intelligence Services",
+        "Search and Seizure",
+        "Executive Privilege, Doctrine of",
+        "Suits and Litigation (Civil)"
+      ],
+      "org_facet": [
+        "Mar-a-Lago (Palm Beach, Fla)",
+        "Federal Bureau of Investigation",
+        "Justice Department"
+      ],
+      "per_facet": ["Trump, Donald J", "Dearie, Raymond J"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/us/politics/20dc-investigate1/merlin_212404695_49fe2d84-ab4e-44e8-9e2c-0b1e86ff913c-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 900,
+          "width": 1350,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "No credible evidence has emerged to support former President Donald J. Trump’s claim that he had a standing order to declassify everything he took from the Oval Office.",
+          "copyright": "Hannah Beier for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/us/politics/20dc-investigate1/20dc-investigate1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "No credible evidence has emerged to support former President Donald J. Trump’s claim that he had a standing order to declassify everything he took from the Oval Office.",
+          "copyright": "Hannah Beier for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/us/politics/20dc-investigate1/20dc-investigate1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "No credible evidence has emerged to support former President Donald J. Trump’s claim that he had a standing order to declassify everything he took from the Oval Office.",
+          "copyright": "Hannah Beier for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Re1Jj3"
+    },
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "Former Trump Adviser Was Not Agent for Emirates, Lawyer Tells Jury",
+      "abstract": "Thomas Barrack is accused by prosecutors of acting as an undisclosed agent for the government of the United Arab Emirates.",
+      "url": "https://www.nytimes.com/2022/09/21/nyregion/thomas-barrack-trump-trial.html",
+      "uri": "nyt://article/83401e3d-cef7-53db-836a-231f8ee4e487",
+      "byline": "By Rebecca Davis O’Brien",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:47:16-04:00",
+      "created_date": "2022-09-21T13:47:16-04:00",
+      "published_date": "2022-09-21T13:47:16-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Politics and Government", "Crime and Criminals"],
+      "org_facet": ["Federal Bureau of Investigation"],
+      "per_facet": ["Barrack, Thomas J Jr"],
+      "geo_facet": ["Brooklyn (NYC)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/nyregion/20barrack1/merlin_213435192_6b9719cb-3bc7-416e-b4df-5a691073ecb4-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1363,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Barrack, prosecutors say, tried to sway administration policy to favor his patrons.",
+          "copyright": "Jefferson Siegel for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/nyregion/20barrack1/20barrack1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Barrack, prosecutors say, tried to sway administration policy to favor his patrons.",
+          "copyright": "Jefferson Siegel for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/nyregion/20barrack1/merlin_213435192_6b9719cb-3bc7-416e-b4df-5a691073ecb4-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Thomas Barrack, prosecutors say, tried to sway administration policy to favor his patrons.",
+          "copyright": "Jefferson Siegel for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xDmkGk"
+    },
+    {
+      "section": "style",
+      "subsection": "",
+      "title": "Corn Kid Is Doing Just Fine",
+      "abstract": "He went viral this summer for his love of corn. Now it’s back to business as usual: elementary school.",
+      "url": "https://www.nytimes.com/2022/09/21/style/corn-kid-tariq-tiktok.html",
+      "uri": "nyt://article/94cf0231-387c-5563-b751-204d066c93f3",
+      "byline": "By Madison Malone Kircher",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:32:50-04:00",
+      "created_date": "2022-09-21T05:00:22-04:00",
+      "published_date": "2022-09-21T05:00:22-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["internal-sub-only"],
+      "org_facet": ["TikTok (ByteDance)", "Cameo (Mobile App)", "YouTube.com"],
+      "per_facet": ["Shapiro-Barnum, Julian"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/fashion/21CORN-KID2/merlin_213503688_15d592ec-25dd-4bf2-af48-194977aaedf5-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1635,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A video of Tariq, 7, took off online when he shared his love of corn. ",
+          "copyright": "OK McCausland for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/fashion/21CORN-KID2/21CORN-KID2-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A video of Tariq, 7, took off online when he shared his love of corn. ",
+          "copyright": "OK McCausland for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/fashion/21CORN-KID2/21CORN-KID2-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A video of Tariq, 7, took off online when he shared his love of corn. ",
+          "copyright": "OK McCausland for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3UpK2Q5"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "How Republicans Could Win Control of the House",
+      "abstract": "The political winds that once favored Republicans in the coming midterm elections appear to have shifted in the Democrats’ favor, but in the quest for the House, geography may be destiny.",
+      "url": "https://www.nytimes.com/interactive/2022/09/21/us/politics/gop-house.html",
+      "uri": "nyt://interactive/eddf3526-8dcf-5b1a-95b2-13ccda859bce",
+      "byline": "By Lazaro Gamio, Lauren Leatherby and Jonathan Weisman",
+      "item_type": "Interactive",
+      "updated_date": "2022-09-21T09:17:10-04:00",
+      "created_date": "2022-09-21T05:00:03-04:00",
+      "published_date": "2022-09-21T05:00:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Midterm Elections (2022)"],
+      "org_facet": ["House of Representatives", "Republican Party"],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/us/republican-house-seats-promo/republican-house-seats-promo-superJumbo-v2.png",
+          "format": "Super Jumbo",
+          "height": 1333,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/us/republican-house-seats-promo/republican-house-seats-promo-threeByTwoSmallAt2X-v3.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/us/republican-house-seats-promo/republican-house-seats-promo-thumbLarge-v2.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3DGJY8J"
+    },
+    {
+      "section": "sports",
+      "subsection": "basketball",
+      "title": "Suns and Mercury Owner Plans to Sell Teams Amid Scandal",
+      "abstract": "Robert Sarver, the majority owner of the N.B.A. and W.N.B.A. teams in Phoenix, had been fined $10 million and suspended for using racist slurs and mistreating employees for years.",
+      "url": "https://www.nytimes.com/2022/09/21/sports/basketball/robert-sarver-phoenix-suns-mercury.html",
+      "uri": "nyt://article/c8027541-afa0-59ea-b2b8-daddc491d625",
+      "byline": "By Scott Cacciola",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:16:04-04:00",
+      "created_date": "2022-09-21T12:49:03-04:00",
+      "published_date": "2022-09-21T12:49:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Basketball", "Fines (Penalties)"],
+      "org_facet": [
+        "National Basketball Assn",
+        "National Basketball Players Assn",
+        "Phoenix Mercury",
+        "Phoenix Suns",
+        "Women's National Basketball Assn"
+      ],
+      "per_facet": ["Sarver, Robert (1961- )", "Tremaglio, Tamika"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/sports/21nba-sarver/merlin_213058077_46959ebd-606e-44f9-8872-6954029c4e6e-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Robert Sarver, who owns the Phoenix Suns, had been under investigation by the N.B.A. since November.",
+          "copyright": "Ralph Freso/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/sports/21nba-sarver/merlin_213058077_46959ebd-606e-44f9-8872-6954029c4e6e-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Robert Sarver, who owns the Phoenix Suns, had been under investigation by the N.B.A. since November.",
+          "copyright": "Ralph Freso/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/sports/21nba-sarver/21nba-sarver-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Robert Sarver, who owns the Phoenix Suns, had been under investigation by the N.B.A. since November.",
+          "copyright": "Ralph Freso/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3R2O5z9"
+    },
+    {
+      "section": "arts",
+      "subsection": "",
+      "title": "What Hemingway Left in Sloppy Joe’s Bar 80 Years Ago",
+      "abstract": "The trove of items deposited in Key West, now part of a new archive at Penn State, includes four unpublished short stories, drafts of manuscripts and boxes of personal effects.",
+      "url": "https://www.nytimes.com/2022/09/21/arts/ernest-hemingway-archive-penn-state.html",
+      "uri": "nyt://article/1033c2a3-42da-5533-a396-ad0cd6b1664d",
+      "byline": "By Robert K. Elder",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:45:50-04:00",
+      "created_date": "2022-09-21T05:00:37-04:00",
+      "published_date": "2022-09-21T05:00:37-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Books and Literature",
+        "Archives and Records",
+        "A Farewell to Arms (Book)"
+      ],
+      "org_facet": ["Pennsylvania State University"],
+      "per_facet": ["Fitzgerald, F Scott", "Hemingway, Ernest"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/25/arts/20Hemingway13/merlin_213254610_357cf417-f2fc-4d95-aba8-a9305d09f77f-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1442,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ernest Hemingway served as a war correspondent during the Spanish Civil War.",
+          "copyright": "The Toby and Betty Bruce collection of Ernest Hemingway in the Penn State Special Collections Library"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/25/arts/20Hemingway13/20Hemingway13-threeByTwoSmallAt2X-v2.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ernest Hemingway served as a war correspondent during the Spanish Civil War.",
+          "copyright": "The Toby and Betty Bruce collection of Ernest Hemingway in the Penn State Special Collections Library"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/25/arts/20Hemingway13/20Hemingway13-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ernest Hemingway served as a war correspondent during the Spanish Civil War.",
+          "copyright": "The Toby and Betty Bruce collection of Ernest Hemingway in the Penn State Special Collections Library"
+        }
+      ],
+      "short_url": "https://nyti.ms/3f7NUVS"
+    },
+    {
+      "section": "dining",
+      "subsection": "",
+      "title": "In New Film, Former Employee Says Mario Batali Sexually Assaulted Her",
+      "abstract": "A woman who worked for the chef comes forward with her account of a night at the Spotted Pig in Manhattan.",
+      "url": "https://www.nytimes.com/2022/09/21/dining/mario-batali-film-sexual-assault.html",
+      "uri": "nyt://article/43247fb0-301c-5896-bee3-4a87a51fa534",
+      "byline": "By Julia Moskin and Kim Severson",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:56:49-04:00",
+      "created_date": "2022-09-21T05:00:22-04:00",
+      "published_date": "2022-09-21T05:00:22-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Sexual Harassment",
+        "#MeToo Movement",
+        "Restaurants",
+        "Documentary Films and Programs",
+        "Batali: The Fall of a Superstar Chef (Movie)"
+      ],
+      "org_facet": ["Spotted Pig (Manhattan, NY, Restaurant)"],
+      "per_facet": ["Batali, Mario", "Friedman, Ken"],
+      "geo_facet": ["Greenwich Village (Manhattan, NY)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/dining/20batali-tv1/20batali-tv1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1368,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "It took five years after the #MeToo movement began for Eva DeVirgilis, who worked for Mario Batali, to go public with her account.",
+          "copyright": "Victor Tadashi Suarez / Discovery+ "
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/dining/20batali-tv1/20batali-tv1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "It took five years after the #MeToo movement began for Eva DeVirgilis, who worked for Mario Batali, to go public with her account.",
+          "copyright": "Victor Tadashi Suarez / Discovery+ "
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/dining/20batali-tv1/20batali-tv1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "It took five years after the #MeToo movement began for Eva DeVirgilis, who worked for Mario Batali, to go public with her account.",
+          "copyright": "Victor Tadashi Suarez / Discovery+ "
+        }
+      ],
+      "short_url": "https://nyti.ms/3dstQgz"
+    },
+    {
+      "section": "books",
+      "subsection": "",
+      "title": "The Buildings That Drove Their Creators to Despair",
+      "abstract": "Charlotte Van den Broeck’s “Bold Ventures” is an idiosyncratic tour of architectural misfires, dotted with its author’s personal anxieties.",
+      "url": "https://www.nytimes.com/2022/09/18/books/bold-ventures-architectural-failures.html",
+      "uri": "nyt://article/391f787e-3259-5f58-985e-93313bd15383",
+      "byline": "By Alexandra Jacobs",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:01:44-04:00",
+      "created_date": "2022-09-18T05:00:15-04:00",
+      "published_date": "2022-09-18T05:00:15-04:00",
+      "material_type_facet": "",
+      "kicker": "Nonfiction",
+      "des_facet": [
+        "Books and Literature",
+        "Bold Ventures: Thirteen Tales of Architectural Tragedy (Book)",
+        "Architecture"
+      ],
+      "org_facet": [],
+      "per_facet": ["Van den Broeck, Charlotte", "McKay, David (Translator)"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/books/18vandenbroeck3/18vandenbroeck3-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1536,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The twisted spire on the 400-year-old Church of St. Omer in Verchin, France, which embarrassed the chief mason who built it.",
+          "copyright": "MG White/Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/books/18vandenbroeck3/18vandenbroeck3-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The twisted spire on the 400-year-old Church of St. Omer in Verchin, France, which embarrassed the chief mason who built it.",
+          "copyright": "MG White/Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/books/18vandenbroeck3/18vandenbroeck3-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The twisted spire on the 400-year-old Church of St. Omer in Verchin, France, which embarrassed the chief mason who built it.",
+          "copyright": "MG White/Shutterstock"
+        }
+      ],
+      "short_url": "https://nyti.ms/3UiLnbt"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Three Paths Toward an Endgame for Putin’s War",
+      "abstract": "But here are three possibilities.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/ukraine-putin.html",
+      "uri": "nyt://article/dade849f-824a-5328-9ae4-39c76c088fff",
+      "byline": "By Thomas L. Friedman",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T10:00:36-04:00",
+      "created_date": "2022-09-20T19:20:06-04:00",
+      "published_date": "2022-09-20T19:20:06-04:00",
+      "material_type_facet": "",
+      "kicker": "Thomas L. Friedman",
+      "des_facet": ["Russian Invasion of Ukraine (2022)"],
+      "org_facet": ["European Union", "North Atlantic Treaty Organization"],
+      "per_facet": ["Putin, Vladimir V"],
+      "geo_facet": ["Ukraine", "Europe", "Russia"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20friedman1/merlin_213445800_fc2bd396-1e9e-472d-914c-ff00f817e454-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man painting over the Russian flag in a recently recaptured Ukrainian village.",
+          "copyright": "Nicole Tung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20friedman1/20friedman1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 401,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man painting over the Russian flag in a recently recaptured Ukrainian village.",
+          "copyright": "Nicole Tung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20friedman1/20friedman1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man painting over the Russian flag in a recently recaptured Ukrainian village.",
+          "copyright": "Nicole Tung for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3eVh7Dc"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Inside the Completely Legal G.O.P. Plot to Destroy American Democracy",
+      "abstract": "Imagine a legal January 6. It’s bureaucratic, boring, invisible, and it might actually succeed.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/republicans-democracy-elections-bannon.html",
+      "uri": "nyt://article/b2be6490-e01c-5ede-8cd5-86576f261814",
+      "byline": "By Johnny Harris and Michelle Cottle",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:52:36-04:00",
+      "created_date": "2022-09-21T05:00:10-04:00",
+      "published_date": "2022-09-21T05:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Democracy (Theory and Philosophy)",
+        "Voting Rights, Registration and Requirements",
+        "Presidential Election of 2020",
+        "United States Politics and Government",
+        "Storming of the US Capitol (Jan, 2021)",
+        "your-feed-opinionvideo"
+      ],
+      "org_facet": [],
+      "per_facet": ["Trump, Donald J"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/autossell/op-goptakeover-thumb2/op-goptakeover-thumb2-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 1080,
+          "width": 1920,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/autossell/op-goptakeover-thumb2/op-goptakeover-thumb2-threeByTwoSmallAt2X.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/autossell/op-goptakeover-thumb2/op-goptakeover-thumb2-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3dqtbfD"
+    },
+    {
+      "section": "opinion",
+      "subsection": "environment",
+      "title": "Are There Better Places to Put Large Solar Farms Than These Forests?",
+      "abstract": "For the great promise of renewable energy to be realized, states like Virginia must create an environment where solar, nature and people can peaceably coexist.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/environment/solar-panels-virginia-climate-change.html",
+      "uri": "nyt://article/c0bf4a45-b038-5bdd-9901-56bf1424727a",
+      "byline": "By Gabriel Popkin",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T05:00:22-04:00",
+      "created_date": "2022-09-21T05:00:22-04:00",
+      "published_date": "2022-09-21T05:00:22-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Zoning",
+        "Solar Energy",
+        "Alternative and Renewable Energy",
+        "Greenhouse Gas Emissions",
+        "Law and Legislation",
+        "Land Use Policies",
+        "Agriculture and Farming",
+        "Global Warming"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["United States", "Virginia"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/14/opinion/14popkin-image2/14popkin-image2-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1450,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Twitty’s Creek Solar, a 134-acre, 15-megawatt installation along Highway 59, is the first solar project operating in Charlotte County, Va.",
+          "copyright": "Melissa Lyttle for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/14/opinion/14popkin-image2/14popkin-image2-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Twitty’s Creek Solar, a 134-acre, 15-megawatt installation along Highway 59, is the first solar project operating in Charlotte County, Va.",
+          "copyright": "Melissa Lyttle for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/14/opinion/14popkin-image2/14popkin-image2-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Twitty’s Creek Solar, a 134-acre, 15-megawatt installation along Highway 59, is the first solar project operating in Charlotte County, Va.",
+          "copyright": "Melissa Lyttle for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3So5x27"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "What Mrs. Bailey Taught Me in A.P. History Changed My Life",
+      "abstract": "In the midst of a debate about the content being presented in America’s schools, the equally pressing issue of how teachers teach is in danger of being lost.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/school-teachers-quality.html",
+      "uri": "nyt://article/7a76457a-ca37-5ed1-b962-ee301e0b29cd",
+      "byline": "By Esau McCaulley",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T12:06:26-04:00",
+      "created_date": "2022-09-21T05:00:10-04:00",
+      "published_date": "2022-09-21T05:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Education (K-12)",
+        "Parenting",
+        "History (Academic Subject)",
+        "Reading and Writing Skills (Education)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21McCaulley-1/merlin_196458975_53bf1dda-bc93-4ec2-884d-3c517afe9453-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gabriela Bhaskar/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21McCaulley-1/merlin_196458975_53bf1dda-bc93-4ec2-884d-3c517afe9453-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gabriela Bhaskar/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21McCaulley-1/21McCaulley-1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gabriela Bhaskar/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3dstPt1"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "‘We Can’t Let the Kids Go Outdoors’: Our New Reality on the West Coast",
+      "abstract": "For children there, it isn’t a question of what you want to do outside; it’s whether it is even safe to leave the house.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/wildfires-climate-change-summer.html",
+      "uri": "nyt://article/865f3f60-49ad-5092-873a-b3a117ed8f39",
+      "byline": "By Emma Pattee",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:23:48-04:00",
+      "created_date": "2022-09-21T05:00:17-04:00",
+      "published_date": "2022-09-21T05:00:17-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Children and Childhood",
+        "Parenting",
+        "Wildfires",
+        "Global Warming",
+        "Summer (Season)",
+        "Pollution"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Lake Chelan (Wash)", "Oregon"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/18/opinion/18Pattee/merlin_209925819_6c5a03fc-7205-4bcd-b6a2-b712ab919768-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tracy Barbutes/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/18/opinion/18Pattee/merlin_209925819_6c5a03fc-7205-4bcd-b6a2-b712ab919768-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tracy Barbutes/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/18/opinion/18Pattee/18Pattee-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tracy Barbutes/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/3dqsmn2"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Can Republicans Tax the Rich?",
+      "abstract": "The continuing quest for a conservative policy reformation, and its continuing problems.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/republicans-national-conservatives-policy.html",
+      "uri": "nyt://article/3ec183fd-afd0-581f-9a1a-63f215292c79",
+      "byline": "By Ross Douthat",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:36:30-04:00",
+      "created_date": "2022-09-21T05:00:23-04:00",
+      "published_date": "2022-09-21T05:00:23-04:00",
+      "material_type_facet": "",
+      "kicker": "Ross Douthat",
+      "des_facet": [
+        "Conservatism (US Politics)",
+        "Capital Gains Tax",
+        "Federal Budget (US)",
+        "Abortion",
+        "Families and Family Life",
+        "Income Tax"
+      ],
+      "org_facet": ["Republican Party"],
+      "per_facet": [
+        "Bannon, Stephen K",
+        "Bush, George W",
+        "Cotton, Tom",
+        "DeSantis, Ron",
+        "Rubio, Marco",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21rossnew/merlin_184353432_878a926d-dfcc-4362-9ade-9b26ffe786b9-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21rossnew/21rossnew-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21rossnew/21rossnew-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Uqxx6U"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "After Dobbs: Feminism Beyond the Gender Binary",
+      "abstract": "Jennifer Finney Boylan and Thomas Page McBee on what the feminist movement owes the trans community.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/after-dobbs-feminism-beyond-the-gender-binary.html",
+      "uri": "nyt://article/08c5d554-61a5-5173-8fdf-8db23ee926ff",
+      "byline": "By ‘The Argument’",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:08:52-04:00",
+      "created_date": "2022-09-21T05:00:09-04:00",
+      "published_date": "2022-09-21T05:00:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "audio-neutral-informative",
+        "Gender",
+        "Language and Languages",
+        "Transgender and Transsexuals",
+        "Women's Rights"
+      ],
+      "org_facet": [],
+      "per_facet": ["Boylan, Jennifer Finney", "McBee, Thomas Page"],
+      "geo_facet": ["United States"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21argument-feminism2-image/21argument-feminism2-image-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Angela Weiss/Agence France-Presses via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21argument-feminism2-image/21argument-feminism2-image-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Angela Weiss/Agence France-Presses via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21argument-feminism2-image/21argument-feminism2-image-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Angela Weiss/Agence France-Presses via Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Skivh7"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The Border Crisis Could Still Be Biden’s Opportunity",
+      "abstract": "But first it would help to admit that the border is not secure.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/desantis-migrants-marthas-vineyard.html",
+      "uri": "nyt://article/c33470fe-0c8d-5c8f-bfb4-789373387642",
+      "byline": "By Bret Stephens",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T22:34:20-04:00",
+      "created_date": "2022-09-20T22:01:05-04:00",
+      "published_date": "2022-09-20T22:01:05-04:00",
+      "material_type_facet": "",
+      "kicker": "Bret stephens",
+      "des_facet": [
+        "Citizenship and Naturalization",
+        "Border Barriers",
+        "Immigration and Emigration",
+        "United States Politics and Government",
+        "Illegal Immigration",
+        "Law and Legislation"
+      ],
+      "org_facet": ["Customs and Border Protection (US)"],
+      "per_facet": ["Biden, Joseph R Jr"],
+      "geo_facet": ["Venezuela", "United States", "South America"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/20stephens1/20stephens1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Migrants being processed in Yuma, Ariz., on the border between the United States and Mexico, in July.",
+          "copyright": "Eric Thayer/Redux"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/20stephens1/20stephens1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Migrants being processed in Yuma, Ariz., on the border between the United States and Mexico, in July.",
+          "copyright": "Eric Thayer/Redux"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/20stephens1/20stephens1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Migrants being processed in Yuma, Ariz., on the border between the United States and Mexico, in July.",
+          "copyright": "Eric Thayer/Redux"
+        }
+      ],
+      "short_url": "https://nyti.ms/3DCmOjT"
+    },
+    {
+      "section": "briefing",
+      "subsection": "",
+      "title": "A Shrinking Margin",
+      "abstract": "Democrats lost ground with Hispanic voters in 2020. It doesn’t seem to have been a blip.",
+      "url": "https://www.nytimes.com/2022/09/21/briefing/poll-hispanic-voters-us-elections.html",
+      "uri": "nyt://article/b0b38029-4a16-5338-810e-dcd83edb4bfb",
+      "byline": "By David Leonhardt",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T10:47:57-04:00",
+      "created_date": "2022-09-21T06:28:41-04:00",
+      "published_date": "2022-09-21T06:28:41-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-storyline-no",
+        "Elections",
+        "Polls and Public Opinion",
+        "Hispanic-Americans",
+        "Midterm Elections (2022)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/multimedia/21-THE-MORNING-NL-hisp-vote/21-THE-MORNING-NL-hisp-vote-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Eric Trump in 2020 at a Latinos for Trump event in Phoenix.",
+          "copyright": "Adriana Zehbrauskas for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/multimedia/21-THE-MORNING-NL-hisp-vote/21-THE-MORNING-NL-hisp-vote-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Eric Trump in 2020 at a Latinos for Trump event in Phoenix.",
+          "copyright": "Adriana Zehbrauskas for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/multimedia/21-THE-MORNING-NL-hisp-vote/21-THE-MORNING-NL-hisp-vote-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Eric Trump in 2020 at a Latinos for Trump event in Phoenix.",
+          "copyright": "Adriana Zehbrauskas for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BzKxOS"
+    },
+    {
+      "section": "podcasts",
+      "subsection": "the-daily",
+      "title": "How Border Politics Landed in Martha’s Vineyard",
+      "abstract": "Two conservative governors are trying to make undocumented immigration a problem for blue states, not just red ones.",
+      "url": "https://www.nytimes.com/2022/09/21/podcasts/the-daily/migrants-marthas-vineyard-desantis.html",
+      "uri": "nyt://article/2834641f-eadd-570c-94ca-9d17e1b97f01",
+      "byline": "By Michael Barbaro, Rob Szypko, Sydney Harper, Mooj Zadie, Will Reid, Liz O. Baylen, Marion Lozano, Rowan Niemisto and Chris Wood",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T06:00:06-04:00",
+      "created_date": "2022-09-21T06:00:06-04:00",
+      "published_date": "2022-09-21T06:00:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Immigration and Emigration",
+        "Politics and Government",
+        "Governors (US)",
+        "Illegal Immigration",
+        "Conservatism (US Politics)",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Martha's Vineyard (Mass)", "Venezuela"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/world/21daily-migrants/merlin_213264666_913413e3-09d9-4536-ba48-86c1ce46fb15-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mother and daughter who were among the migrants flown to Martha’s Vineyard from Florida taking in the view last week as a ferry left the island.",
+          "copyright": "Matt Cosby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/world/21daily-migrants/merlin_213264666_913413e3-09d9-4536-ba48-86c1ce46fb15-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mother and daughter who were among the migrants flown to Martha’s Vineyard from Florida taking in the view last week as a ferry left the island.",
+          "copyright": "Matt Cosby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/world/21daily-migrants/21daily-migrants-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A mother and daughter who were among the migrants flown to Martha’s Vineyard from Florida taking in the view last week as a ferry left the island.",
+          "copyright": "Matt Cosby for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3DY9B5h"
+    },
+    {
+      "section": "podcasts",
+      "subsection": "",
+      "title": "‘Serial’: Season 1",
+      "abstract": "“Serial” is a podcast from the creators of “This American Life,\" hosted by Sarah Koenig. “Serial” tells one story — a true story — over the course of a season.",
+      "url": "https://www.nytimes.com/2022/09/20/podcasts/serial-adnan-syed.html",
+      "uri": "nyt://article/584ab4a4-a01a-5a2f-9dd3-956e4d2f57d3",
+      "byline": "By Serial Productions",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T07:53:46-04:00",
+      "created_date": "2022-09-20T05:00:14-04:00",
+      "published_date": "2022-09-20T05:00:14-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Murders, Attempted Murders and Homicides",
+        "Education (K-12)",
+        "Domestic Violence",
+        "Dating and Relationships"
+      ],
+      "org_facet": [],
+      "per_facet": ["Koenig, Sarah", "Syed, Adnan", "Lee, Hae Min (1980-99)"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/06/06/podcasts/00serial-copy/00serial-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/06/podcasts/00serial-copy/00serial-threeByTwoSmallAt2X.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/06/06/podcasts/00serial-copy/00serial-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3f12YV9"
+    },
+    {
+      "section": "dining",
+      "subsection": "",
+      "title": "Dates With a Book, Meals for Roller Skaters and More Reader Requests",
+      "abstract": "Looking to celebrate a quiet birthday on your own? No problem.",
+      "url": "https://www.nytimes.com/2022/09/20/dining/dates-with-a-book-meals-for-roller-skaters-and-more-reader-requests.html",
+      "uri": "nyt://article/1a762705-15a3-5a0e-a2de-508f1fecf1eb",
+      "byline": "By Nikita Richardson",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T17:10:54-04:00",
+      "created_date": "2022-09-20T16:00:03-04:00",
+      "published_date": "2022-09-20T16:00:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Restaurants", "internal-sub-only-nl"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["New York City"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/dining/20WTE-questions1/merlin_213198978_bd8ca0fe-e67b-4d74-a1be-038ce56bba39-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1372,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The new Lobby Bar at the Hotel Chelsea.",
+          "copyright": "Annie Schlechter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/dining/20WTE-questions1/merlin_213198978_bd8ca0fe-e67b-4d74-a1be-038ce56bba39-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The new Lobby Bar at the Hotel Chelsea.",
+          "copyright": "Annie Schlechter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/dining/20WTE-questions1/20WTE-questions1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The new Lobby Bar at the Hotel Chelsea.",
+          "copyright": "Annie Schlechter"
+        }
+      ],
+      "short_url": "https://nyti.ms/3drYWVo"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "‘We’re on That Bus, Too’: In China, a Deadly Crash Triggers Covid Trauma",
+      "abstract": "A bus heading to a quarantine facility crashed, killing 27. The Chinese public saw itself in the victims: a country being held hostage by the government’s harsh policy.",
+      "url": "https://www.nytimes.com/2022/09/21/business/china-covid-zero-policy-bus-crash.html",
+      "uri": "nyt://article/dfefb2f3-b3b9-518f-bc90-c0a33d0bebb6",
+      "byline": "By Li Yuan",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:09:14-04:00",
+      "created_date": "2022-09-21T05:14:51-04:00",
+      "published_date": "2022-09-21T05:14:51-04:00",
+      "material_type_facet": "",
+      "kicker": "The New New World",
+      "des_facet": [
+        "Buses",
+        "Traffic Accidents and Safety",
+        "Politics and Government",
+        "Coronavirus (2019-nCoV)",
+        "Deaths (Fatalities)"
+      ],
+      "org_facet": ["Communist Party of China"],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/business/21Newworld-iilo/21Newworld-iilo-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Xinmei Liu"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/business/21Newworld-iilo/21Newworld-iilo-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Xinmei Liu"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/business/21Newworld-iilo/21Newworld-iilo-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Xinmei Liu"
+        }
+      ],
+      "short_url": "https://nyti.ms/3SDc5dp"
+    },
+    {
+      "section": "sports",
+      "subsection": "baseball",
+      "title": "For Major Milestones, M.L.B. Trusts but Verifies",
+      "abstract": "The ball from Aaron Judge’s 60th homer carried two markings — one of them invisible — authenticating it as the real deal. He will be pitched special baseballs for the rest of the season.",
+      "url": "https://www.nytimes.com/2022/09/21/sports/baseball/aaron-judge-ball-authentication.html",
+      "uri": "nyt://article/f90370e7-8485-523d-a8ae-4ba995350a0d",
+      "byline": "By David Waldstein",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T10:31:07-04:00",
+      "created_date": "2022-09-21T10:08:24-04:00",
+      "published_date": "2022-09-21T10:08:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Baseball"],
+      "org_facet": ["Major League Baseball", "New York Yankees"],
+      "per_facet": ["Judge, Aaron (1992- )", "Pujols, Albert"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/sports/21mlb-judge-authentication1/21mlb-judge-authentication1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Home run balls like this one, which was hit in a game between the Yankees and the Milwaukee Brewers on Saturday, are authenticated as real and then get a special hologram with encoded data.",
+          "copyright": "Mustafa Hussain for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/sports/21mlb-judge-authentication1/21mlb-judge-authentication1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Home run balls like this one, which was hit in a game between the Yankees and the Milwaukee Brewers on Saturday, are authenticated as real and then get a special hologram with encoded data.",
+          "copyright": "Mustafa Hussain for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/sports/21mlb-judge-authentication1/21mlb-judge-authentication1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Home run balls like this one, which was hit in a game between the Yankees and the Milwaukee Brewers on Saturday, are authenticated as real and then get a special hologram with encoded data.",
+          "copyright": "Mustafa Hussain for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xF4Lpe"
+    },
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "Amid Court Fight, L.G.B.T.Q. Club Proposes a Compromise to Yeshiva",
+      "abstract": "The Modern Orthodox Jewish university in Manhattan had said it would halt the activities of all undergraduate clubs rather than sanction the gay student organization. The students say they will delay seeking recognition if the other clubs can resume.",
+      "url": "https://www.nytimes.com/2022/09/21/nyregion/yeshiva-university-lgbtq-club.html",
+      "uri": "nyt://article/43241131-c138-5a55-99d0-ac7b7bc95959",
+      "byline": "By Liam Stack",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:35:00-04:00",
+      "created_date": "2022-09-21T09:51:15-04:00",
+      "published_date": "2022-09-21T09:51:15-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Colleges and Universities",
+        "Homosexuality and Bisexuality",
+        "Decisions and Verdicts"
+      ],
+      "org_facet": [
+        "Yeshiva University",
+        "Becket Fund for Religious Liberty",
+        "Roman Catholic Church",
+        "Supreme Court (US)"
+      ],
+      "per_facet": [],
+      "geo_facet": ["Manhattan (NYC)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/multimedia/21yeshiva-lgbtq/21yeshiva-lgbtq-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Yeshiva University in New York is in a legal fight with an L.G.B.T.Q. student organization.",
+          "copyright": "Spencer Platt/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/multimedia/21yeshiva-lgbtq/21yeshiva-lgbtq-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Yeshiva University in New York is in a legal fight with an L.G.B.T.Q. student organization.",
+          "copyright": "Spencer Platt/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/multimedia/21yeshiva-lgbtq/21yeshiva-lgbtq-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Yeshiva University in New York is in a legal fight with an L.G.B.T.Q. student organization.",
+          "copyright": "Spencer Platt/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BBX986"
+    },
+    {
+      "section": "business",
+      "subsection": "media",
+      "title": "Allan M. Siegal, Influential Watchdog Inside The Times, Dies at 82",
+      "abstract": "As a top editor who was both feared and revered at the newspaper for decades, he left a deep imprint as its arbiter of language, taste, tone and ethics.",
+      "url": "https://www.nytimes.com/2022/09/21/business/media/allan-m-siegal-dead.html",
+      "uri": "nyt://article/68b90e5b-e7eb-55da-bd60-53d12e87b5d9",
+      "byline": "By Todd S. Purdum",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:26:51-04:00",
+      "created_date": "2022-09-21T13:39:08-04:00",
+      "published_date": "2022-09-21T13:39:08-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "News and News Media",
+        "Newspapers",
+        "Pentagon Papers"
+      ],
+      "org_facet": ["New York Times"],
+      "per_facet": ["Siegal, Allan M. (1940-2022)"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/obituaries/21Siegal1/merlin_13774683_0a47d220-2fb8-45e0-abc6-cb582c1e78c2-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1371,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The longtime New York Times assistant managing editor Allan M. Siegal in the Times newsroom in 1987. “Being fair is better than being first,” he would say.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/obituaries/21Siegal1/21Siegal1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The longtime New York Times assistant managing editor Allan M. Siegal in the Times newsroom in 1987. “Being fair is better than being first,” he would say.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/obituaries/21Siegal1/21Siegal1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The longtime New York Times assistant managing editor Allan M. Siegal in the Times newsroom in 1987. “Being fair is better than being first,” he would say.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3R4b0df"
+    },
+    {
+      "section": "well",
+      "subsection": "move",
+      "title": "Speeding Up Your Daily Walk Could Have Big Benefits",
+      "abstract": "In the largest study to incorporate activity tracker data, picking up the pace paid dividends for long-term health.",
+      "url": "https://www.nytimes.com/2022/09/20/well/move/fast-walking-exercise-intensity.html",
+      "uri": "nyt://article/d2a70a89-b58b-519c-a85c-aee3883c4dd6",
+      "byline": "By Rachel Fairbank",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T05:00:14-04:00",
+      "created_date": "2022-09-20T05:00:14-04:00",
+      "published_date": "2022-09-20T05:00:14-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Heart",
+        "Research",
+        "Blood Pressure",
+        "Walking",
+        "Running",
+        "Exercise"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/well/FAST-WALKING-INTENSITY1/merlin_209299656_0c217b39-a68c-4a9f-9b5b-32e01606039a-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Yana Paskova for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/well/FAST-WALKING-INTENSITY1/merlin_209299656_0c217b39-a68c-4a9f-9b5b-32e01606039a-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Yana Paskova for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/well/FAST-WALKING-INTENSITY1/merlin_209299656_0c217b39-a68c-4a9f-9b5b-32e01606039a-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Yana Paskova for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3f130fJ"
+    },
+    {
+      "section": "well",
+      "subsection": "move",
+      "title": "Five Yoga Poses You Need to Know",
+      "abstract": "You don't need to be a yogi or yogini to reap the benefits of yoga. Here's how to get started.",
+      "url": "https://www.nytimes.com/interactive/2021/02/01/well/move/yoga-poses.html",
+      "uri": "nyt://interactive/ccaec0f4-7548-5826-807c-802a150b80a8",
+      "byline": "By Kelly Couturier",
+      "item_type": "Interactive",
+      "updated_date": "2021-07-13T16:54:20-04:00",
+      "created_date": "2021-02-01T17:26:19-05:00",
+      "published_date": "2021-02-01T17:26:19-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Content Type: Service", "Yoga"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2016/12/06/well/move/yoga-for-everyone_promo/yoga-for-everyone_promo-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Bows \u0026 Arrows"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2016/12/06/well/move/yoga-for-everyone_promo/yoga-for-everyone_promo-threeByTwoSmallAt2X-v3.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Bows \u0026 Arrows"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2016/12/06/well/move/yoga-for-everyone_promo/yoga-for-everyone_promo-thumbLarge-v3.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Bows \u0026 Arrows"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ja6DxK"
+    },
+    {
+      "section": "well",
+      "subsection": "move",
+      "title": "People Who Do Strength Training Live Longer — and Better",
+      "abstract": "A consensus is building among experts that both strength training and cardio‌ are important for longevity.",
+      "url": "https://www.nytimes.com/2022/08/24/well/move/cardio-strength-training-benefits.html",
+      "uri": "nyt://article/60c1afe2-6214-518c-9c06-bcb571a2a196",
+      "byline": "By Rachel Fairbank",
+      "item_type": "Article",
+      "updated_date": "2022-08-29T22:57:45-04:00",
+      "created_date": "2022-08-24T16:02:51-04:00",
+      "published_date": "2022-08-24T16:02:51-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Exercise",
+        "Weight Lifting",
+        "Sports Medicine",
+        "Longevity",
+        "Research"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/08/30/multimedia/24WELL-MUSCLE-LONGEVITY1/24WELL-MUSCLE-LONGEVITY1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Leslye Davis/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/08/30/multimedia/24WELL-MUSCLE-LONGEVITY1/24WELL-MUSCLE-LONGEVITY1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Leslye Davis/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/08/30/multimedia/24WELL-MUSCLE-LONGEVITY1/24WELL-MUSCLE-LONGEVITY1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Leslye Davis/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Czsivn"
+    },
+    {
+      "section": "well",
+      "subsection": "move",
+      "title": "3 Ways to Relieve Work-From-Home Pains",
+      "abstract": "If you've been feeling the toll of long hours at your desk, here are three simple stretches to try.",
+      "url": "https://www.nytimes.com/interactive/2021/03/24/well/move/wfh-pain-stretch.html",
+      "uri": "nyt://interactive/4b04cf49-fc72-577d-94e9-7436dc30a043",
+      "byline": "By A.C. Shilton",
+      "item_type": "Interactive",
+      "updated_date": "2021-03-30T17:21:33-04:00",
+      "created_date": "2021-03-24T14:00:10-04:00",
+      "published_date": "2021-03-24T14:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Telecommuting", "Wrists", "Muscles"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2020/05/12/smarter-living/00sl-stretching-opener/00sl-stretching-opener-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andrew B Myers for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2020/05/12/smarter-living/00sl-stretching-opener/00sl-stretching-opener-threeByTwoSmallAt2X-v2.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andrew B Myers for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2020/05/12/smarter-living/00sl-stretching-opener/00sl-stretching-opener-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andrew B Myers for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3cigrUC"
+    },
+    {
+      "section": "well",
+      "subsection": "move",
+      "title": "Breaking Up With Peloton",
+      "abstract": "The stationary bike’s convenience made it a pandemic winner, but some former fans are done working out at home.",
+      "url": "https://www.nytimes.com/2022/04/15/well/move/peloton-workouts-at-home.html",
+      "uri": "nyt://article/af8fe755-62b9-5ae7-9e31-b9c424c6aa0a",
+      "byline": "By Holly Burns",
+      "item_type": "Article",
+      "updated_date": "2022-04-19T08:21:55-04:00",
+      "created_date": "2022-04-15T16:08:23-04:00",
+      "published_date": "2022-04-15T16:08:23-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Exercise",
+        "Quarantine (Life and Culture)",
+        "Bicycles and Bicycling",
+        "Health Clubs",
+        "Coronavirus Reopenings"
+      ],
+      "org_facet": ["Peloton Interactive Inc"],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/04/15/well/00well-peleton/00well-peleton-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erik Carter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/15/well/00well-peleton/00well-peleton-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erik Carter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/04/15/well/00well-peleton/00well-peleton-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erik Carter"
+        }
+      ],
+      "short_url": "https://nyti.ms/37nMGlF"
+    },
+    {
+      "section": "arts",
+      "subsection": "design",
+      "title": "The Artist Who Throws Newton a Curve",
+      "abstract": "The Orange County Museum of Art inaugurates its new building with a tribute to Fred Eversley, an unheralded pioneer of the Light and Space movement.",
+      "url": "https://www.nytimes.com/2022/09/06/arts/design/sculptor-eversley-mayne-orange-county-museums-art.html",
+      "uri": "nyt://article/7f248e8c-3eb5-5cfe-872f-1af410798765",
+      "byline": "By Hilarie M. Sheets",
+      "item_type": "Article",
+      "updated_date": "2022-09-11T02:01:50-04:00",
+      "created_date": "2022-09-06T10:00:15-04:00",
+      "published_date": "2022-09-06T10:00:15-04:00",
+      "material_type_facet": "",
+      "kicker": "Fall Preview",
+      "des_facet": [
+        "Art",
+        "Content Type: Personal Profile",
+        "Museums",
+        "Sculpture",
+        "Black People"
+      ],
+      "org_facet": ["Orange County Museum of Art", "Kordansky, David, Gallery"],
+      "per_facet": ["Eversley, Fred"],
+      "geo_facet": ["Los Angeles (Calif)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/11/arts/11NEWSEASON-EVERSLEY1/11NEWSEASON-EVERSLEY1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1537,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The sculptor Fred Eversley alongside one of his parabolic lenses that is installed on the ground floor of his five-story building in Manhattan’s SoHo neighborhood.",
+          "copyright": "Elliott Jerome Brown Jr. for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/11/arts/11NEWSEASON-EVERSLEY1/11NEWSEASON-EVERSLEY1-threeByTwoSmallAt2X-v2.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The sculptor Fred Eversley alongside one of his parabolic lenses that is installed on the ground floor of his five-story building in Manhattan’s SoHo neighborhood.",
+          "copyright": "Elliott Jerome Brown Jr. for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/11/arts/11NEWSEASON-EVERSLEY1/11NEWSEASON-EVERSLEY1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The sculptor Fred Eversley alongside one of his parabolic lenses that is installed on the ground floor of his five-story building in Manhattan’s SoHo neighborhood.",
+          "copyright": "Elliott Jerome Brown Jr. for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3cQtP5u"
+    },
+    {
+      "section": "crosswords",
+      "subsection": "",
+      "title": "Mini to Maestro, Part 1: Crosswords for Beginners",
+      "abstract": "Get started solving the Mini, Monday and Tuesday puzzles.",
+      "url": "https://www.nytimes.com/2022/09/19/crosswords/mini-to-maestro-part-1.html",
+      "uri": "nyt://article/d02d0c5d-2ecc-52bb-9ef2-6681d134dfd8",
+      "byline": "By Jackie Frere and Isaac Aronow",
+      "item_type": "Article",
+      "updated_date": "2022-09-19T09:03:45-04:00",
+      "created_date": "2022-09-19T09:02:20-04:00",
+      "published_date": "2022-09-19T09:02:20-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Crossword Puzzles"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/08/15/crosswords/15gameplay-m2m-03/15gameplay-m2m-03-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Thomas Merceron"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/08/15/crosswords/15gameplay-m2m-03/15gameplay-m2m-03-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Thomas Merceron"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/08/15/crosswords/15gameplay-m2m-03/15gameplay-m2m-03-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Thomas Merceron"
+        }
+      ],
+      "short_url": "https://nyti.ms/3qMjXx5"
+    }
+  ]
+}

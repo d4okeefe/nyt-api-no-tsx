@@ -11,6 +11,13 @@ a:active {
   top: 0;
 }
 
-.newsDataTable{
-  
+p.news-description {
+  padding: 5px;
+}
+div.news-title {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.newsDataTable {
 }

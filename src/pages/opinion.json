@@ -1,0 +1,1420 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "Opinion",
+  "last_updated": "2022-09-02T18:07:51-04:00",
+  "num_results": 24,
+  "results": [
+    {
+      "section": "opinion",
+      "subsection": "letters",
+      "title": "Progress on Child Poverty, but ‘Families Are Still Struggling’",
+      "abstract": "A decline in child poverty, but risks ahead. Also: Close Gitmo; Republicans and a new constitution; a second kitchen; going back to the movies.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/letters/child-poverty.html",
+      "uri": "nyt://article/37114a39-a001-5d50-9ec6-bc782435d665",
+      "byline": "",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T12:36:59-04:00",
+      "created_date": "2022-09-21T12:36:59-04:00",
+      "published_date": "2022-09-21T12:36:59-04:00",
+      "material_type_facet": "",
+      "kicker": "letters",
+      "des_facet": [
+        "Children and Childhood",
+        "Poverty",
+        "Families and Family Life",
+        "United States Economy",
+        "September 11 (2001)",
+        "United States Politics and Government",
+        "Constitution (US)",
+        "Kitchens",
+        "Movies"
+      ],
+      "org_facet": ["Republican Party"],
+      "per_facet": [],
+      "geo_facet": ["Guantanamo Bay Naval Base (Cuba)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/12/us/politics/00dc-child-poverty-raudales-sub2/merlin_211239627_baa8f9ad-473e-4815-9ead-33cf13197b40-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ruth Raudales, a single mother who works part time and attends college, said food aid for her son has both economic and psychological benefits. “Now it’s like if something happens, we’ll be OK,” she said.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/12/us/politics/00dc-child-poverty-raudales-sub2/merlin_211239627_baa8f9ad-473e-4815-9ead-33cf13197b40-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ruth Raudales, a single mother who works part time and attends college, said food aid for her son has both economic and psychological benefits. “Now it’s like if something happens, we’ll be OK,” she said.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/12/us/politics/00dc-child-poverty-raudales-sub2/merlin_211239627_baa8f9ad-473e-4815-9ead-33cf13197b40-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ruth Raudales, a single mother who works part time and attends college, said food aid for her son has both economic and psychological benefits. “Now it’s like if something happens, we’ll be OK,” she said.",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3qWI8c9"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Public Schools Will Be on the Ballot in November",
+      "abstract": "Some parents have already voted with their feet.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/midterms-schools-parents.html",
+      "uri": "nyt://article/6eb86b98-5532-5406-9f8f-5cb7c0284160",
+      "byline": "By Jessica Grose",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T12:57:25-04:00",
+      "created_date": "2022-09-21T12:30:44-04:00",
+      "published_date": "2022-09-21T12:30:44-04:00",
+      "material_type_facet": "",
+      "kicker": "Jessica Grose",
+      "des_facet": [
+        "internal-sub-only-nl",
+        "Private and Sectarian Schools",
+        "Midterm Elections (2022)",
+        "Parenting",
+        "Shutdowns (Institutional)",
+        "Critical Race Theory",
+        "Home Schooling"
+      ],
+      "org_facet": ["Democratic Party"],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21grose-image/21grose-image-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Eleanor Davis"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21grose-image/21grose-image-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Eleanor Davis"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21grose-image/21grose-image-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Eleanor Davis"
+        }
+      ],
+      "short_url": "https://nyti.ms/3DQm3Ue"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Can Republicans Tax the Rich?",
+      "abstract": "The continuing quest for a conservative policy reformation, and its continuing problems.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/republicans-national-conservatives-policy.html",
+      "uri": "nyt://article/3ec183fd-afd0-581f-9a1a-63f215292c79",
+      "byline": "By Ross Douthat",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:36:30-04:00",
+      "created_date": "2022-09-21T05:00:23-04:00",
+      "published_date": "2022-09-21T05:00:23-04:00",
+      "material_type_facet": "",
+      "kicker": "Ross Douthat",
+      "des_facet": [
+        "Conservatism (US Politics)",
+        "Capital Gains Tax",
+        "Federal Budget (US)",
+        "Abortion",
+        "Families and Family Life",
+        "Income Tax"
+      ],
+      "org_facet": ["Republican Party"],
+      "per_facet": [
+        "Bannon, Stephen K",
+        "Bush, George W",
+        "Cotton, Tom",
+        "DeSantis, Ron",
+        "Rubio, Marco",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21rossnew/merlin_184353432_878a926d-dfcc-4362-9ade-9b26ffe786b9-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21rossnew/21rossnew-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21rossnew/21rossnew-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Uqxx6U"
+    },
+    {
+      "section": "opinion",
+      "subsection": "environment",
+      "title": "Are There Better Places to Put Large Solar Farms Than These Forests?",
+      "abstract": "For the great promise of renewable energy to be realized, states like Virginia must create an environment where solar, nature and people can peaceably coexist.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/environment/solar-panels-virginia-climate-change.html",
+      "uri": "nyt://article/c0bf4a45-b038-5bdd-9901-56bf1424727a",
+      "byline": "By Gabriel Popkin",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T05:00:22-04:00",
+      "created_date": "2022-09-21T05:00:22-04:00",
+      "published_date": "2022-09-21T05:00:22-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Zoning",
+        "Solar Energy",
+        "Alternative and Renewable Energy",
+        "Greenhouse Gas Emissions",
+        "Law and Legislation",
+        "Land Use Policies",
+        "Agriculture and Farming",
+        "Global Warming"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["United States", "Virginia"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/14/opinion/14popkin-image2/14popkin-image2-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1450,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Twitty’s Creek Solar, a 134-acre, 15-megawatt installation along Highway 59, is the first solar project operating in Charlotte County, Va.",
+          "copyright": "Melissa Lyttle for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/14/opinion/14popkin-image2/14popkin-image2-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Twitty’s Creek Solar, a 134-acre, 15-megawatt installation along Highway 59, is the first solar project operating in Charlotte County, Va.",
+          "copyright": "Melissa Lyttle for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/14/opinion/14popkin-image2/14popkin-image2-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Twitty’s Creek Solar, a 134-acre, 15-megawatt installation along Highway 59, is the first solar project operating in Charlotte County, Va.",
+          "copyright": "Melissa Lyttle for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3So5x27"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "‘We Can’t Let the Kids Go Outdoors’: Our New Reality on the West Coast",
+      "abstract": "For children there, it isn’t a question of what you want to do outside; it’s whether it is even safe to leave the house.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/wildfires-climate-change-summer.html",
+      "uri": "nyt://article/865f3f60-49ad-5092-873a-b3a117ed8f39",
+      "byline": "By Emma Pattee",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T13:23:48-04:00",
+      "created_date": "2022-09-21T05:00:17-04:00",
+      "published_date": "2022-09-21T05:00:17-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Children and Childhood",
+        "Parenting",
+        "Wildfires",
+        "Global Warming",
+        "Summer (Season)",
+        "Pollution"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Lake Chelan (Wash)", "Oregon"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/18/opinion/18Pattee/merlin_209925819_6c5a03fc-7205-4bcd-b6a2-b712ab919768-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tracy Barbutes/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/18/opinion/18Pattee/merlin_209925819_6c5a03fc-7205-4bcd-b6a2-b712ab919768-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tracy Barbutes/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/18/opinion/18Pattee/18Pattee-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Tracy Barbutes/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/3dqsmn2"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "What Mrs. Bailey Taught Me in A.P. History Changed My Life",
+      "abstract": "In the midst of a debate about the content being presented in America’s schools, the equally pressing issue of how teachers teach is in danger of being lost.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/school-teachers-quality.html",
+      "uri": "nyt://article/7a76457a-ca37-5ed1-b962-ee301e0b29cd",
+      "byline": "By Esau McCaulley",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T12:06:26-04:00",
+      "created_date": "2022-09-21T05:00:10-04:00",
+      "published_date": "2022-09-21T05:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Education (K-12)",
+        "Parenting",
+        "History (Academic Subject)",
+        "Reading and Writing Skills (Education)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21McCaulley-1/merlin_196458975_53bf1dda-bc93-4ec2-884d-3c517afe9453-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gabriela Bhaskar/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21McCaulley-1/merlin_196458975_53bf1dda-bc93-4ec2-884d-3c517afe9453-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gabriela Bhaskar/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21McCaulley-1/21McCaulley-1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Gabriela Bhaskar/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3dstPt1"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Inside the Completely Legal G.O.P. Plot to Destroy American Democracy",
+      "abstract": "Imagine a legal January 6. It’s bureaucratic, boring, invisible, and it might actually succeed.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/republicans-democracy-elections-bannon.html",
+      "uri": "nyt://article/b2be6490-e01c-5ede-8cd5-86576f261814",
+      "byline": "By Johnny Harris and Michelle Cottle",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:52:36-04:00",
+      "created_date": "2022-09-21T05:00:10-04:00",
+      "published_date": "2022-09-21T05:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Democracy (Theory and Philosophy)",
+        "Voting Rights, Registration and Requirements",
+        "Presidential Election of 2020",
+        "United States Politics and Government",
+        "Storming of the US Capitol (Jan, 2021)",
+        "your-feed-opinionvideo"
+      ],
+      "org_facet": [],
+      "per_facet": ["Trump, Donald J"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/autossell/op-goptakeover-thumb2/op-goptakeover-thumb2-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 1080,
+          "width": 1920,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/autossell/op-goptakeover-thumb2/op-goptakeover-thumb2-threeByTwoSmallAt2X.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/autossell/op-goptakeover-thumb2/op-goptakeover-thumb2-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3dqtbfD"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "After Dobbs: Feminism Beyond the Gender Binary",
+      "abstract": "Jennifer Finney Boylan and Thomas Page McBee on what the feminist movement owes the trans community.",
+      "url": "https://www.nytimes.com/2022/09/21/opinion/after-dobbs-feminism-beyond-the-gender-binary.html",
+      "uri": "nyt://article/08c5d554-61a5-5173-8fdf-8db23ee926ff",
+      "byline": "By ‘The Argument’",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:08:52-04:00",
+      "created_date": "2022-09-21T05:00:09-04:00",
+      "published_date": "2022-09-21T05:00:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "audio-neutral-informative",
+        "Gender",
+        "Language and Languages",
+        "Transgender and Transsexuals",
+        "Women's Rights"
+      ],
+      "org_facet": [],
+      "per_facet": ["Boylan, Jennifer Finney", "McBee, Thomas Page"],
+      "geo_facet": ["United States"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21argument-feminism2-image/21argument-feminism2-image-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Angela Weiss/Agence France-Presses via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21argument-feminism2-image/21argument-feminism2-image-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Angela Weiss/Agence France-Presses via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/21argument-feminism2-image/21argument-feminism2-image-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Angela Weiss/Agence France-Presses via Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Skivh7"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The Border Crisis Could Still Be Biden’s Opportunity",
+      "abstract": "But first it would help to admit that the border is not secure.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/desantis-migrants-marthas-vineyard.html",
+      "uri": "nyt://article/c33470fe-0c8d-5c8f-bfb4-789373387642",
+      "byline": "By Bret Stephens",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T22:34:20-04:00",
+      "created_date": "2022-09-20T22:01:05-04:00",
+      "published_date": "2022-09-20T22:01:05-04:00",
+      "material_type_facet": "",
+      "kicker": "Bret stephens",
+      "des_facet": [
+        "Citizenship and Naturalization",
+        "Border Barriers",
+        "Immigration and Emigration",
+        "United States Politics and Government",
+        "Illegal Immigration",
+        "Law and Legislation"
+      ],
+      "org_facet": ["Customs and Border Protection (US)"],
+      "per_facet": ["Biden, Joseph R Jr"],
+      "geo_facet": ["Venezuela", "United States", "South America"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/20stephens1/20stephens1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Migrants being processed in Yuma, Ariz., on the border between the United States and Mexico, in July.",
+          "copyright": "Eric Thayer/Redux"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/20stephens1/20stephens1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Migrants being processed in Yuma, Ariz., on the border between the United States and Mexico, in July.",
+          "copyright": "Eric Thayer/Redux"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/20stephens1/20stephens1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Migrants being processed in Yuma, Ariz., on the border between the United States and Mexico, in July.",
+          "copyright": "Eric Thayer/Redux"
+        }
+      ],
+      "short_url": "https://nyti.ms/3DCmOjT"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Three Paths Toward an Endgame for Putin’s War",
+      "abstract": "But here are three possibilities.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/ukraine-putin.html",
+      "uri": "nyt://article/dade849f-824a-5328-9ae4-39c76c088fff",
+      "byline": "By Thomas L. Friedman",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T10:00:36-04:00",
+      "created_date": "2022-09-20T19:20:06-04:00",
+      "published_date": "2022-09-20T19:20:06-04:00",
+      "material_type_facet": "",
+      "kicker": "Thomas L. Friedman",
+      "des_facet": ["Russian Invasion of Ukraine (2022)"],
+      "org_facet": ["European Union", "North Atlantic Treaty Organization"],
+      "per_facet": ["Putin, Vladimir V"],
+      "geo_facet": ["Ukraine", "Europe", "Russia"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20friedman1/merlin_213445800_fc2bd396-1e9e-472d-914c-ff00f817e454-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man painting over the Russian flag in a recently recaptured Ukrainian village.",
+          "copyright": "Nicole Tung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20friedman1/20friedman1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 401,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man painting over the Russian flag in a recently recaptured Ukrainian village.",
+          "copyright": "Nicole Tung for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20friedman1/20friedman1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A man painting over the Russian flag in a recently recaptured Ukrainian village.",
+          "copyright": "Nicole Tung for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3eVh7Dc"
+    },
+    {
+      "section": "opinion",
+      "subsection": "letters",
+      "title": "Republican Governors to Migrants: Go Away",
+      "abstract": "“Govs. Greg Abbott and Ron DeSantis are using asylum seekers as political tools,” a reader writes. Also: President Biden and the pandemic; abortion prosecutors; arms for Ukraine.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/letters/migrants-republican-governors.html",
+      "uri": "nyt://article/8d1c7bcb-4f68-5215-b8a6-37adcd8ffa12",
+      "byline": "",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T22:34:51-04:00",
+      "created_date": "2022-09-20T13:05:54-04:00",
+      "published_date": "2022-09-20T13:05:54-04:00",
+      "material_type_facet": "",
+      "kicker": "letters",
+      "des_facet": [
+        "Immigration and Emigration",
+        "United States Politics and Government",
+        "Governors (US)",
+        "Coronavirus (2019-nCoV)",
+        "Abortion",
+        "Doctors",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "DeSantis, Ron",
+        "Abbott, Gregory W (1957- )",
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": ["Martha's Vineyard (Mass)", "Ukraine"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/17/us/17dc-migrants-1-print/merlin_213264381_b029af09-1b4c-49e5-88dc-1ec6c1bd756c-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Matt Cosby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/17/us/17dc-migrants-1-print/merlin_213264381_b029af09-1b4c-49e5-88dc-1ec6c1bd756c-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Matt Cosby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/17/us/17dc-migrants-1-print/merlin_213264381_b029af09-1b4c-49e5-88dc-1ec6c1bd756c-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Matt Cosby for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3qPyNmC"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Yvon Chouinard Is the Founder of Patagonia. He’s Also My ‘Dirtbag’ Friend.",
+      "abstract": "Yvon Chouinard has given away his company in his fight to save the planet.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/patagonia-yvon-chouinard-tom-brokaw.html",
+      "uri": "nyt://article/aa6117ec-4f99-5d84-b7db-26fad405ca72",
+      "byline": "By Tom Brokaw",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T13:08:17-04:00",
+      "created_date": "2022-09-20T06:30:08-04:00",
+      "published_date": "2022-09-20T06:30:08-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Land Use Policies",
+        "Wilderness Areas",
+        "Global Warming",
+        "Mountaineering"
+      ],
+      "org_facet": [
+        "Esprit Holdings Ltd",
+        "Harvard Business School",
+        "North Face, The",
+        "Patagonia Inc"
+      ],
+      "per_facet": ["Chouinard, Yvon", "Tompkins, Douglas (1943- )"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/00brokaw/00brokaw-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1777,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Yvon Chouinard in the original Tin Shed, the blacksmith shop where he forged pitons for climbing.",
+          "copyright": "Laure Joliet for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/00brokaw/00brokaw-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Yvon Chouinard in the original Tin Shed, the blacksmith shop where he forged pitons for climbing.",
+          "copyright": "Laure Joliet for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/22/opinion/00brokaw/00brokaw-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Yvon Chouinard in the original Tin Shed, the blacksmith shop where he forged pitons for climbing.",
+          "copyright": "Laure Joliet for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3DLB1ea"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Your Mental Health Isn’t Just About You",
+      "abstract": "Conversations about mental health are everywhere. So why do we still feel so bad?",
+      "url": "https://www.nytimes.com/interactive/2022/09/20/opinion/mental-health-america-politics.html",
+      "uri": "nyt://interactive/bde704f9-53c8-507d-ad3b-4278022b99f2",
+      "byline": "",
+      "item_type": "Interactive",
+      "updated_date": "2022-09-20T05:36:03-04:00",
+      "created_date": "2022-09-20T05:00:29-04:00",
+      "published_date": "2022-09-20T05:00:29-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/mental-health-america-politics-1663602922303/mental-health-america-politics-1663602922303-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1601,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Bobby Doherty for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/mental-health-america-politics-1663602922303/mental-health-america-politics-1663602922303-threeByTwoSmallAt2X-v3.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Bobby Doherty for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/mental-health-america-politics-1663602922303/mental-health-america-politics-1663602922303-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Bobby Doherty for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3LpO5Ic"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Glenn Youngkin Knows Exactly What He’s Doing",
+      "abstract": "The governor believes he needs to cater to and actually support election questioners and deniers to have a shot at leading the Republican Party.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/glenn-youngkin-midterms-trump.html",
+      "uri": "nyt://article/9c442a34-a25f-530b-9d83-e904acc1823a",
+      "byline": "By Jamelle Bouie",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T14:15:37-04:00",
+      "created_date": "2022-09-20T05:00:19-04:00",
+      "published_date": "2022-09-20T05:00:19-04:00",
+      "material_type_facet": "",
+      "kicker": "Jamelle Bouie",
+      "des_facet": [
+        "United States Politics and Government",
+        "Presidential Election of 2020",
+        "Civil Rights Movement (1954-68)",
+        "Presidential Election of 1948",
+        "Liberalism (US Politics)",
+        "Conservatism (US Politics)",
+        "Presidents and Presidency (US)"
+      ],
+      "org_facet": ["Democratic Party", "Republican Party"],
+      "per_facet": [
+        "Trump, Donald J",
+        "Humphrey, Hubert H Jr",
+        "Thurmond, Strom"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/20bouie-1/20bouie-1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1776,
+          "width": 1333,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Glenn Youngkin of Virginia, speaking in Michigan at a “Red Wave Party.”",
+          "copyright": "Emily Elconin for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/20bouie-1/20bouie-1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Glenn Youngkin of Virginia, speaking in Michigan at a “Red Wave Party.”",
+          "copyright": "Emily Elconin for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/20bouie-1/20bouie-1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Glenn Youngkin of Virginia, speaking in Michigan at a “Red Wave Party.”",
+          "copyright": "Emily Elconin for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BUXTa7"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Mental Health Is Political",
+      "abstract": "Many in power would prefer to kick questions like “What caused the mental health crisis?” and “Who benefits?” out of sight. Don’t let them.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/us-mental-health-politics.html",
+      "uri": "nyt://article/58e33edd-5fae-51a1-be0f-2065c861aafb",
+      "byline": "By Danielle Carr",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T16:16:18-04:00",
+      "created_date": "2022-09-20T05:00:13-04:00",
+      "published_date": "2022-09-20T05:00:13-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Mental Health and Disorders",
+        "Anxiety and Stress",
+        "Psychiatry and Psychiatrists",
+        "Drugs (Pharmaceuticals)",
+        "Poverty"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["United States"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Carr/20Carr-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1485,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Nico Krijno"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Carr/20Carr-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Nico Krijno"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Carr/20Carr-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Nico Krijno"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BUbNcw"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The Single Best Guide to Decarbonization I’ve Heard",
+      "abstract": "The energy expert Jesse Jenkins walks me through the path to our climate goals.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/ezra-klein-podcast-jesse-jenkins.html",
+      "uri": "nyt://article/9bd63ca5-deb8-5529-ab11-cf8f94de3c3e",
+      "byline": "By ‘The Ezra Klein Show’",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T10:09:32-04:00",
+      "created_date": "2022-09-20T05:00:13-04:00",
+      "published_date": "2022-09-20T05:00:13-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Energy and Power",
+        "Greenhouse Gas Emissions",
+        "Infrastructure (Public Works)",
+        "Global Warming",
+        "Electric Light and Power",
+        "Inflation Reduction Act of 2022",
+        "Law and Legislation",
+        "United States Politics and Government",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [],
+      "per_facet": ["Jenkins, Jesse D", "Biden, Joseph R Jr"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/20eks-jenkins-image-audio-app/20eks-jenkins-image-audio-app-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The Andlinger Center"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/20eks-jenkins-image-audio-app/20eks-jenkins-image-audio-app-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The Andlinger Center"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/20eks-jenkins-image-audio-app/20eks-jenkins-image-audio-app-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The Andlinger Center"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BTIKFR"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "We Have Reached Peak ‘Mental Health’",
+      "abstract": "Has the term become so expansive as to be meaningless?",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/us-mental-health-awareness.html",
+      "uri": "nyt://article/00d489e6-ea1a-57d9-bdd7-0f986cf999f4",
+      "byline": "By Huw Green",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:27:27-04:00",
+      "created_date": "2022-09-20T05:00:11-04:00",
+      "published_date": "2022-09-20T05:00:11-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Mental Health and Disorders",
+        "Depression (Mental)",
+        "Anxiety and Stress",
+        "Psychology and Psychologists",
+        "Therapy and Rehabilitation"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Green/20Green-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1463,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tyler Comrie. Photographs from Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Green/20Green-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tyler Comrie. Photographs from Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Green/20Green-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Tyler Comrie. Photographs from Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3QWMg6G"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "To Really Understand the Ocean, We Need to Go Back in Time",
+      "abstract": "“Historical ecology” can help us save the seas.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/ocean-environment-pollution.html",
+      "uri": "nyt://article/2d8af10d-7b92-5e8e-bdf8-bf26d82a5a81",
+      "byline": "By John Waldman",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T09:58:21-04:00",
+      "created_date": "2022-09-20T05:00:09-04:00",
+      "published_date": "2022-09-20T05:00:09-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Fish and Other Marine Life",
+        "Sustainable Living",
+        "Oceans and Seas"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20waldman/merlin_36380890_eb49c63a-e370-43f0-97f7-377bd3f55301-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mark Power/Magnum Photos"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20waldman/merlin_36380890_eb49c63a-e370-43f0-97f7-377bd3f55301-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mark Power/Magnum Photos"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/20waldman/merlin_36380890_eb49c63a-e370-43f0-97f7-377bd3f55301-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mark Power/Magnum Photos"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BTixXQ"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Do You Need a ‘Correct Attitude’ to Understand Your Mind?",
+      "abstract": "Psychiatry too often ignores how a patient’s perspective can depend on culture, race, ethnicity and faith.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/us-mental-health-insight.html",
+      "uri": "nyt://article/aadc1235-738f-5c45-b952-73fcfe4f09dd",
+      "byline": "By Rachel Aviv",
+      "item_type": "Article",
+      "updated_date": "2022-09-21T11:26:46-04:00",
+      "created_date": "2022-09-20T05:00:08-04:00",
+      "published_date": "2022-09-20T05:00:08-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Psychiatry and Psychiatrists",
+        "Schizophrenia",
+        "Loneliness",
+        "Psychology and Psychologists",
+        "Language and Languages",
+        "Mental Health and Disorders"
+      ],
+      "org_facet": [],
+      "per_facet": ["Saks, Elyn R"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Aviv-R/20Aviv-R-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1464,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Katrien De Blauwer"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Aviv-R/20Aviv-R-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Katrien De Blauwer"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/sunday/20Aviv-R/20Aviv-R-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Katrien De Blauwer"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BQBwT5"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Who Is Going to Therapy in America?",
+      "abstract": "Covid. Donald Trump. Forest fires. Eight Americans from across the country on why they recently started going to therapy.",
+      "url": "https://www.nytimes.com/interactive/2022/09/20/opinion/therapy-america-covid.html",
+      "uri": "nyt://interactive/06a809d4-3732-564e-b3e0-7688ee60a3d6",
+      "byline": "",
+      "item_type": "Interactive",
+      "updated_date": "2022-09-20T17:28:23-04:00",
+      "created_date": "2022-09-20T05:00:01-04:00",
+      "published_date": "2022-09-20T05:00:01-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Mental Health and Disorders"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/opinion/therapy-america-covid-1663603496890/therapy-america-covid-1663603496890-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1350,
+          "width": 1800,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Stacy Kranitz for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/opinion/therapy-america-covid-1663603496890/therapy-america-covid-1663603496890-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Stacy Kranitz for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/opinion/therapy-america-covid-1663603496890/therapy-america-covid-1663603496890-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Stacy Kranitz for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BW0TD7"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "It’s Not Just You",
+      "abstract": "America’s mental health crisis isn’t just about feelings. It’s about money, power and politics, too.",
+      "url": "https://www.nytimes.com/interactive/2022/09/20/opinion/mental-health-america.html",
+      "uri": "nyt://interactive/221645bb-6ba6-5121-a6e9-c4d5f72e43f4",
+      "byline": "",
+      "item_type": "Interactive",
+      "updated_date": "2022-09-20T06:45:39-04:00",
+      "created_date": "2022-09-20T05:00:01-04:00",
+      "published_date": "2022-09-20T05:00:01-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/mental-health-america-politics-1663602922303/mental-health-america-politics-1663602922303-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1601,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Bobby Doherty for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/mental-health-america-politics-1663602922303/mental-health-america-politics-1663602922303-threeByTwoSmallAt2X-v3.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Bobby Doherty for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/20/opinion/mental-health-america-politics-1663602922303/mental-health-america-politics-1663602922303-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photograph by Bobby Doherty for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3DDXY3g"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Sweden Is Becoming Unbearable",
+      "abstract": "The idea of Sweden as a land of equal opportunity, safe from the plagues of extreme left or extreme right that haunt other countries, is gone.",
+      "url": "https://www.nytimes.com/2022/09/20/opinion/sweden-democrats-elections.html",
+      "uri": "nyt://article/5d049a7a-e99b-5aa6-a6f1-0af23aaeb7b5",
+      "byline": "By Elisabeth Asbrink",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T22:34:14-04:00",
+      "created_date": "2022-09-20T01:00:05-04:00",
+      "published_date": "2022-09-20T01:00:05-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Right-Wing Extremism and Alt-Right",
+        "Elections",
+        "Refugees and Displaced Persons",
+        "Crime and Criminals"
+      ],
+      "org_facet": ["Sweden Democrats", "Swedish Social Democratic Party"],
+      "per_facet": [],
+      "geo_facet": ["Sweden"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/19asbrink/18asbrink-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of the Sweden Democrats political party during its election night rally.",
+          "copyright": "Jonathan Nackstrand/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/19asbrink/18asbrink-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of the Sweden Democrats political party during its election night rally.",
+          "copyright": "Jonathan Nackstrand/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/21/opinion/19asbrink/18asbrink-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of the Sweden Democrats political party during its election night rally.",
+          "copyright": "Jonathan Nackstrand/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3BTpY1l"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Don’t Let Republicans Off the Hook on Same-Sex Marriage",
+      "abstract": "Democrats are letting the G.O.P. off easily by postponing a vote until after the midterms.",
+      "url": "https://www.nytimes.com/2022/09/19/opinion/republicans-same-sex-marriage.html",
+      "uri": "nyt://article/478d282b-e831-54ff-9236-690dbbfc243f",
+      "byline": "By Pamela Paul",
+      "item_type": "Article",
+      "updated_date": "2022-09-20T13:42:05-04:00",
+      "created_date": "2022-09-19T14:48:44-04:00",
+      "published_date": "2022-09-19T14:48:44-04:00",
+      "material_type_facet": "",
+      "kicker": "Pamela Paul",
+      "des_facet": [
+        "Same-Sex Marriage, Civil Unions and Domestic Partnerships",
+        "United States Politics and Government",
+        "Law and Legislation",
+        "Midterm Elections (2022)"
+      ],
+      "org_facet": ["Democratic Party", "Republican Party", "Senate"],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/19/opinion/19paulNew/merlin_189123252_04c4bdb2-c9f8-4021-b0c9-01ed003d4f6f-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Michael Reynolds/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/19/opinion/19paulNew/19paulNew-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Michael Reynolds/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/19/opinion/19paulNew/19paulNew-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Michael Reynolds/EPA, via Shutterstock"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xA18Bg"
+    },
+    {
+      "section": "opinion",
+      "subsection": "letters",
+      "title": "Burnout, Productivity and Other Tales of the Office",
+      "abstract": "Readers discuss new aspects of the workplace during the pandemic. Also: A political balance; Vladimir Putin and Mikhail Gorbachev; student newspapers.",
+      "url": "https://www.nytimes.com/2022/09/19/opinion/letters/work-office-home.html",
+      "uri": "nyt://article/8061d6d8-3b51-5de0-8664-87ec8c351bbc",
+      "byline": "",
+      "item_type": "Article",
+      "updated_date": "2022-09-19T21:07:08-04:00",
+      "created_date": "2022-09-19T12:29:03-04:00",
+      "published_date": "2022-09-19T12:29:03-04:00",
+      "material_type_facet": "",
+      "kicker": "letters",
+      "des_facet": [
+        "Workplace Environment",
+        "Telecommuting",
+        "Coronavirus (2019-nCoV)",
+        "Democracy (Theory and Philosophy)",
+        "United States Politics and Government",
+        "Russian Invasion of Ukraine (2022)",
+        "Education (K-12)",
+        "Newspapers"
+      ],
+      "org_facet": ["Democratic Party", "Republican Party"],
+      "per_facet": [
+        "Trump, Donald J",
+        "Putin, Vladimir V",
+        "Gorbachev, Mikhail S"
+      ],
+      "geo_facet": ["Russia", "Ukraine"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/09/opinion/08brooks1/08brooks1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Petar Santini/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/09/opinion/08brooks1/08brooks1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Petar Santini/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/09/opinion/08brooks1/08brooks1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Petar Santini/Bloomberg"
+        }
+      ],
+      "short_url": "https://nyti.ms/3xyXJ5s"
+    }
+  ]
+}

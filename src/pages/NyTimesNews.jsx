@@ -32,8 +32,10 @@ export default (props) => {
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
-            <th scope="col">Title with Link</th>
-            <th scope="col">Abstract</th>
+            {/* <th scope="col">Title with Link</th> */}
+            {/* <th scope="col">Abstract</th> */}
+            <th scope="col">Image</th>
+            <th scope="col">Title with description</th>
             <th scope="col">Author</th>
             <th scope="col">Date</th>
           </tr>
@@ -46,6 +48,29 @@ export default (props) => {
             .map((r, index) => (
               <tr key={index}>
                 <td>
+                  <div>
+                    {r.multimedia && (
+                      <img
+                        className="rounded img-fluid"
+                        src={r.multimedia[1].url}
+                        alt={r.multimedia[1].caption}
+                      />
+                    )}
+                  </div>
+                </td>
+                <td>
+                  <a
+                    className="link-info"
+                    href={r.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="news-title">{r.title}</div>
+                  </a>
+                  <p className="news-description">{r.abstract}</p>
+                </td>
+
+                {/* <td>
                   <a
                     className="link-info"
                     href={r.url}
@@ -55,7 +80,7 @@ export default (props) => {
                     <div>{r.title}</div>
                   </a>
                 </td>
-                <td>{r.abstract}</td>
+                <td>{r.abstract}</td> */}
                 <td>{r.byline}</td>
                 <td>{format_date(r.published_date)}</td>
               </tr>

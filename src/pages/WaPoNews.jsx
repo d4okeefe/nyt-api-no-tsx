@@ -52,8 +52,9 @@ export default (props) => {
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
-            <th scope="col">Title with Link</th>
-            <th scope="col">Abstract</th>
+            {/* <th scope="col">Title with Link</th> */}
+            {/* <th scope="col">Abstract</th> */}
+            <th scope="col">Article with description</th>
             <th scope="col">Author</th>
             <th scope="col">Date</th>
           </tr>
@@ -68,12 +69,24 @@ export default (props) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <div className="news-title">{r.title}</div>
+                </a>
+                <p className="news-description">{r.description}</p>
+              </td>
+
+              {/* <td>
+                <a
+                  className="link-info"
+                  href={r.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div>{r.title}</div>
                 </a>
               </td>
               <td>
                 <p>{r.description}</p>
-              </td>
+              </td> */}
               <td>{r['dc:creator']}</td>
               <td>{parseDate(r.pubDate)}</td>
             </tr>

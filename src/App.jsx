@@ -116,7 +116,7 @@ function App() {
         </Navbar>
       </header>
       <body>
-        <Redirect to="/nytimes/bookreviews"></Redirect>
+        <Redirect to="/nytimes"></Redirect>
         <Route path="/nytimes">
           <NyTimesNews
             title="N.Y. Times Top Stories"
