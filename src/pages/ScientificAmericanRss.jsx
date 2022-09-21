@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
 import axios from 'axios'
 import { format } from 'date-fns'
-import https from 'https'
 
 const parseDate = function (d) {
   let date = new Date(d)
@@ -11,22 +10,16 @@ const parseDate = function (d) {
 }
 
 export default (props) => {
-  const [rssFeed, setRssFeed] = useState('')
   const [data, setData] = useState([])
 
   useEffect(() => {
-    const instance = axios.create({
-      httpsAgent: new https.Agent({
-        rejectUnauthorized: false,
-      }),
-    })
-    instance
+    axios
       .get(`http://rss.sciam.com/ScientificAmerican-Global`, {
-        'Content-Type': 'text/xml',
+        // responseType: 'text',
       })
       .then((response) => {
         const xml_string = response.data
-        setRssFeed(xml_string)
+        // setRssFeed(xml_string)
 
         var parseString = require('xml2js').parseString
         parseString(xml_string, function (err, result) {
@@ -44,13 +37,13 @@ export default (props) => {
   }, [])
 
   return (
-    <div className="NewYorkerTable">
-      <div>{rssFeed}</div>
+    <div className="WiredScienceTable">
       <h4 className="mx-2">{props.title}</h4>
       <Table className="newsDataTable striped bordered hover table-dark">
         <thead>
           <tr>
             <th scope="col">Title with Link</th>
+            <th scope="col">Abstract</th>
             <th scope="col">Author</th>
             <th scope="col">Date</th>
           </tr>
@@ -67,6 +60,10 @@ export default (props) => {
                 >
                   <div>{r.title}</div>
                 </a>
+              </td>
+              <td>
+                <p>{r.description}</p>
+                <p>&mdash;&nbsp;{r.category[1]}</p>
               </td>
               <td>{r['dc:creator']}</td>
               <td>{parseDate(r.pubDate)}</td>

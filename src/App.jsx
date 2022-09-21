@@ -16,6 +16,7 @@ import NodeWeeklyRss from './pages/NodeWeeklyRss'
 import NyTimesFormula1 from './pages/NyTimesFormula1'
 import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
 import NyTimesNews from './pages/NyTimesNews'
+import ScientificAmericanRss from './pages/ScientificAmericanRss'
 import WaPoNews from './pages/WaPoNews'
 import WiredScienceRss from './pages/WiredScienceRss'
 
@@ -101,7 +102,7 @@ function App() {
                   <Link href="/wired/science">Wired science</Link>
                 </Nav.Link>
                 <Nav.Link className="nav-link">
-                  <Link href="/nodeweekly">Node Weekly</Link>
+                  <Link href="/scientificamerican">Scientific American</Link>
                 </Nav.Link>
                 {/*
                 <Nav.Link className="nav-link">
@@ -189,8 +190,8 @@ function App() {
         <Route path="/newyorker">
           <NewYorkerRss title="New Yorker" />
         </Route>
-        <Route path="/nodeweekly">
-          <NodeWeeklyRss title="Node Weekly" />
+        <Route path="/scientificamerican">
+          <ScientificAmericanRss title="Scientific American" />
         </Route>
 
         <Route path="/wired/science">
