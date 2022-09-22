@@ -50,7 +50,7 @@ export default (props) => {
           .map((r, index) => (
             <Col key={index}>
               <NewsCard
-                image_url={r.enclosure[0].$.url}
+                image_url={r.enclosure && r.enclosure[0].$.url}
                 image_caption=""
                 url={r.link}
                 title={r.title}

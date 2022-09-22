@@ -74,8 +74,11 @@ function App() {
                   title="Espn"
                   items={[
                     { link: '/espn/nba', title: 'NBA' },
+                    { link: '/espn/mlb', title: 'Baseball' },
+                    { link: '/espn/soccer', title: 'Soccer' },
                     { link: '/espn/f1', title: 'Formula 1' },
                     { link: '/espn/tennis', title: 'Tennis' },
+                    { link: '/espn/nfl', title: 'NFL' },
                   ]}
                 />
               </Nav>
@@ -166,6 +169,9 @@ function App() {
           <WiredScienceRss title="Wired.com science" />
         </Route>
 
+        <Route path="/espn/mlb">
+          <EspnNews title="Espn Baseball" url="mlb/news" />
+        </Route>
         <Route path="/espn/f1">
           <EspnNews title="Espn Formula 1" url="f1/news" />
         </Route>
@@ -174,6 +180,13 @@ function App() {
         </Route>
         <Route path="/espn/tennis">
           <EspnNews title="Espn Tennis" url="tennis/news" />
+        </Route>
+
+        <Route path="/espn/soccer">
+          <EspnNews title="Espn Soccer" url="soccer/news" />
+        </Route>
+        <Route path="/espn/nfl">
+          <EspnNews title="Espn NFL" url="nfl/news" />
         </Route>
       </body>
     </div>
