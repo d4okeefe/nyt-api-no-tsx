@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
-import Table from 'react-bootstrap/Table'
+import Card from 'react-bootstrap/Card'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
+import NewsCard from '../utils/NewsCard'
+import Row from 'react-bootstrap/Row'
 import axios from 'axios'
 import { format } from 'date-fns'
 
@@ -46,53 +50,27 @@ export default (props) => {
   }, [])
 
   return (
-    <div className="WaPoTable">
-      <h4 className="mx-2">{props.title}</h4>
-      {/* <p>{rss}</p> */}
-      <Table className="newsDataTable striped bordered hover table-dark">
-        <thead>
-          <tr>
-            {/* <th scope="col">Title with Link</th> */}
-            {/* <th scope="col">Abstract</th> */}
-            <th scope="col">Article with description</th>
-            <th scope="col">Author</th>
-            <th scope="col">Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((r, index) => (
-            <tr key={index}>
-              <td>
-                <a
-                  className="link-info"
-                  href={r.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="news-title">{r.title}</div>
-                </a>
-                <p className="news-description">{r.description}</p>
-              </td>
-
-              {/* <td>
-                <a
-                  className="link-info"
-                  href={r.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div>{r.title}</div>
-                </a>
-              </td>
-              <td>
-                <p>{r.description}</p>
-              </td> */}
-              <td>{r['dc:creator']}</td>
-              <td>{parseDate(r.pubDate)}</td>
-            </tr>
+    <div className="container WaPoTable">
+      <h4 className="title-header">{props.title}</h4>
+      <Row xs={1} md={1} lg={2}>
+        {data
+          .filter((r) => {
+            return !(r.title[0].trim() === '')
+          })
+          .map((r, index) => (
+            <Col key={index}>
+              <NewsCard
+                image_url={r['media:thumbnail'][0].$.url}
+                image_caption=""
+                url={r.link}
+                title={r.title}
+                description={r.description}
+                byline={r['dc:creator']}
+                date={parseDate(r.pubDate)}
+              />
+            </Col>
           ))}
-        </tbody>
-      </Table>
+      </Row>
     </div>
   )
 }

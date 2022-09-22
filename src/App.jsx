@@ -86,13 +86,13 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar className="sticky-nav" bg="light" expand="lg">
+      <header className="App-header bg-dark">
+        <Navbar className="sticky-nav text-white bg-dark" expand="lg">
           <Container>
-            <Navbar.Brand>News links</Navbar.Brand>
+            <Navbar.Brand className="text-white">News links</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+            <Navbar.Collapse className="text-white" id="basic-navbar-nav">
+              <Nav className="text-white me-auto">
                 {Nav_NyTimesDropdown}
                 {Nav_WaPoDropdown}
                 <Nav.Link className="nav-link">
@@ -115,7 +115,7 @@ function App() {
           </Container>
         </Navbar>
       </header>
-      <body>
+      <body className="text-light bg-dark">
         <Redirect to="/nytimes"></Redirect>
         <Route path="/nytimes">
           <NyTimesNews

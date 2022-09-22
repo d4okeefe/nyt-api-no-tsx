@@ -19,5 +19,10 @@ div.news-title {
   padding: 5px;
 }
 
-.newsDataTable {
+.title-header {
+  padding: 20px;
+}
+
+#basic-nav-dropdown {
+  color: white;
 }

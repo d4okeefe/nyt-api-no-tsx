@@ -4,6 +4,7 @@ import { format_date, within_six_months } from '../utils/FormatDate'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import NewsCard from '../utils/NewsCard'
 import Row from 'react-bootstrap/Row'
 import axios from 'axios'
 
@@ -31,34 +32,25 @@ export default (props) => {
 
   return (
     <div className="container NyTimesTable">
-      <h4>{props.title}</h4>
-      <Row xs={1} md={2} lg={2}>
-        {data.map((r, index) => (
-          <Col>
-            <Card className="card text-white bg-dark mb-3 newsCard">
-              {r.multimedia && (
-                <Image
-                  className="card-img-top"
-                  src={r.multimedia[0].url}
-                  alt={r.multimedia[0].caption}
-                ></Image>
-              )}
-              <div className="card-body">
-                <a
-                  className="link-info card-link"
-                  href={r.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <h5 className="card-title">{r.title}</h5>
-                </a>
-                <h6 className="card-subtitle">{r.abstract}</h6>
-                <p className="card-text">{r.byline}</p>
-                <p className="card-text">{format_date(r.published_date)}</p>
-              </div>
-            </Card>
-          </Col>
-        ))}
+      <h4 className="title-header">{props.title}</h4>
+      <Row xs={1} md={1} lg={2}>
+        {data
+          .filter((r) => {
+            return !(r.title.trim() === '')
+          })
+          .map((r, index) => (
+            <Col key={index}>
+              <NewsCard
+                image_url={r.multimedia && r.multimedia[0].url}
+                image_caption={r.multimedia && r.multimedia[0].caption}
+                url={r.url}
+                title={r.title}
+                description={r.abstract}
+                byline={r.byline}
+                date={format_date(r.published_date)}
+              />
+            </Col>
+          ))}
       </Row>
     </div>
   )
