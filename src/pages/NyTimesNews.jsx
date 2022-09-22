@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { format_date, within_six_months } from '../utils/FormatDate'
 
-import Table from 'react-bootstrap/Table'
+import Card from 'react-bootstrap/Card'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
+import Row from 'react-bootstrap/Row'
 import axios from 'axios'
-import { format_date } from '../utils/FormatDate'
 
 export default (props) => {
   const [data, setData] = useState([])
@@ -27,66 +30,36 @@ export default (props) => {
   }, [])
 
   return (
-    <div className="NyTimesTable">
-      <h4 className="mx-2">{props.title}</h4>
-      <Table className="newsDataTable striped bordered hover table-dark">
-        <thead>
-          <tr>
-            {/* <th scope="col">Title with Link</th> */}
-            {/* <th scope="col">Abstract</th> */}
-            <th scope="col">Image</th>
-            <th scope="col">Title with description</th>
-            <th scope="col">Author</th>
-            <th scope="col">Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data
-            .filter((r) => {
-              return !(r.title.trim() === '')
-            })
-            .map((r, index) => (
-              <tr key={index}>
-                <td>
-                  <div>
-                    {r.multimedia && (
-                      <img
-                        className="rounded img-fluid"
-                        src={r.multimedia[1].url}
-                        alt={r.multimedia[1].caption}
-                      />
-                    )}
-                  </div>
-                </td>
-                <td>
-                  <a
-                    className="link-info"
-                    href={r.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="news-title">{r.title}</div>
-                  </a>
-                  <p className="news-description">{r.abstract}</p>
-                </td>
-
-                {/* <td>
-                  <a
-                    className="link-info"
-                    href={r.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div>{r.title}</div>
-                  </a>
-                </td>
-                <td>{r.abstract}</td> */}
-                <td>{r.byline}</td>
-                <td>{format_date(r.published_date)}</td>
-              </tr>
-            ))}
-        </tbody>
-      </Table>
+    <div className="container NyTimesTable">
+      <h4>{props.title}</h4>
+      <Row xs={1} md={2} lg={2}>
+        {data.map((r, index) => (
+          <Col>
+            <Card className="card text-white bg-dark mb-3 newsCard">
+              {r.multimedia && (
+                <Image
+                  className="card-img-top"
+                  src={r.multimedia[0].url}
+                  alt={r.multimedia[0].caption}
+                ></Image>
+              )}
+              <div className="card-body">
+                <a
+                  className="link-info card-link"
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h5 className="card-title">{r.title}</h5>
+                </a>
+                <h6 className="card-subtitle">{r.abstract}</h6>
+                <p className="card-text">{r.byline}</p>
+                <p className="card-text">{format_date(r.published_date)}</p>
+              </div>
+            </Card>
+          </Col>
+        ))}
+      </Row>
     </div>
   )
 }
