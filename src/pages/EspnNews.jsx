@@ -7,30 +7,22 @@ import axios from 'axios'
 import { format } from 'date-fns'
 
 const parseDate = function (d) {
-  try {
-    let date = new Date(d)
-    return format(date, 'd MMM yyyy')
-  } catch {
-    return d
-  }
+  let date = new Date(d)
+  return format(date, 'd MMM yyyy')
 }
 
 export default (props) => {
   const [data, setData] = useState([])
-  // const [rss, setRss] = useState('')
-
-  // View available feeds here
-  // https://www.washingtonpost.com/discussions/2018/10/12/washington-post-rss-feeds/
 
   const wapo_axios = axios.create({
-    baseURL: `https://feeds.washingtonpost.com/rss/`,
+    baseURL: `https://www.espn.com/espn/rss/`,
     timeout: 30000,
   })
 
-  const wa_po_url = props.url
+  const espn_url = props.url
 
   useEffect(() => {
-    wapo_axios.get(wa_po_url).then((response) => {
+    wapo_axios.get(espn_url).then((response) => {
       const xml_string = response.data
       // setRss(xml_string)
       var parseString = require('xml2js').parseString
@@ -52,13 +44,13 @@ export default (props) => {
       <h4 className="title-header">{props.title}</h4>
       <Row xs={1} md={1} lg={2}>
         {data
-          .filter((r) => {
-            return !(r.title[0].trim() === '')
-          })
+          // .filter((r) => {
+          //   return !(r.title[0].trim() === '')
+          // })
           .map((r, index) => (
             <Col key={index}>
               <NewsCard
-                image_url={r['media:thumbnail'][0].$.url}
+                image_url={r.enclosure[0].$.url}
                 image_caption=""
                 url={r.link}
                 title={r.title}

@@ -5,13 +5,12 @@ import { Link, Redirect, Route } from 'wouter'
 import React, { useState } from 'react'
 
 import Container from 'react-bootstrap/Container'
-import EspnF1 from './pages/EspnF1'
-import EspnNBA from './pages/EspnNBA'
-import EspnTennis from './pages/EspnTennis'
+import EspnNews from './pages/EspnNews'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 import NewYorkerRss from './pages/NewYorkerRss'
+import NewsNavDropDown from './utils/NewsNavDropDown'
 import NodeWeeklyRss from './pages/NodeWeeklyRss'
 import NyTimesFormula1 from './pages/NyTimesFormula1'
 import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
@@ -25,76 +24,38 @@ function App() {
   const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
   const [api, setApi] = useState('NyTimes')
 
-  const Nav_NyTimesDropdown = (
-    <NavDropdown title="New York Times" id="basic-nav-dropdown">
-      <NavDropdown.Item>
-        <Link href="/nytimes">Top stories</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/nytimes/worldnews">World news</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/nytimes/science">Science</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/nytimes/opinion">Opinions</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/nytimes/sports">Sports</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Divider />
-      <NavDropdown.Item>
-        <Link href="/nytimes/bookreviews">Book reviews</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/nytimes/moviereviews">Movie reviews</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/nytimes/formula1">Formula 1</Link>
-      </NavDropdown.Item>
-    </NavDropdown>
-  )
-  const Nav_WaPoDropdown = (
-    <NavDropdown title="Washington Post" id="basic-nav-dropdown">
-      <NavDropdown.Item>
-        <Link href="/wapo/politics">Politics</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/wapo/opinions">Opinions</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/wapo/world">World</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item>
-        <Link href="/wapo/technology">Tech News</Link>
-      </NavDropdown.Item>
-    </NavDropdown>
-  )
-  const Nav_EspnDropdown = (
-    <NavDropdown title="Espn" id="basic-nav-dropdown">
-      <NavDropdown.Item className="nav-link">
-        <Link href="/espn/f1">Formula 1</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item className="nav-link">
-        <Link href="/espn/nba">NBA</Link>
-      </NavDropdown.Item>
-      <NavDropdown.Item className="nav-link">
-        <Link href="/espn/tennis">Tennis</Link>
-      </NavDropdown.Item>
-    </NavDropdown>
-  )
-
   return (
     <div className="App">
       <header className="App-header bg-dark">
-        <Navbar className="sticky-nav text-white bg-dark" expand="lg">
+        <Navbar className="text-white bg-dark " expand="lg">
           <Container>
             <Navbar.Brand className="text-white">News links</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="text-white" id="basic-navbar-nav">
               <Nav className="text-white me-auto">
-                {Nav_NyTimesDropdown}
-                {Nav_WaPoDropdown}
+                <NewsNavDropDown
+                  title="New York Times"
+                  items={[
+                    { link: '/nytimes', title: 'Top Stories' },
+                    { link: '/nytimes/worldnews', title: 'World News' },
+                    { link: '/nytimes/science', title: 'Science' },
+                    { link: '/nytimes/opinion', title: 'Opinions' },
+                    { link: '/nytimes/sports', title: 'Sports' },
+                    { link: '/nytimes/bookreviews', title: 'Books' },
+                    { link: '/nytimes/moviereviews', title: 'Movie Reviews' },
+                    { link: '/nytimes/formula1', title: 'Formula 1' },
+                  ]}
+                />
+                <NewsNavDropDown
+                  title="Washington Post"
+                  items={[
+                    { link: '/wapo/politics', title: 'Politics' },
+                    { link: '/wapo/opinions', title: 'Opinions' },
+                    { link: '/wapo/world', title: 'World' },
+                    { link: '/wapo/technology', title: 'Tech News' },
+                  ]}
+                />
+
                 <Nav.Link className="nav-link">
                   <Link href="/newyorker">New Yorker</Link>
                 </Nav.Link>
@@ -109,7 +70,14 @@ function App() {
                   <Link href="/scientificamerican">Scientific American</Link>
                 </Nav.Link>
                 */}
-                {Nav_EspnDropdown}
+                <NewsNavDropDown
+                  title="Espn"
+                  items={[
+                    { link: '/espn/nba', title: 'NBA' },
+                    { link: '/espn/f1', title: 'Formula 1' },
+                    { link: '/espn/tennis', title: 'Tennis' },
+                  ]}
+                />
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -199,13 +167,13 @@ function App() {
         </Route>
 
         <Route path="/espn/f1">
-          <EspnF1 title="Espn Formula 1" />
+          <EspnNews title="Espn Formula 1" url="f1/news" />
         </Route>
         <Route path="/espn/NBA">
-          <EspnNBA title="Espn NBA" />
+          <EspnNews title="Espn NBA" url="nba/news" />
         </Route>
         <Route path="/espn/tennis">
-          <EspnTennis title="Espn Tennis" />
+          <EspnNews title="Espn Tennis" url="tennis/news" />
         </Route>
       </body>
     </div>

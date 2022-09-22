@@ -1,9 +1,21 @@
 import Card from 'react-bootstrap/Card'
-import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import Row from 'react-bootstrap/Row'
 
-export default (props) => {
+const NewsCardProps = {
+  image_url: '',
+  image_caption: '',
+  url: '',
+  title: '',
+  description: '',
+  byline: '',
+  date: '',
+}
+
+/**
+ *
+ * @param {NewsCardProps} props
+ */
+export default function NewsCard(props) {
   return (
     <Card className="card text-white bg-dark mb-3 newsCard">
       <Image
