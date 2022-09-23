@@ -1,0 +1,5 @@
+{r.link.url}
+{r.display_title}
+{r.multimedia.src}
+{r.summary_short}
+{format_date(r.date_updated)}

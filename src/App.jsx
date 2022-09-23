@@ -7,13 +7,10 @@ import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import EspnNews from './pages/EspnNews'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 import NewYorkerRss from './pages/NewYorkerRss'
 import NewsNavDropDown from './utils/NewsNavDropDown'
-import NodeWeeklyRss from './pages/NodeWeeklyRss'
 import NyTimesFormula1 from './pages/NyTimesFormula1'
-import NyTimesMovieReviews from './pages/NyTimesMovieReviews'
 import NyTimesNews from './pages/NyTimesNews'
 import ScientificAmericanRss from './pages/ScientificAmericanRss'
 import WaPoNews from './pages/WaPoNews'
@@ -92,35 +89,40 @@ function App() {
           <NyTimesNews
             title="N.Y. Times Top Stories"
             api_key={nyt_api_key}
-            url="home.json"
+            url="topstories/v2/home.json"
+            source="topstories"
           />
         </Route>
         <Route path="/nytimes/opinion">
           <NyTimesNews
             title="N.Y. Times Opinions"
             api_key={nyt_api_key}
-            url="opinion.json"
+            url="topstories/v2/opinion.json"
+            source="topstories"
           />
         </Route>
         <Route path="/nytimes/science">
           <NyTimesNews
             title="N.Y. Times Science"
             api_key={nyt_api_key}
-            url="science.json"
+            url="topstories/v2/science.json"
+            source="topstories"
           />
         </Route>
         <Route path="/nytimes/sports">
           <NyTimesNews
             title="N.Y. Times Sports"
             api_key={nyt_api_key}
-            url="sports.json"
+            url="topstories/v2/sports.json"
+            source="topstories"
           />
         </Route>
         <Route path="/nytimes/worldnews">
           <NyTimesNews
             title="N.Y. Times World News"
             api_key={nyt_api_key}
-            url="world.json"
+            url="topstories/v2/world.json"
+            source="topstories"
           />
         </Route>
 
@@ -128,19 +130,29 @@ function App() {
           <NyTimesNews
             title="N.Y. Times Books"
             api_key={nyt_api_key}
-            url="books.json"
+            url="topstories/v2/books.json"
+            source="topstories"
+          />
+        </Route>
+
+        <Route path="/nytimes/moviereviews">
+          <NyTimesNews
+            title="N.Y. Times Movie Reviews"
+            api_key={nyt_api_key}
+            url="movies/v2/reviews/picks.json"
+            source="movies"
           />
         </Route>
 
         <Route path="/nytimes/formula1">
           <NyTimesFormula1 title="N.Y. Times Formua 1" api_key={nyt_api_key} />
         </Route>
-        <Route path="/nytimes/moviereviews">
+        {/* <Route path="/nytimes/moviereviews">
           <NyTimesMovieReviews
             title="N.Y. Times movie reviews"
             api_key={nyt_api_key}
           />
-        </Route>
+        </Route> */}
 
         <Route path="/wapo/politics">
           <WaPoNews title="Washington Post Politics" url="politics" />
