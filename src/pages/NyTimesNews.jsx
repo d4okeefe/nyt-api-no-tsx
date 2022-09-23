@@ -21,13 +21,33 @@ export default (props) => {
   const nyt_url_ending = props.url
 
   useEffect(() => {
-    nyt_topstories_axios
-      .get(nyt_url_ending, {
-        params: {
-          'api-key': props.api_key,
-        },
-      })
-      .then((response) => setData(response.data.results))
+    if ('query' in props) {
+      nyt_topstories_axios
+        .get(nyt_url_ending, {
+          params: {
+            q: props.query,
+            'api-key': props.api_key,
+          },
+        })
+        .then((response) => {
+          // const curr_response = response.data.results
+          // const shuffle = curr_response.sort((a, b) => Math.random() - 0.5)
+          // setData(shuffle)
+          setData(response.data.response.docs)
+        })
+    } else {
+      nyt_topstories_axios
+        .get(nyt_url_ending, {
+          params: {
+            'api-key': props.api_key,
+          },
+        })
+        .then((response) => {
+          const curr_response = response.data.results
+          const shuffle = curr_response.sort((a, b) => Math.random() - 0.5)
+          setData(shuffle)
+        })
+    }
   }, [])
 
   return (
@@ -36,8 +56,32 @@ export default (props) => {
       <Row xs={1} md={1} lg={2}>
         {data
           .filter((r) => {
-            return !r.title || !(r.title.trim() === '')
+            if ('title' in r) return !(r.title.trim() === '')
+            if ('headline' in r) return !(r.headline.main.trim() === '')
           })
+          // .filter((r) => {
+          //   if ('published_date' in r) {
+          //     return (
+          //       new Date().getFullYear() -
+          //         new Date(r.published_date.replace('T', ' ')).getFullYear() <=
+          //       2
+          //     )
+          //   }
+          //   if ('date_updated' in r) {
+          //     return (
+          //       new Date().getFullYear() -
+          //         new Date(r.date_updated.replace('T', ' ')).getFullYear() <=
+          //       2
+          //     )
+          //   }
+          //   if ('pub_date' in r) {
+          //     return (
+          //       new Date().getFullYear() -
+          //         new Date(r.pub_date.replace('T', ' ')).getFullYear() <=
+          //       2
+          //     )
+          //   }
+          // })
           .map((r, index) => (
             <Col key={index}>
               {props.source === 'topstories' && (
@@ -62,6 +106,28 @@ export default (props) => {
                   date={format_date(r.date_updated)}
                 />
               )}
+              {props.source === 'article_search' && (
+                <NewsCard
+                  image_url=""
+                  image_caption=""
+                  url={r.web_url}
+                  title={r.headline.main}
+                  description={r.lead_paragraph}
+                  byline={r.byline.original}
+                  date={format_date(r.pub_date)}
+                />
+              )}
+              {/* {props.source === 'article_search' && (
+                <NewsCard
+                  image_url=""
+                  image_caption=""
+                  url={r.web_url}
+                  title={r.headline.main}
+                  description=""
+                  byline={r.byline.original}
+                  date={format_date(r.pub_date)}
+                />
+              )} */}
             </Col>
           ))}
       </Row>

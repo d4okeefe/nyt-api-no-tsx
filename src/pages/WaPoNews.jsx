@@ -42,7 +42,9 @@ export default (props) => {
             inner_array[inner_array.length] = result.rss.channel[0].item[i]
           }
         }
-        setData(inner_array)
+        const curr_response = inner_array
+        const shuffle = curr_response.sort((a, b) => Math.random() - 0.5)
+        setData(shuffle)
       })
     })
   }, [])

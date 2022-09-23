@@ -35,8 +35,10 @@ export default function NewsCard(props) {
         <p className="card-text" align="justify">
           {props.description}
         </p>
-        <p className="card-text">{props.byline}</p>
-        <p className="card-text">{props.date}</p>
+        <p className="card-text d-flex justify-content-between">
+          <div>{props.byline}</div>
+          <span>{props.date}</span>
+        </p>
       </div>
     </Card>
   )

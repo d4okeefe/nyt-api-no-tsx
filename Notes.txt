@@ -3,3 +3,8 @@
 {r.multimedia.src}
 {r.summary_short}
 {format_date(r.date_updated)}
+
+{r.web_url}
+{r.headline.main}
+{r.byline.original}
+{format_date(r.pub_date)}

@@ -145,8 +145,18 @@ function App() {
         </Route>
 
         <Route path="/nytimes/formula1">
-          <NyTimesFormula1 title="N.Y. Times Formua 1" api_key={nyt_api_key} />
+          <NyTimesNews
+            title="N.Y. Times Formua 1"
+            api_key={nyt_api_key}
+            url="search/v2/articlesearch.json"
+            source="article_search"
+            query="Formula-1"
+          />
         </Route>
+        {/* /search/v2/articlesearch.json */}
+        {/* <Route path="/nytimes/formula1">
+          <NyTimesFormula1 title="N.Y. Times Formua 1" api_key={nyt_api_key} />
+        </Route> */}
         {/* <Route path="/nytimes/moviereviews">
           <NyTimesMovieReviews
             title="N.Y. Times movie reviews"
