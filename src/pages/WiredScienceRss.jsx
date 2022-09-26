@@ -1,16 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react'
 
-import Table from "react-bootstrap/Table";
-import axios from "axios";
-import { format } from "date-fns";
+import Col from 'react-bootstrap/Col'
+import NewsCard from '../utils/NewsCard'
+import Row from 'react-bootstrap/Row'
+import Table from 'react-bootstrap/Table'
+import axios from 'axios'
+import { format } from 'date-fns'
 
 const parseDate = function (d) {
-  let date = new Date(d);
-  return format(date, "d MMM yyyy");
-};
+  let date = new Date(d)
+  return format(date, 'd MMM yyyy')
+}
 
 export default (props) => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   useEffect(() => {
     axios
@@ -18,59 +21,49 @@ export default (props) => {
         // responseType: 'text',
       })
       .then((response) => {
-        const xml_string = response.data;
+        const xml_string = response.data
         // setRssFeed(xml_string)
 
-        var parseString = require("xml2js").parseString;
+        var parseString = require('xml2js').parseString
         parseString(xml_string, function (err, result) {
-          const inner_array = [];
+          const inner_array = []
           for (var i = 0; i < 100; i++) {
             // null check first
             if (result.rss.channel[0].item[i]) {
-              inner_array[inner_array.length] = result.rss.channel[0].item[i];
+              inner_array[inner_array.length] = result.rss.channel[0].item[i]
             }
           }
+          const curr_response = inner_array
+          const shuffle = curr_response.sort((a, b) => Math.random() - 0.5)
+          setData(shuffle)
+        })
+      })
+  }, [])
 
-          setData(inner_array);
-        });
-      });
-  }, []);
-
-  return ( 
+  return (
     <div className="WiredScienceTable">
       <h4 className="mx-2">{props.title}</h4>
-      <Table className="newsDataTable striped bordered hover table-dark">
-        <thead>
-          <tr>
-            <th scope="col">Title with Link</th>
-            <th scope="col">Abstract</th>
-            <th scope="col">Author</th>
-            <th scope="col">Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((r, index) => (
-            <tr key={index}>
-              <td>
-                <a
-                  className="link-info"
-                  href={r.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div>{r.title}</div>
-                </a>
-              </td>
-              <td>
-                <p>{r.description}</p>
-                <p>&mdash;&nbsp;{r.category[1]}</p>
-              </td>
-              <td>{r["dc:creator"]}</td>
-              <td>{parseDate(r.pubDate)}</td>
-            </tr>
+      <Row xs={1} md={1} lg={2}>
+        {data
+          .filter((r) => {
+            return !(r.title[0].trim() === '')
+          })
+          .map((r, index) => (
+            <Col key={index}>
+              <NewsCard
+                image_url={
+                  r['media:thumbnail'] && r['media:thumbnail'][0].$.url
+                }
+                image_caption=""
+                url={r.link}
+                title={r.title}
+                description={r.description}
+                byline={r['dc:creator']}
+                date={parseDate(r.pubDate)}
+              />
+            </Col>
           ))}
-        </tbody>
-      </Table>
+      </Row>
     </div>
-  );
+  )
 }
