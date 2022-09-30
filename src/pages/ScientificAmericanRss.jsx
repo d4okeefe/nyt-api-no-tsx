@@ -14,7 +14,7 @@ export default (props) => {
 
   useEffect(() => {
     axios
-      .get(`http://rss.sciam.com/ScientificAmerican-Global`, {
+      .get(`https://rss.sciam.com/ScientificAmerican-Global`, {
         // responseType: 'text',
       })
       .then((response) => {

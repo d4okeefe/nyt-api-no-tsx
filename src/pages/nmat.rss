@@ -1,0 +1,217 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/">
+    <channel rdf:about="http://feeds.nature.com/nmat/rss/current">
+        <title>Nature Materials</title>
+        <description>Nature Materials is a multidisciplinary journal aimed at bringing together cutting-edge research across the entire spectrum of materials science and technology. Nature Materials covers all applied and fundamental aspects of the synthesis/processing, structure/composition, properties and performance of materials. Nature Materials provides a forum for the development of a common identity among materials scientists while encouraging researchers to cross established subdisciplinary lines. To achieve this, Nature Materials takes an interdisciplinary, integrated and balanced approach to all areas of materials research while fostering the exchange of ideas between scientists involved in different communities.</description>
+        <link>http://feeds.nature.com/nmat/rss/current</link>
+        <admin:generatorAgent rdf:resource="https://www.nature.com/" />
+        <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com" />
+        <dc:publisher>Nature Publishing Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:rights>© 2022 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</dc:rights>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+
+
+        <prism:copyright>© 2022 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</prism:copyright>
+        <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+        <image rdf:resource="https://www.nature.com/uploads/product/nmat/rss.gif" />
+        <items>
+            <rdf:Seq>
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01351-w" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01366-3" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01357-4" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01371-6" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01379-y" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01377-0" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01370-7" />
+
+                <rdf:li rdf:resource="https://www.nature.com/articles/s41563-022-01369-0" />
+
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://www.nature.com/uploads/product/nmat/rss.gif">
+        <title>Nature Materials</title>
+        <url>https://www.nature.com/uploads/product/nmat/rss.gif</url>
+        <link>http://feeds.nature.com/nmat/rss/current</link>
+    </image>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01351-w">
+        <title>
+            <![CDATA[Sieving in order]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01351-w</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01351-w">doi:10.1038/s41563-022-01351-w</a></p>Designing highly ordered and ultrathin nanoporous membranes achieves superior water flux, while maintaining high selectivity for NaCl rejection.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Sieving in order]]>
+        </dc:title>
+        <dc:creator>Chrystelle Salameh</dc:creator>
+        <dc:creator>Damien Voiry</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01351-w</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01351-w</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01351-w</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01351-w</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01366-3">
+        <title>
+            <![CDATA[Neighbours in charge]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01366-3</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01366-3">doi:10.1038/s41563-022-01366-3</a></p>Resonant X-ray scattering experiments have revealed a charge-ordered phase next to the recently discovered superconducting phase in layered nickelates — in remarkable analogy to the cuprate high-temperature superconductors.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Neighbours in charge]]>
+        </dc:title>
+        <dc:creator>Eva Benckiser</dc:creator>
+        <dc:creator>Matthias Hepting</dc:creator>
+        <dc:creator>Bernhard Keimer</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01366-3</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01366-3</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01366-3</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01366-3</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01357-4">
+        <title>
+            <![CDATA[Steering from the rear]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01357-4</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01357-4">doi:10.1038/s41563-022-01357-4</a></p>In the absence of biochemical gradients, cancer cell migration over fibrillar isotropic collagen can occur by a mechanical self-steering process involving asymmetric matrix deformation from the rear.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Steering from the rear]]>
+        </dc:title>
+        <dc:creator>Katarina Wolf</dc:creator>
+        <dc:creator>Peter Friedl</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01357-4</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01357-4</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01357-4</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01357-4</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01371-6">
+        <title>
+            <![CDATA[Innovation for green]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01371-6</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01371-6">doi:10.1038/s41563-022-01371-6</a></p>Gang Qian from CITIC Pacific Special Steel, one of the major steelmakers in China, talks to Nature Materials about their experience and perspective on moving towards decarbonization.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Innovation for green]]>
+        </dc:title>
+        <dc:creator>Xin Li</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01371-6</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01371-6</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01371-6</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01371-6</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01379-y">
+        <title>
+            <![CDATA[Striving for green steel]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01379-y</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01379-y">doi:10.1038/s41563-022-01379-y</a></p>Steel underpins modern society but its production generates intensive carbon dioxide emissions. For its sustainable development, the steel industry requires technology and product upgrades, driven by innovation and cooperation.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Striving for green steel]]>
+        </dc:title>
+
+        <dc:identifier>doi:10.1038/s41563-022-01379-y</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01379-y</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01379-y</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01379-y</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01377-0">
+        <title>
+            <![CDATA[A fridge without a cause]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01377-0</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01377-0">doi:10.1038/s41563-022-01377-0</a></p>A fridge without a cause]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[A fridge without a cause]]>
+        </dc:title>
+        <dc:creator>Philip Ball</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01377-0</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01377-0</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01377-0</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01377-0</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01370-7">
+        <title>
+            <![CDATA[Carbon neutrality orientates the reform of the steel industry]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01370-7</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 23 September 2022; <a href="https://www.nature.com/articles/s41563-022-01370-7">doi:10.1038/s41563-022-01370-7</a></p>The steel industry in China has an important role in reducing national and global carbon emissions, demanding integrated actions and efforts across policies, industry and science to achieve the goal of carbon neutrality.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Carbon neutrality orientates the reform of the steel industry]]>
+        </dc:title>
+        <dc:creator>Zhuo Kang</dc:creator>
+        <dc:creator>Qingliang Liao</dc:creator>
+        <dc:creator>Zheng Zhang</dc:creator>
+        <dc:creator>Yue Zhang</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01370-7</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-23; | doi:10.1038/s41563-022-01370-7</dc:source>
+        <dc:date>2022-09-23</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01370-7</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01370-7</prism:url>
+    </item>
+
+    <item rdf:about="https://www.nature.com/articles/s41563-022-01369-0">
+        <title>
+            <![CDATA[Giant magnon spin conductivity in ultrathin yttrium iron garnet films]]>
+        </title>
+        <link>https://www.nature.com/articles/s41563-022-01369-0</link>
+        <content:encoded>
+            <![CDATA[<p>Nature Materials, Published online: 22 September 2022; <a href="https://www.nature.com/articles/s41563-022-01369-0">doi:10.1038/s41563-022-01369-0</a></p>The authors report the observation of an enhanced magnon conductivity close to the two-dimensional transport regime in ultrathin yttrium iron garnet.]]>
+        </content:encoded>
+        <dc:title>
+            <![CDATA[Giant magnon spin conductivity in ultrathin yttrium iron garnet films]]>
+        </dc:title>
+        <dc:creator>X.-Y. Wei</dc:creator>
+        <dc:creator>O. Alves Santos</dc:creator>
+        <dc:creator>C. H. Sumba Lusero</dc:creator>
+        <dc:creator>G. E. W. Bauer</dc:creator>
+        <dc:creator>J. Ben Youssef</dc:creator>
+        <dc:creator>B. J. van Wees</dc:creator>
+        <dc:identifier>doi:10.1038/s41563-022-01369-0</dc:identifier>
+        <dc:source>Nature Materials, Published online: 2022-09-22; | doi:10.1038/s41563-022-01369-0</dc:source>
+        <dc:date>2022-09-22</dc:date>
+        <prism:publicationName>Nature Materials</prism:publicationName>
+        <prism:doi>10.1038/s41563-022-01369-0</prism:doi>
+        <prism:url>https://www.nature.com/articles/s41563-022-01369-0</prism:url>
+    </item>
+
+</rdf:RDF>

@@ -1,6 +1,7 @@
 import { Redirect, Route } from 'wouter'
 
 import EspnNews from '../pages/EspnNews'
+import NatureRss from '../pages/NatureRss'
 import NewYorkerRss from '../pages/NewYorkerRss'
 import NyTimesFormula1 from '../pages/NyTimesFormula1'
 import NyTimesNews from '../pages/NyTimesNews'
@@ -13,7 +14,7 @@ const nyt_api_key = 'O7qlJESoWIOLRSrMh63pU90FoTtWT8Fw'
 export default () => {
   return (
     <>
-      <Redirect to="/wired/science"></Redirect>
+      <Redirect to="/nytimes"></Redirect>
 
       {/* NY TIMES ROUTES */}
       <Route path="/nytimes">
@@ -74,7 +75,7 @@ export default () => {
       </Route>
       <Route path="/nytimes/formula1">
         <NyTimesNews
-          title="N.Y. Times Formua 1"
+          title="N.Y. Times Formula 1"
           api_key={nyt_api_key}
           url="search/v2/articlesearch.json"
           source="article_search"
@@ -116,6 +117,9 @@ export default () => {
 
       <Route path="/wired/science">
         <WiredScienceRss title="Wired.com science" />
+      </Route>
+      <Route path="/nature">
+        <NatureRss title="Nature" />
       </Route>
 
       {/* ESPN ROUTES */}

@@ -6,6 +6,7 @@ import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import { Link } from 'wouter'
 import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 import NewsNavDropDown from './utils/NewsNavDropDown'
 import Routes from './components/Routes'
@@ -13,13 +14,13 @@ import Routes from './components/Routes'
 function App() {
   return (
     <div className="App">
-      <header className="App-header bg-dark">
-        <Navbar className="text-white bg-dark " expand="lg">
+      <header className="App-header">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand className="text-white">News links</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse className="text-white" id="basic-navbar-nav">
-              <Nav className="text-white me-auto">
+            <Navbar.Brand>News links</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
                 <NewsNavDropDown
                   title="New York Times"
                   items={[
@@ -33,6 +34,8 @@ function App() {
                     { link: '/nytimes/formula1', title: 'Formula 1' },
                   ]}
                 />
+              </Nav>
+              <Nav>
                 <NewsNavDropDown
                   title="Washington Post"
                   items={[
@@ -41,10 +44,12 @@ function App() {
                     { link: '/wapo/world', title: 'World' },
                     { link: '/wapo/technology', title: 'Tech News' },
                   ]}
-                />
-
-                <Nav.Link className="nav-link">
-                  <Link href="/newyorker">New Yorker</Link>
+                />{' '}
+              </Nav>
+              <Nav>
+                <Nav.Link className="nav-link" href="/newyorker">
+                  New Yorker
+                  {/* <Link href="/newyorker">New Yorker</Link> */}
                 </Nav.Link>
                 <Nav.Link className="nav-link">
                   <Link href="/wired/science">Wired science</Link>
@@ -52,11 +57,11 @@ function App() {
                 <Nav.Link className="nav-link">
                   <Link href="/scientificamerican">Scientific American</Link>
                 </Nav.Link>
-                {/*
                 <Nav.Link className="nav-link">
-                  <Link href="/scientificamerican">Scientific American</Link>
+                  <Link href="/nature">Nature</Link>
                 </Nav.Link>
-                */}
+              </Nav>
+              <Nav>
                 <NewsNavDropDown
                   title="Espn"
                   items={[

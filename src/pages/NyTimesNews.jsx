@@ -57,7 +57,8 @@ export default (props) => {
         {data
           .filter((r) => {
             if ('title' in r) return !(r.title.trim() === '')
-            if ('headline' in r) return !(r.headline.main.trim() === '')
+            if ('headline' in r) return !(r.headline.trim() === '')
+            return r
           })
           // .filter((r) => {
           //   if ('published_date' in r) {

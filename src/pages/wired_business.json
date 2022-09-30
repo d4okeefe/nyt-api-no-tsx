@@ -1,0 +1,634 @@
+{
+  "title": ["Business Latest"],
+  "description": ["Channel Description"],
+  "link": ["https://www.wired.com"],
+  "atom:link": [
+    {
+      "$": {
+        "href": "https://www.wired.com/feed/category/business/latest/rss",
+        "rel": "self",
+        "type": "application/atom+xml"
+      }
+    }
+  ],
+  "copyright": ["© Condé Nast 2022"],
+  "language": ["en-US"],
+  "lastBuildDate": ["Wed, 28 Sep 2022 15:31:39 +0000"],
+  "item": [
+    {
+      "title": [
+        "This Student’s Side Project Will Help Decide Musk vs. Twitter"
+      ],
+      "link": ["https://www.wired.com/story/musk-twitter-botometer/"],
+      "guid": [
+        { "_": "632e50c862435d269fdbdbf9", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Tue, 27 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "In the battle over Twitter’s future, the number of bots on the platform is a key issue. Problem is, nobody knows how to count them."
+      ],
+      "category": ["Business", "Business / Social Media"],
+      "media:keywords": [
+        "Bots Run the Internet, bots, algorithms, content moderation, twitter, Elon Musk"
+      ],
+      "dc:creator": ["Morgan Meaker"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Bots Run the Web"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632e50c874ce5b82a68ef371/master/pass/Bot_Botometer.jpg",
+            "width": "10001",
+            "height": "5626"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["Brazil's Far Right Plots Its Own January 6"],
+      "link": [
+        "https://www.wired.com/story/brazils-far-right-plots-its-own-january-6-insurrection/"
+      ],
+      "guid": [
+        { "_": "632afbcbc9bb1af7ef249867", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Tue, 27 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Extreme content is spreading rapidly on social networks in Brazil, sparking fears of a violent uprising."
+      ],
+      "category": ["Business", "Business / Social Media"],
+      "media:keywords": [
+        "Telegram, content moderation, disinformation, censorship, politics, fake news, elections"
+      ],
+      "dc:creator": ["Vittoria Elliott"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Disinformation"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632cb76c8990652479ff399c/master/pass/Bolsenero_biz_GettyImages-1243428750.jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["A Sprawling Bot Network Used Fake Porn to Fool Facebook"],
+      "link": ["https://www.wired.com/story/facebook-bots-ddos-attack/"],
+      "guid": [
+        { "_": "6329ea4d40fe1e8870aa3b51", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Mon, 26 Sep 2022 15:04:54 +0000"],
+      "media:content": [""],
+      "description": [
+        "An orchestrated attack went after an independent news website and harvested swathes of Facebook user data. And nobody can stop it."
+      ],
+      "category": ["Business", "Business / Social Media"],
+      "media:keywords": [
+        "Bots Run the Internet, phishing, security, ddos, Facebook"
+      ],
+      "dc:creator": ["Vittoria Elliott"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Bots Run the Web"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632b595aeecde8c117e7f5ae/master/pass/Bot_Vietnam-(1).jpg",
+            "width": "10001",
+            "height": "5626"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["What’s Next for Ethereum After the Merge"],
+      "link": [
+        "https://www.wired.com/story/whats-next-for-ethereum-after-the-merge/"
+      ],
+      "guid": [
+        { "_": "632ded1600704d14b5ffb9b4", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Mon, 26 Sep 2022 12:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "The blockchain project’s cofounder Vitalik Buterin says its recent big upgrade lays a path for more technical changes, and greater adoption."
+      ],
+      "category": ["Business", "Business / Blockchain and Cryptocurrency"],
+      "media:keywords": [
+        "bitcoin, Blockchain, cryptocurrency, Finance, money, Regulation, encryption"
+      ],
+      "dc:creator": ["Lauren Goode, Gideon Lichfield"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["WIRED Q&A"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632ea7cf8990652479ff39d3/master/pass/BUTERIN_BIZ_GettyImages-1238606759.jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["Not All Bots Are Bad, and Twitter Knows It"],
+      "link": ["https://www.wired.com/story/twitter-bots-elon-musk-trial/"],
+      "guid": [
+        { "_": "632e4ebbf2203b5586fac020", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Mon, 26 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Automated accounts are the target of ire and the linchpin of Elon Musk’s attempt to break his deal with the platform. But some are benign—or even helpful."
+      ],
+      "category": ["Business", "Business / Artificial Intelligence"],
+      "media:keywords": ["twitter, bots, Social Media, Bots Run the Internet"],
+      "dc:creator": ["Chris Stokel-Walker"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Bots Run the Web"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632e4eba20bc56769c4131ed/master/pass/Bot_GoodBot.jpg",
+            "width": "10001",
+            "height": "5626"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["Twitch's Crypto Casino Ban Ignores the Bigger Play"],
+      "link": [
+        "https://www.wired.com/story/twitch-crypto-gambling-sliker-pokimane-devin-nash-boycott/"
+      ],
+      "guid": [
+        { "_": "632ca371995b6da54b57efe1", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Fri, 23 Sep 2022 15:25:18 +0000"],
+      "media:content": [""],
+      "description": [
+        "The company is going after cryptocurrency gambling—but will that be enough to satisfy concerned streamers?"
+      ],
+      "category": [
+        "Business",
+        "Business / Blockchain and Cryptocurrency",
+        "Business / Social Media",
+        "Business / Tech Culture"
+      ],
+      "media:keywords": ["Twitch, gambling"],
+      "dc:creator": ["Megan Farokhmanesh"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["High Stakes Game"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632cee9d8990652479ff39bf/master/pass/Twitch-Gambling-Business-GettyImages-1395854967.jpg",
+            "width": "2400",
+            "height": "1600"
+          }
+        }
+      ]
+    },
+    {
+      "title": [
+        "Bogus Fears of Censorship Could Spell the End of Content Moderation"
+      ],
+      "link": [
+        "https://www.wired.com/story/plaintext-bogus-fears-of-censorship-could-spell-the-end-of-content-moderation/"
+      ],
+      "guid": [
+        { "_": "632caf9920bc56769c4131cc", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Fri, 23 Sep 2022 13:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Plus: The Supreme Court in cyberspace, what’s up with Web3, and ghost town resurrections."
+      ],
+      "category": ["Business", "Business / Tech Culture"],
+      "media:keywords": [
+        "Plaintext, content moderation, Tech Policy and Law, politics, censorship, National Affairs, trolls, twitter"
+      ],
+      "dc:creator": ["Steven Levy"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Plaintext"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632ce98ac4d3ebc9237bc689/master/pass/plaintext_texas_biz_GettyImages-656427940.jpg",
+            "width": "2400",
+            "height": "1600"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["A Danish City Built Google Into Its Schools—Then Banned It"],
+      "link": ["https://www.wired.com/story/denmark-google-schools-data/"],
+      "guid": [
+        { "_": "632cf64c977791160bfcd395", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Fri, 23 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "An 8-year-old’s YouTube snafu—and one unlikely parent activist—sparked a nationwide debate on the tech giant’s ubiquity and handling of children’s data."
+      ],
+      "category": ["Business", "Business / Computers and Software"],
+      "media:keywords": ["Google, education, schools, data, privacy, Europe"],
+      "dc:creator": ["Morgan Meaker"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Data Grab"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632cf64cd884b4dcc9416570/master/pass/Denmark_google_GettyImages-1213059825.jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": [
+        "US Lawmakers Push Tech Firms on Abortion Benefits for Gig Workers"
+      ],
+      "link": [
+        "https://www.wired.com/story/lawmakers-pressure-tech-companies-over-abortion-benefits-for-gig-workers/"
+      ],
+      "guid": [
+        { "_": "632c79038990652479ff398c", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Thu, 22 Sep 2022 16:15:05 +0000"],
+      "media:content": [""],
+      "description": [
+        "Elizabeth Warren and Cori Bush led over two dozen congressional Democrats in urging Amazon, Lyft, Uber, and others to reclassify contractors as employees."
+      ],
+      "category": ["Business", "Business / National Affairs"],
+      "media:keywords": ["Uber, Lyft, congress, gig economy"],
+      "dc:creator": ["Caitlin Harrington"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Full Coverage"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632ba9c640fe1e8870aa3b5c/master/pass/Warren-Abortion-Gig-Employers-Business-1233338537.jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["The Next Silicon Valley Will Be in the US Heartland"],
+      "link": [
+        "https://www.wired.com/story/the-next-silicon-valley-will-be-in-the-us-heartlands/"
+      ],
+      "guid": [
+        { "_": "62fd21627072d2c1f58788c0", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Thu, 22 Sep 2022 16:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Steve Case, founder of AOL, predicts the dominance of tech companies on the coasts will give way to a flourishing of startups from smaller cities."
+      ],
+      "category": ["Business", "Business / Startups"],
+      "media:keywords": [
+        "AOL, Silicon Valley, Startups, Venture Capital, Entrepreneurs, Economy, Inequality"
+      ],
+      "dc:creator": ["Steven Levy"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["WIRED Q&A"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632ba570f2203b5586fabfec/master/pass/Business-Next-Silicon-Valley-US-Heartlands-1399265458.jpg",
+            "width": "2400",
+            "height": "1500"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["The US and EU are Teaming Up to Contain Big Tech"],
+      "link": [
+        "https://www.wired.com/story/the-us-and-eu-are-teaming-up-to-contain-big-tech/"
+      ],
+      "guid": [
+        { "_": "6328f8e440fe1e8870aa3b4e", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Thu, 22 Sep 2022 12:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "The EU’s chief antitrust enforcer Margrethe Vestager says that US tech companies are changing their behavior as global regulators question their dominance."
+      ],
+      "category": ["Business", "Business / Policy and Net Neutrality"],
+      "media:keywords": [
+        "Regulation, Antitrust, Google, privacy, european union, Europe"
+      ],
+      "dc:creator": ["Jennifer Conrad"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["WIRED Q&A"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632b962cc4d3ebc9237bc67d/master/pass/QA_biz_GettyImages-1232706719.jpg",
+            "width": "2400",
+            "height": "1600"
+          }
+        }
+      ]
+    },
+    {
+      "title": [
+        "California Voted for Cheaper Uber Rides. It May Have Hurt Drivers"
+      ],
+      "link": [
+        "https://www.wired.com/story/california-voted-for-cheaper-uber-rides-it-may-have-hurt-drivers/"
+      ],
+      "guid": [
+        { "_": "6328b71020bc56769c413195", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Wed, 21 Sep 2022 16:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Uber and Lyft spent millions promoting a controversial ballot measure. A new study suggests it has lowered driver wages."
+      ],
+      "category": ["Business", "Business / Transportation"],
+      "media:keywords": [
+        "Uber, Lyft, workers, California, transportation, ride sharing"
+      ],
+      "dc:creator": ["Aarian Marshall"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Bad Trips"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632a31898990652479ff393d/master/pass/prop22-uber-lyft-biz-GettyImages-1167514356.jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": [
+        "It’s Time for Cities to Ditch Delivery Trucks—for Cargo Bikes"
+      ],
+      "link": ["https://www.wired.com/story/cargo-bikes-greener-quicker/"],
+      "guid": [
+        { "_": "632a4d3440fe1e8870aa3b57", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Wed, 21 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "A new study shows that cycling packages the final few miles to their recipients isn’t just greener than using a van, but often quicker too."
+      ],
+      "category": [
+        "Science",
+        "Science / Environment",
+        "Business / Transportation"
+      ],
+      "media:keywords": [
+        "science, transportation, Cities, cargo bike, logistics"
+      ],
+      "dc:creator": ["William Ralston"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Pedal Power"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632ab26d00704d14b5ffb99d/master/pass/Cargo-Bike-Delivery-Science-455162274.jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["The Joy and Dread of AI Image Generators Without Limits"],
+      "link": [
+        "https://www.wired.com/story/the-joy-and-dread-of-ai-image-generators-without-limits/"
+      ],
+      "guid": [
+        { "_": "6328ed95977791160bfcd2ea", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Wed, 21 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Artists are free to create fantasies or nightmares with unrestricted image generator Stable Diffusion, but some fear a flood of AI-made horrors."
+      ],
+      "category": [
+        "Business",
+        "Business / Artificial Intelligence",
+        "AI Hub",
+        "AI Hub / Application / Deepfakes",
+        "AI Hub / Application / Content moderation",
+        "AI Hub / Application / Safety",
+        "AI Hub / End User / Consumer",
+        "AI Hub / Sector / Entertainment",
+        "AI Hub / Sector / Publishing",
+        "AI Hub / Sector / Social media",
+        "AI Hub / Source Data / Images",
+        "AI Hub / Source Data / Text",
+        "AI Hub / Technology / Natural language processing",
+        "AI Hub / Technology / Machine learning"
+      ],
+      "media:keywords": [
+        "artificial intelligence, artists, art, machine learning, pornography, automation"
+      ],
+      "dc:creator": ["Will Knight"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Eye Bleach"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/632a20908990652479ff393a/master/pass/lede_Corruption-of-a-Dark-mage.jpg",
+            "width": "1664",
+            "height": "1248"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["Telegram Has a Serious Doxing Problem"],
+      "link": ["https://www.wired.com/story/telegrams-doxing-problem/"],
+      "guid": [
+        { "_": "6329c23beecde8c117e7f4ea", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Tue, 20 Sep 2022 13:39:51 +0000"],
+      "media:content": [""],
+      "description": [
+        "The encrypted messaging app is a haven for politically motivated vitriol, but users are increasingly bringing threats to targets’ doorsteps."
+      ],
+      "category": ["Business", "Security / Privacy"],
+      "media:keywords": [
+        "content moderation, security, disinformation, trolls, Telegram"
+      ],
+      "dc:creator": ["Peter Guest"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Personal Attack"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/6329c23b00704d14b5ffb995/master/pass/Doxing_telgram_biz_GettyImages-1173158197-(1).jpg",
+            "width": "2400",
+            "height": "1800"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["What Happens to Everything With Queen Elizabeth II’s Image?"],
+      "link": [
+        "https://www.wired.com/story/updating-british-royal-iconography/"
+      ],
+      "guid": [
+        { "_": "6328ff5574ce5b82a68ef2e9", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Tue, 20 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "From stamps and cash to passports and postboxes, the minting of the United Kingdom’s new royal iconography will take years."
+      ],
+      "category": ["Business", "Culture / Culture News"],
+      "media:keywords": ["business, Current Affairs, Commerce"],
+      "dc:creator": ["Chris Baraniuk"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Makeover"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/6328ff5536c33c0247a2f0ac/master/pass/queen_elizabeth_biz_GettyImages-163212621.jpg",
+            "width": "2400",
+            "height": "1600"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["YouTube’s ‘Dislike’ Button Doesn’t Do What You Think"],
+      "link": [
+        "https://www.wired.com/story/youtube-dislike-button-mozilla-research/"
+      ],
+      "guid": [
+        { "_": "6328fc0820bc56769c41319c", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Tue, 20 Sep 2022 08:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Users try to control the video platform’s algorithm by giving content a thumbs-down, but Mozilla researchers say it’s not so simple."
+      ],
+      "category": ["Business", "Business / Social Media"],
+      "media:keywords": ["YouTube, Mozilla, algorithms, Social Media"],
+      "dc:creator": ["Chris Stokel-Walker"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Mixed Signals"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/6328fc08f2203b5586fabfc9/master/pass/youtube_dislike_biz_GettyImages-1024603538.jpg",
+            "width": "1875",
+            "height": "1250"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["Electric Vehicles Could Rescue the US Power Grid"],
+      "link": [
+        "https://www.wired.com/story/electric-vehicles-could-rescue-the-us-power-grid/"
+      ],
+      "guid": [
+        { "_": "631fb2ab62435d269fdbdaf0", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Mon, 19 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "By 2035, the batteries in California’s zero-emission cars could power every home in the state for three days."
+      ],
+      "category": [
+        "Science",
+        "Science / Environment",
+        "Business",
+        "Business / Transportation"
+      ],
+      "media:keywords": [
+        "Electric Vehicles, EVs and Hybrids, Energy, electricity, Infrastructure, cars, transportation, Power"
+      ],
+      "dc:creator": ["Aarian Marshall, Matt Simon"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Power Up"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/6324830036c33c0247a2f08b/master/pass/EVs_Science_GettyImages-1351239126.jpg",
+            "width": "2400",
+            "height": "1350"
+          }
+        }
+      ]
+    },
+    {
+      "title": ["Neal Stephenson Named the Metaverse. Now, He’s Building It"],
+      "link": [
+        "https://www.wired.com/story/plaintext-neal-stephenson-named-the-metaverse-now-hes-building-it/"
+      ],
+      "guid": [
+        { "_": "632354efc4d3ebc9237bc605", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Fri, 16 Sep 2022 13:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "Plus: Depicting the nerd mindset; the best lettuce; and the future is flooding."
+      ],
+      "category": ["Business", "Business / Tech Culture"],
+      "media:keywords": ["Plaintext"],
+      "dc:creator": ["Steven Levy"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Plaintext"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/6323716274ce5b82a68ef252/master/pass/Neal-Stephenson-Metaverse-Company-Business-Redux-h_8.01924852.jpg",
+            "width": "2400",
+            "height": "1801"
+          }
+        }
+      ]
+    },
+    {
+      "title": [
+        "Banning Gas Cars Is Good, but It’ll Take More to Save the Planet"
+      ],
+      "link": [
+        "https://www.wired.com/story/banning-gas-cars-is-good-but-itll-take-more-to-save-the-planet/"
+      ],
+      "guid": [
+        { "_": "63221ac5d884b4dcc9416509", "$": { "isPermaLink": "false" } }
+      ],
+      "pubDate": ["Fri, 16 Sep 2022 11:00:00 +0000"],
+      "media:content": [""],
+      "description": [
+        "People must both drive less and switch to electric vehicles to reduce carbon emissions enough to avoid the worst effects of climate change."
+      ],
+      "category": ["Business", "Business / Transportation"],
+      "media:keywords": [
+        "Electric Vehicles, climate, carbon emissions, California, EVs and Hybrids, driving"
+      ],
+      "dc:creator": ["Aarian Marshall"],
+      "dc:publisher": ["Condé Nast"],
+      "dc:subject": ["Walk More"],
+      "media:thumbnail": [
+        {
+          "$": {
+            "url": "https://media.wired.com/photos/63239e208990652479ff386f/master/pass/California-Strategies-To-Reduce-Driving-Business-1241831020.jpg",
+            "width": "2400",
+            "height": "1600"
+          }
+        }
+      ]
+    }
+  ]
+}
